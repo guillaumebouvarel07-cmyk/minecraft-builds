@@ -34,3 +34,11 @@ export type Construction = {
 export type ConstructionWithCategory = Construction & {
   category: Pick<Category, "id" | "name" | "slug"> | null;
 };
+
+export type ConstructionImage = {
+  id: string;
+  construction_id: string;
+  url: string;
+  alt_text: string | null;
+  position: number;
+};

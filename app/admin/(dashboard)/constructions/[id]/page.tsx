@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import { updateConstruction } from "@/actions/constructions";
 import { ConstructionForm } from "@/components/admin/ConstructionForm";
 import { DeleteConstructionButton } from "@/components/admin/DeleteConstructionButton";
+import { ImageGallery } from "@/components/admin/ImageGallery";
+import { ImageUploader } from "@/components/admin/ImageUploader";
 import { StatusToggleButton } from "@/components/admin/StatusToggleButton";
 import { formatDate } from "@/lib/constructions-labels";
 import { createAdminClient } from "@/lib/supabase/admin";
-import type { Construction } from "@/lib/types";
+import type { Construction, ConstructionImage } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Modifier une construction" };
 
@@ -19,9 +21,15 @@ export default async function EditConstructionPage({
   const { id } = await params;
   const supabase = createAdminClient();
 
-  const [{ data: construction }, { data: categories }] = await Promise.all([
+  const [{ data: construction }, { data: categories }, { data: images }] = await Promise.all([
     supabase.from("constructions").select("*").eq("id", id).maybeSingle<Construction>(),
     supabase.from("categories").select("id, name").order("name"),
+    supabase
+      .from("construction_images")
+      .select("*")
+      .eq("construction_id", id)
+      .order("position", { ascending: true })
+      .returns<ConstructionImage[]>(),
   ]);
 
   if (!construction) {
@@ -54,6 +62,21 @@ export default async function EditConstructionPage({
           categories={categories ?? []}
           construction={construction}
         />
+      </div>
+
+      <div className="mt-10 border-t border-line pt-8">
+        <h2 className="text-lg font-semibold tracking-tight">Images</h2>
+        <p className="mt-1 text-sm text-muted">
+          La première image de la liste est utilisée comme image principale.
+        </p>
+
+        <div className="mt-4">
+          <ImageUploader constructionId={construction.id} />
+        </div>
+
+        <div className="mt-6">
+          <ImageGallery constructionId={construction.id} images={images ?? []} />
+        </div>
       </div>
     </div>
   );
