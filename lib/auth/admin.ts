@@ -29,3 +29,19 @@ export const getAdminUser = cache(async () => {
 
   return data.user;
 });
+
+/**
+ * À appeler en tout premier dans chaque Server Action d'écriture admin.
+ * Ne fait confiance à rien venant du client (formulaire, id transmis) :
+ * revérifie systématiquement la session serveur, indépendamment de ce que
+ * l'UI a déjà filtré.
+ */
+export async function requireAdminUser() {
+  const user = await getAdminUser();
+
+  if (!user) {
+    throw new Error("Non autorisé.");
+  }
+
+  return user;
+}

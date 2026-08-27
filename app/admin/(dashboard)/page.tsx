@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { getAdminUser } from "@/lib/auth/admin";
 
 export default async function AdminDashboardPage() {
@@ -30,8 +32,15 @@ export default async function AdminDashboardPage() {
         </div>
       </div>
 
+      <Link
+        href="/admin/constructions"
+        className="mt-6 inline-block rounded-lg border border-line bg-surface px-4 py-2 text-sm font-medium text-fg transition-colors hover:border-accent/40"
+      >
+        Gérer les constructions →
+      </Link>
+
       <p className="mt-6 text-sm text-muted">
-        Le catalogue (constructions, images, matériaux, tags, fichiers) arrive à l&apos;étape 4.
+        Images, matériaux, tags et fichiers schematic/litematic arrivent à une étape suivante.
       </p>
     </div>
   );

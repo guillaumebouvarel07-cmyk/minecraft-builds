@@ -1,7 +1,13 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import { signOut } from "@/actions/auth";
 import { getAdminUser } from "@/lib/auth/admin";
+
+const navLinks = [
+  { href: "/admin", label: "Dashboard" },
+  { href: "/admin/constructions", label: "Constructions" },
+];
 
 /**
  * Deuxième vérification, indépendante du middleware : si jamais une requête
@@ -22,8 +28,15 @@ export default async function AdminDashboardLayout({
 
   return (
     <div className="min-h-screen">
-      <header className="flex items-center justify-between border-b border-line px-4 py-3 sm:px-6">
-        <span className="text-sm font-medium">Administration</span>
+      <header className="flex flex-wrap items-center justify-between gap-4 border-b border-line px-4 py-3 sm:px-6">
+        <nav className="flex items-center gap-5">
+          <span className="text-sm font-medium">Administration</span>
+          {navLinks.map((link) => (
+            <Link key={link.href} href={link.href} className="text-sm text-muted hover:text-fg">
+              {link.label}
+            </Link>
+          ))}
+        </nav>
         <div className="flex items-center gap-4">
           <span className="text-sm text-muted">{user.email}</span>
           <form action={signOut}>

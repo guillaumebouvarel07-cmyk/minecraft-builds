@@ -1,20 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { geistMono, geistSans } from "@/lib/fonts";
 import { site } from "@/lib/site";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "@/app/globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -25,7 +15,7 @@ export const metadata: Metadata = {
   description: site.description,
 };
 
-export default function RootLayout({
+export default function SiteRootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
