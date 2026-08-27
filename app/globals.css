@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens du projet.
+ * Tailwind v4 se configure directement en CSS : chaque variable déclarée ici
+ * dans @theme génère automatiquement les classes utilitaires correspondantes.
+ * Exemple : --color-accent  ->  bg-accent, text-accent, border-accent...
+ */
+@theme {
+  /* Fonds — noirs très légèrement teintés de vert, pour un rendu sombre "premium" */
+  --color-base: #0b0e0c;
+  --color-surface: #121714;
+  --color-surface-2: #182019;
+  --color-line: #232d26;
+
+  /* Textes */
+  --color-fg: #e9efe9;
+  --color-muted: #8c9a8f;
+
+  /* Couleur d'accent unique du site */
+  --color-accent: #8ce563;
+  --color-accent-strong: #6fcf46;
+  --color-accent-dim: #1d3318;
+
+  /* Typographie */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-fg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Anneau de focus visible au clavier, pour l'accessibilité */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
