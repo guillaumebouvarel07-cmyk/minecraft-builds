@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { updateConstruction } from "@/actions/constructions";
 import { ConstructionForm } from "@/components/admin/ConstructionForm";
 import { DeleteConstructionButton } from "@/components/admin/DeleteConstructionButton";
+import { FileList } from "@/components/admin/FileList";
+import { FileUploader } from "@/components/admin/FileUploader";
 import { ImageGallery } from "@/components/admin/ImageGallery";
 import { ImageUploader } from "@/components/admin/ImageUploader";
 import { MaterialPicker } from "@/components/admin/MaterialPicker";
@@ -15,6 +17,7 @@ import { formatDate } from "@/lib/constructions-labels";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type {
   Construction,
+  ConstructionFile,
   ConstructionImage,
   ConstructionMaterial,
   ConstructionTag,
@@ -40,6 +43,7 @@ export default async function EditConstructionPage({
     { data: allMaterials },
     { data: constructionTags },
     { data: allTags },
+    { data: files },
   ] = await Promise.all([
     supabase.from("constructions").select("*").eq("id", id).maybeSingle<Construction>(),
     supabase.from("categories").select("id, name").order("name"),
@@ -67,6 +71,12 @@ export default async function EditConstructionPage({
       .eq("construction_id", id)
       .returns<ConstructionTag[]>(),
     supabase.from("tags").select("id, name, slug").order("name").returns<Tag[]>(),
+    supabase
+      .from("construction_files")
+      .select("*")
+      .eq("construction_id", id)
+      .order("created_at", { ascending: false })
+      .returns<ConstructionFile[]>(),
   ]);
 
   if (!construction) {
@@ -149,6 +159,21 @@ export default async function EditConstructionPage({
 
         <div className="mt-6">
           <TagBadgeList constructionId={construction.id} tags={constructionTags ?? []} />
+        </div>
+      </div>
+
+      <div className="mt-10 border-t border-line pt-8">
+        <h2 className="text-lg font-semibold tracking-tight">Fichiers</h2>
+        <p className="mt-1 text-sm text-muted">
+          Fichiers téléchargeables (.litematic, .schem, .schematic) — 20 Mo maximum par fichier.
+        </p>
+
+        <div className="mt-4">
+          <FileUploader constructionId={construction.id} />
+        </div>
+
+        <div className="mt-6">
+          <FileList constructionId={construction.id} files={files ?? []} />
         </div>
       </div>
     </div>

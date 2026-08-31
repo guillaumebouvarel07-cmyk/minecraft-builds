@@ -76,6 +76,16 @@ export type ConstructionMaterial = {
   material: Pick<Material, "id" | "name" | "minecraft_id" | "category">;
 };
 
+export type ConstructionFile = {
+  id: string;
+  construction_id: string;
+  storage_path: string;
+  original_filename: string;
+  file_type: "litematic" | "schem" | "schematic";
+  file_size: number;
+  created_at: string;
+};
+
 export type Tag = {
   id: string;
   slug: string;
