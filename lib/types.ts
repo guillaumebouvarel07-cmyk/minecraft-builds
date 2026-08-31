@@ -42,3 +42,36 @@ export type ConstructionImage = {
   alt_text: string | null;
   position: number;
 };
+
+export const MATERIAL_CATEGORIES = [
+  "wood",
+  "stone",
+  "glass",
+  "concrete",
+  "terracotta",
+  "wool",
+  "metal",
+  "natural",
+  "lighting",
+  "decorative",
+  "functional",
+  "other",
+] as const;
+export type MaterialCategory = (typeof MATERIAL_CATEGORIES)[number];
+
+export type Material = {
+  id: string;
+  name: string;
+  minecraft_id: string | null;
+  icon_url: string | null;
+  category: MaterialCategory | null;
+  version_added: string | null;
+  is_building_block: boolean;
+};
+
+export type ConstructionMaterial = {
+  construction_id: string;
+  material_id: string;
+  quantity: number;
+  material: Pick<Material, "id" | "name" | "minecraft_id" | "category">;
+};

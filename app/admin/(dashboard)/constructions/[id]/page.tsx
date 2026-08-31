@@ -6,10 +6,17 @@ import { ConstructionForm } from "@/components/admin/ConstructionForm";
 import { DeleteConstructionButton } from "@/components/admin/DeleteConstructionButton";
 import { ImageGallery } from "@/components/admin/ImageGallery";
 import { ImageUploader } from "@/components/admin/ImageUploader";
+import { MaterialPicker } from "@/components/admin/MaterialPicker";
+import { MaterialsList } from "@/components/admin/MaterialsList";
 import { StatusToggleButton } from "@/components/admin/StatusToggleButton";
 import { formatDate } from "@/lib/constructions-labels";
 import { createAdminClient } from "@/lib/supabase/admin";
-import type { Construction, ConstructionImage } from "@/lib/types";
+import type {
+  Construction,
+  ConstructionImage,
+  ConstructionMaterial,
+  Material,
+} from "@/lib/types";
 
 export const metadata: Metadata = { title: "Modifier une construction" };
 
@@ -21,7 +28,13 @@ export default async function EditConstructionPage({
   const { id } = await params;
   const supabase = createAdminClient();
 
-  const [{ data: construction }, { data: categories }, { data: images }] = await Promise.all([
+  const [
+    { data: construction },
+    { data: categories },
+    { data: images },
+    { data: constructionMaterials },
+    { data: allMaterials },
+  ] = await Promise.all([
     supabase.from("constructions").select("*").eq("id", id).maybeSingle<Construction>(),
     supabase.from("categories").select("id, name").order("name"),
     supabase
@@ -30,11 +43,26 @@ export default async function EditConstructionPage({
       .eq("construction_id", id)
       .order("position", { ascending: true })
       .returns<ConstructionImage[]>(),
+    supabase
+      .from("construction_materials")
+      .select(
+        "construction_id, material_id, quantity, material:materials(id, name, minecraft_id, category)",
+      )
+      .eq("construction_id", id)
+      .returns<ConstructionMaterial[]>(),
+    supabase
+      .from("materials")
+      .select("id, name, minecraft_id, icon_url, category, version_added, is_building_block")
+      .order("name")
+      .returns<Material[]>(),
   ]);
 
   if (!construction) {
     notFound();
   }
+
+  const attachedMaterialIds = new Set((constructionMaterials ?? []).map((m) => m.material_id));
+  const availableMaterials = (allMaterials ?? []).filter((m) => !attachedMaterialIds.has(m.id));
 
   return (
     <div>
@@ -76,6 +104,21 @@ export default async function EditConstructionPage({
 
         <div className="mt-6">
           <ImageGallery constructionId={construction.id} images={images ?? []} />
+        </div>
+      </div>
+
+      <div className="mt-10 border-t border-line pt-8">
+        <h2 className="text-lg font-semibold tracking-tight">Matériaux</h2>
+        <p className="mt-1 text-sm text-muted">
+          Les matériaux nécessaires à cette construction, avec leur quantité.
+        </p>
+
+        <div className="mt-4">
+          <MaterialPicker constructionId={construction.id} availableMaterials={availableMaterials} />
+        </div>
+
+        <div className="mt-6">
+          <MaterialsList constructionId={construction.id} materials={constructionMaterials ?? []} />
         </div>
       </div>
     </div>

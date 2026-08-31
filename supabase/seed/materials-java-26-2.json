@@ -1,0 +1,5308 @@
+[
+  {
+    "name": "Acacia Door",
+    "minecraft_id": "minecraft:acacia_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Fence",
+    "minecraft_id": "minecraft:acacia_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Fence Gate",
+    "minecraft_id": "minecraft:acacia_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Leaves",
+    "minecraft_id": "minecraft:acacia_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Log",
+    "minecraft_id": "minecraft:acacia_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Planks",
+    "minecraft_id": "minecraft:acacia_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Slab",
+    "minecraft_id": "minecraft:acacia_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Stairs",
+    "minecraft_id": "minecraft:acacia_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Trapdoor",
+    "minecraft_id": "minecraft:acacia_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Acacia Wood",
+    "minecraft_id": "minecraft:acacia_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Allium",
+    "minecraft_id": "minecraft:allium",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Amethyst",
+    "minecraft_id": "minecraft:amethyst_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Amethyst Cluster",
+    "minecraft_id": "minecraft:amethyst_cluster",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Ancient Debris",
+    "minecraft_id": "minecraft:ancient_debris",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Andesite",
+    "minecraft_id": "minecraft:andesite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Andesite Slab",
+    "minecraft_id": "minecraft:andesite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Andesite Stairs",
+    "minecraft_id": "minecraft:andesite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Andesite Wall",
+    "minecraft_id": "minecraft:andesite_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Anvil",
+    "minecraft_id": "minecraft:anvil",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Azalea",
+    "minecraft_id": "minecraft:azalea",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Azalea Leaves",
+    "minecraft_id": "minecraft:azalea_leaves",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Azure Bluet",
+    "minecraft_id": "minecraft:azure_bluet",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo",
+    "minecraft_id": "minecraft:bamboo",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Bamboo",
+    "minecraft_id": "minecraft:bamboo_block",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Door",
+    "minecraft_id": "minecraft:bamboo_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Fence",
+    "minecraft_id": "minecraft:bamboo_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Fence Gate",
+    "minecraft_id": "minecraft:bamboo_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Mosaic",
+    "minecraft_id": "minecraft:bamboo_mosaic",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Mosaic Slab",
+    "minecraft_id": "minecraft:bamboo_mosaic_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Mosaic Stairs",
+    "minecraft_id": "minecraft:bamboo_mosaic_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Planks",
+    "minecraft_id": "minecraft:bamboo_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Slab",
+    "minecraft_id": "minecraft:bamboo_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Stairs",
+    "minecraft_id": "minecraft:bamboo_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bamboo Trapdoor",
+    "minecraft_id": "minecraft:bamboo_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Barrel",
+    "minecraft_id": "minecraft:barrel",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Basalt",
+    "minecraft_id": "minecraft:basalt",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Beacon",
+    "minecraft_id": "minecraft:beacon",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bee Nest",
+    "minecraft_id": "minecraft:bee_nest",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Beehive",
+    "minecraft_id": "minecraft:beehive",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bell",
+    "minecraft_id": "minecraft:bell",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Big Dripleaf",
+    "minecraft_id": "minecraft:big_dripleaf",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Door",
+    "minecraft_id": "minecraft:birch_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Fence",
+    "minecraft_id": "minecraft:birch_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Fence Gate",
+    "minecraft_id": "minecraft:birch_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Leaves",
+    "minecraft_id": "minecraft:birch_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Log",
+    "minecraft_id": "minecraft:birch_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Planks",
+    "minecraft_id": "minecraft:birch_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Slab",
+    "minecraft_id": "minecraft:birch_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Stairs",
+    "minecraft_id": "minecraft:birch_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Trapdoor",
+    "minecraft_id": "minecraft:birch_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Birch Wood",
+    "minecraft_id": "minecraft:birch_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Candle",
+    "minecraft_id": "minecraft:black_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Concrete",
+    "minecraft_id": "minecraft:black_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Concrete Powder",
+    "minecraft_id": "minecraft:black_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Glazed Terracotta",
+    "minecraft_id": "minecraft:black_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Stained Glass",
+    "minecraft_id": "minecraft:black_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Stained Glass Pane",
+    "minecraft_id": "minecraft:black_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Terracotta",
+    "minecraft_id": "minecraft:black_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Wool",
+    "minecraft_id": "minecraft:black_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blackstone",
+    "minecraft_id": "minecraft:blackstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blackstone Slab",
+    "minecraft_id": "minecraft:blackstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blackstone Stairs",
+    "minecraft_id": "minecraft:blackstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blackstone Wall",
+    "minecraft_id": "minecraft:blackstone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blast Furnace",
+    "minecraft_id": "minecraft:blast_furnace",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Candle",
+    "minecraft_id": "minecraft:blue_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Concrete",
+    "minecraft_id": "minecraft:blue_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Concrete Powder",
+    "minecraft_id": "minecraft:blue_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Glazed Terracotta",
+    "minecraft_id": "minecraft:blue_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Ice",
+    "minecraft_id": "minecraft:blue_ice",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Orchid",
+    "minecraft_id": "minecraft:blue_orchid",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Stained Glass",
+    "minecraft_id": "minecraft:blue_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Stained Glass Pane",
+    "minecraft_id": "minecraft:blue_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Terracotta",
+    "minecraft_id": "minecraft:blue_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Blue Wool",
+    "minecraft_id": "minecraft:blue_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bone Block",
+    "minecraft_id": "minecraft:bone_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bookshelf",
+    "minecraft_id": "minecraft:bookshelf",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brewing Stand",
+    "minecraft_id": "minecraft:brewing_stand",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Candle",
+    "minecraft_id": "minecraft:brown_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Concrete",
+    "minecraft_id": "minecraft:brown_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Concrete Powder",
+    "minecraft_id": "minecraft:brown_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Glazed Terracotta",
+    "minecraft_id": "minecraft:brown_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Mushroom",
+    "minecraft_id": "minecraft:brown_mushroom",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Mushroom Block",
+    "minecraft_id": "minecraft:brown_mushroom_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Stained Glass",
+    "minecraft_id": "minecraft:brown_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Stained Glass Pane",
+    "minecraft_id": "minecraft:brown_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Terracotta",
+    "minecraft_id": "minecraft:brown_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Wool",
+    "minecraft_id": "minecraft:brown_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Budding Amethyst",
+    "minecraft_id": "minecraft:budding_amethyst",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Bush",
+    "minecraft_id": "minecraft:bush",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cactus",
+    "minecraft_id": "minecraft:cactus",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cactus Flower",
+    "minecraft_id": "minecraft:cactus_flower",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Calcite",
+    "minecraft_id": "minecraft:calcite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Campfire",
+    "minecraft_id": "minecraft:campfire",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Candle",
+    "minecraft_id": "minecraft:candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cartography Table",
+    "minecraft_id": "minecraft:cartography_table",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Carved Pumpkin",
+    "minecraft_id": "minecraft:carved_pumpkin",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cauldron",
+    "minecraft_id": "minecraft:cauldron",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Door",
+    "minecraft_id": "minecraft:cherry_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Fence",
+    "minecraft_id": "minecraft:cherry_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Fence Gate",
+    "minecraft_id": "minecraft:cherry_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Leaves",
+    "minecraft_id": "minecraft:cherry_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Log",
+    "minecraft_id": "minecraft:cherry_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Planks",
+    "minecraft_id": "minecraft:cherry_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Slab",
+    "minecraft_id": "minecraft:cherry_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Stairs",
+    "minecraft_id": "minecraft:cherry_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Trapdoor",
+    "minecraft_id": "minecraft:cherry_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Wood",
+    "minecraft_id": "minecraft:cherry_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chest",
+    "minecraft_id": "minecraft:chest",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chipped Anvil",
+    "minecraft_id": "minecraft:chipped_anvil",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Bookshelf",
+    "minecraft_id": "minecraft:chiseled_bookshelf",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Cinnabar",
+    "minecraft_id": "minecraft:chiseled_cinnabar",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Chiseled Copper",
+    "minecraft_id": "minecraft:chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Deepslate",
+    "minecraft_id": "minecraft:chiseled_deepslate",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Nether Bricks",
+    "minecraft_id": "minecraft:chiseled_nether_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Polished Blackstone",
+    "minecraft_id": "minecraft:chiseled_polished_blackstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Quartz Block",
+    "minecraft_id": "minecraft:chiseled_quartz_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Red Sandstone",
+    "minecraft_id": "minecraft:chiseled_red_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Resin Bricks",
+    "minecraft_id": "minecraft:chiseled_resin_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Sandstone",
+    "minecraft_id": "minecraft:chiseled_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Stone Bricks",
+    "minecraft_id": "minecraft:chiseled_stone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Sulfur",
+    "minecraft_id": "minecraft:chiseled_sulfur",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Chiseled Tuff",
+    "minecraft_id": "minecraft:chiseled_tuff",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chiseled Tuff Bricks",
+    "minecraft_id": "minecraft:chiseled_tuff_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chorus Flower",
+    "minecraft_id": "minecraft:chorus_flower",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Chorus Plant",
+    "minecraft_id": "minecraft:chorus_plant",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cinnabar",
+    "minecraft_id": "minecraft:cinnabar",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Brick Slab",
+    "minecraft_id": "minecraft:cinnabar_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Brick Stairs",
+    "minecraft_id": "minecraft:cinnabar_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Brick Wall",
+    "minecraft_id": "minecraft:cinnabar_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Bricks",
+    "minecraft_id": "minecraft:cinnabar_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Slab",
+    "minecraft_id": "minecraft:cinnabar_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Stairs",
+    "minecraft_id": "minecraft:cinnabar_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Cinnabar Wall",
+    "minecraft_id": "minecraft:cinnabar_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Clay",
+    "minecraft_id": "minecraft:clay",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Closed Eyeblossom",
+    "minecraft_id": "minecraft:closed_eyeblossom",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Coal",
+    "minecraft_id": "minecraft:coal_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Coal Ore",
+    "minecraft_id": "minecraft:coal_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Coarse Dirt",
+    "minecraft_id": "minecraft:coarse_dirt",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobbled Deepslate",
+    "minecraft_id": "minecraft:cobbled_deepslate",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobbled Deepslate Slab",
+    "minecraft_id": "minecraft:cobbled_deepslate_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobbled Deepslate Stairs",
+    "minecraft_id": "minecraft:cobbled_deepslate_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobbled Deepslate Wall",
+    "minecraft_id": "minecraft:cobbled_deepslate_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobblestone",
+    "minecraft_id": "minecraft:cobblestone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobblestone Slab",
+    "minecraft_id": "minecraft:cobblestone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobblestone Stairs",
+    "minecraft_id": "minecraft:cobblestone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobblestone Wall",
+    "minecraft_id": "minecraft:cobblestone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cobweb",
+    "minecraft_id": "minecraft:cobweb",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Composter",
+    "minecraft_id": "minecraft:composter",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Conduit",
+    "minecraft_id": "minecraft:conduit",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Bars",
+    "minecraft_id": "minecraft:copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Copper",
+    "minecraft_id": "minecraft:copper_block",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Bulb",
+    "minecraft_id": "minecraft:copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Chain",
+    "minecraft_id": "minecraft:copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Chest",
+    "minecraft_id": "minecraft:copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Door",
+    "minecraft_id": "minecraft:copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Golem Statue",
+    "minecraft_id": "minecraft:copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Grate",
+    "minecraft_id": "minecraft:copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Lantern",
+    "minecraft_id": "minecraft:copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Ore",
+    "minecraft_id": "minecraft:copper_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Torch",
+    "minecraft_id": "minecraft:copper_torch",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Trapdoor",
+    "minecraft_id": "minecraft:copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Copper Wall Torch",
+    "minecraft_id": "minecraft:copper_wall_torch",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cornflower",
+    "minecraft_id": "minecraft:cornflower",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cracked Deepslate Bricks",
+    "minecraft_id": "minecraft:cracked_deepslate_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cracked Deepslate Tiles",
+    "minecraft_id": "minecraft:cracked_deepslate_tiles",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cracked Nether Bricks",
+    "minecraft_id": "minecraft:cracked_nether_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cracked Polished Blackstone Bricks",
+    "minecraft_id": "minecraft:cracked_polished_blackstone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cracked Stone Bricks",
+    "minecraft_id": "minecraft:cracked_stone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crafter",
+    "minecraft_id": "minecraft:crafter",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crafting Table",
+    "minecraft_id": "minecraft:crafting_table",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Creeper Head",
+    "minecraft_id": "minecraft:creeper_head",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Door",
+    "minecraft_id": "minecraft:crimson_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Fence",
+    "minecraft_id": "minecraft:crimson_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Fence Gate",
+    "minecraft_id": "minecraft:crimson_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Fungus",
+    "minecraft_id": "minecraft:crimson_fungus",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Hyphae",
+    "minecraft_id": "minecraft:crimson_hyphae",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Nylium",
+    "minecraft_id": "minecraft:crimson_nylium",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Planks",
+    "minecraft_id": "minecraft:crimson_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Roots",
+    "minecraft_id": "minecraft:crimson_roots",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Slab",
+    "minecraft_id": "minecraft:crimson_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Stairs",
+    "minecraft_id": "minecraft:crimson_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Stem",
+    "minecraft_id": "minecraft:crimson_stem",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crimson Trapdoor",
+    "minecraft_id": "minecraft:crimson_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Crying Obsidian",
+    "minecraft_id": "minecraft:crying_obsidian",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cut Copper",
+    "minecraft_id": "minecraft:cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cut Copper Slab",
+    "minecraft_id": "minecraft:cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cut Copper Stairs",
+    "minecraft_id": "minecraft:cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cut Red Sandstone",
+    "minecraft_id": "minecraft:cut_red_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cut Sandstone",
+    "minecraft_id": "minecraft:cut_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Candle",
+    "minecraft_id": "minecraft:cyan_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Concrete",
+    "minecraft_id": "minecraft:cyan_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Concrete Powder",
+    "minecraft_id": "minecraft:cyan_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Glazed Terracotta",
+    "minecraft_id": "minecraft:cyan_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Stained Glass",
+    "minecraft_id": "minecraft:cyan_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Stained Glass Pane",
+    "minecraft_id": "minecraft:cyan_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Terracotta",
+    "minecraft_id": "minecraft:cyan_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Wool",
+    "minecraft_id": "minecraft:cyan_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Damaged Anvil",
+    "minecraft_id": "minecraft:damaged_anvil",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dandelion",
+    "minecraft_id": "minecraft:dandelion",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Door",
+    "minecraft_id": "minecraft:dark_oak_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Fence",
+    "minecraft_id": "minecraft:dark_oak_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Fence Gate",
+    "minecraft_id": "minecraft:dark_oak_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Leaves",
+    "minecraft_id": "minecraft:dark_oak_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Log",
+    "minecraft_id": "minecraft:dark_oak_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Planks",
+    "minecraft_id": "minecraft:dark_oak_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Slab",
+    "minecraft_id": "minecraft:dark_oak_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Stairs",
+    "minecraft_id": "minecraft:dark_oak_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Trapdoor",
+    "minecraft_id": "minecraft:dark_oak_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Wood",
+    "minecraft_id": "minecraft:dark_oak_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Prismarine",
+    "minecraft_id": "minecraft:dark_prismarine",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Prismarine Slab",
+    "minecraft_id": "minecraft:dark_prismarine_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Prismarine Stairs",
+    "minecraft_id": "minecraft:dark_prismarine_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dead Bush",
+    "minecraft_id": "minecraft:dead_bush",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Decorated Pot",
+    "minecraft_id": "minecraft:decorated_pot",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate",
+    "minecraft_id": "minecraft:deepslate",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Brick Slab",
+    "minecraft_id": "minecraft:deepslate_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Brick Stairs",
+    "minecraft_id": "minecraft:deepslate_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Brick Wall",
+    "minecraft_id": "minecraft:deepslate_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Bricks",
+    "minecraft_id": "minecraft:deepslate_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Coal Ore",
+    "minecraft_id": "minecraft:deepslate_coal_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Copper Ore",
+    "minecraft_id": "minecraft:deepslate_copper_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Diamond Ore",
+    "minecraft_id": "minecraft:deepslate_diamond_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Emerald Ore",
+    "minecraft_id": "minecraft:deepslate_emerald_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Gold Ore",
+    "minecraft_id": "minecraft:deepslate_gold_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Iron Ore",
+    "minecraft_id": "minecraft:deepslate_iron_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Lapis Lazuli Ore",
+    "minecraft_id": "minecraft:deepslate_lapis_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Redstone Ore",
+    "minecraft_id": "minecraft:deepslate_redstone_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Deepslate Tiles",
+    "minecraft_id": "minecraft:deepslate_tiles",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Diamond",
+    "minecraft_id": "minecraft:diamond_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Diamond Ore",
+    "minecraft_id": "minecraft:diamond_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Diorite",
+    "minecraft_id": "minecraft:diorite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Diorite Slab",
+    "minecraft_id": "minecraft:diorite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Diorite Stairs",
+    "minecraft_id": "minecraft:diorite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Diorite Wall",
+    "minecraft_id": "minecraft:diorite_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dirt",
+    "minecraft_id": "minecraft:dirt",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dirt Path",
+    "minecraft_id": "minecraft:dirt_path",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dragon Head",
+    "minecraft_id": "minecraft:dragon_head",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dripstone Block",
+    "minecraft_id": "minecraft:dripstone_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Emerald",
+    "minecraft_id": "minecraft:emerald_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Emerald Ore",
+    "minecraft_id": "minecraft:emerald_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Enchanting Table",
+    "minecraft_id": "minecraft:enchanting_table",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Rod",
+    "minecraft_id": "minecraft:end_rod",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Stone",
+    "minecraft_id": "minecraft:end_stone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Stone Brick Slab",
+    "minecraft_id": "minecraft:end_stone_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Stone Brick Stairs",
+    "minecraft_id": "minecraft:end_stone_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Stone Brick Wall",
+    "minecraft_id": "minecraft:end_stone_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "End Stone Bricks",
+    "minecraft_id": "minecraft:end_stone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Ender Chest",
+    "minecraft_id": "minecraft:ender_chest",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Chiseled Copper",
+    "minecraft_id": "minecraft:exposed_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Bars",
+    "minecraft_id": "minecraft:exposed_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Bulb",
+    "minecraft_id": "minecraft:exposed_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Chain",
+    "minecraft_id": "minecraft:exposed_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Chest",
+    "minecraft_id": "minecraft:exposed_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Door",
+    "minecraft_id": "minecraft:exposed_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Golem Statue",
+    "minecraft_id": "minecraft:exposed_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Grate",
+    "minecraft_id": "minecraft:exposed_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Lantern",
+    "minecraft_id": "minecraft:exposed_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Copper Trapdoor",
+    "minecraft_id": "minecraft:exposed_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Cut Copper",
+    "minecraft_id": "minecraft:exposed_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Cut Copper Slab",
+    "minecraft_id": "minecraft:exposed_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Exposed Cut Copper Stairs",
+    "minecraft_id": "minecraft:exposed_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Fern",
+    "minecraft_id": "minecraft:fern",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Firefly Bush",
+    "minecraft_id": "minecraft:firefly_bush",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Fletching Table",
+    "minecraft_id": "minecraft:fletching_table",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Flower Pot",
+    "minecraft_id": "minecraft:flower_pot",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Flowering Azalea",
+    "minecraft_id": "minecraft:flowering_azalea",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Flowering Azalea Leaves",
+    "minecraft_id": "minecraft:flowering_azalea_leaves",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Furnace",
+    "minecraft_id": "minecraft:furnace",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gilded Blackstone",
+    "minecraft_id": "minecraft:gilded_blackstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Glass",
+    "minecraft_id": "minecraft:glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Glass Pane",
+    "minecraft_id": "minecraft:glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Glow Lichen",
+    "minecraft_id": "minecraft:glow_lichen",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Glowstone",
+    "minecraft_id": "minecraft:glowstone",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Gold",
+    "minecraft_id": "minecraft:gold_block",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gold Ore",
+    "minecraft_id": "minecraft:gold_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Granite",
+    "minecraft_id": "minecraft:granite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Granite Slab",
+    "minecraft_id": "minecraft:granite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Granite Stairs",
+    "minecraft_id": "minecraft:granite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Granite Wall",
+    "minecraft_id": "minecraft:granite_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Grass Block",
+    "minecraft_id": "minecraft:grass_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gravel",
+    "minecraft_id": "minecraft:gravel",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Candle",
+    "minecraft_id": "minecraft:gray_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Concrete",
+    "minecraft_id": "minecraft:gray_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Concrete Powder",
+    "minecraft_id": "minecraft:gray_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Glazed Terracotta",
+    "minecraft_id": "minecraft:gray_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Stained Glass",
+    "minecraft_id": "minecraft:gray_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Stained Glass Pane",
+    "minecraft_id": "minecraft:gray_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Terracotta",
+    "minecraft_id": "minecraft:gray_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Gray Wool",
+    "minecraft_id": "minecraft:gray_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Candle",
+    "minecraft_id": "minecraft:green_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Concrete",
+    "minecraft_id": "minecraft:green_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Concrete Powder",
+    "minecraft_id": "minecraft:green_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Glazed Terracotta",
+    "minecraft_id": "minecraft:green_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Stained Glass",
+    "minecraft_id": "minecraft:green_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Stained Glass Pane",
+    "minecraft_id": "minecraft:green_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Terracotta",
+    "minecraft_id": "minecraft:green_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Wool",
+    "minecraft_id": "minecraft:green_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Grindstone",
+    "minecraft_id": "minecraft:grindstone",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Hanging Roots",
+    "minecraft_id": "minecraft:hanging_roots",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Hay Bale",
+    "minecraft_id": "minecraft:hay_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Honey Block",
+    "minecraft_id": "minecraft:honey_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Honeycomb Block",
+    "minecraft_id": "minecraft:honeycomb_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Ice",
+    "minecraft_id": "minecraft:ice",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Iron Bars",
+    "minecraft_id": "minecraft:iron_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Iron",
+    "minecraft_id": "minecraft:iron_block",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Iron Door",
+    "minecraft_id": "minecraft:iron_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Iron Ore",
+    "minecraft_id": "minecraft:iron_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Iron Trapdoor",
+    "minecraft_id": "minecraft:iron_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jack o'Lantern",
+    "minecraft_id": "minecraft:jack_o_lantern",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Door",
+    "minecraft_id": "minecraft:jungle_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Fence",
+    "minecraft_id": "minecraft:jungle_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Fence Gate",
+    "minecraft_id": "minecraft:jungle_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Leaves",
+    "minecraft_id": "minecraft:jungle_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Log",
+    "minecraft_id": "minecraft:jungle_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Planks",
+    "minecraft_id": "minecraft:jungle_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Slab",
+    "minecraft_id": "minecraft:jungle_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Stairs",
+    "minecraft_id": "minecraft:jungle_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Trapdoor",
+    "minecraft_id": "minecraft:jungle_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Wood",
+    "minecraft_id": "minecraft:jungle_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Kelp Plant",
+    "minecraft_id": "minecraft:kelp_plant",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Ladder",
+    "minecraft_id": "minecraft:ladder",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lantern",
+    "minecraft_id": "minecraft:lantern",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Lapis Lazuli",
+    "minecraft_id": "minecraft:lapis_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "minecraft_id": "minecraft:lapis_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Large Fern",
+    "minecraft_id": "minecraft:large_fern",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lava",
+    "minecraft_id": "minecraft:lava",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lectern",
+    "minecraft_id": "minecraft:lectern",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Candle",
+    "minecraft_id": "minecraft:light_blue_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Concrete",
+    "minecraft_id": "minecraft:light_blue_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Concrete Powder",
+    "minecraft_id": "minecraft:light_blue_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Glazed Terracotta",
+    "minecraft_id": "minecraft:light_blue_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Stained Glass",
+    "minecraft_id": "minecraft:light_blue_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Stained Glass Pane",
+    "minecraft_id": "minecraft:light_blue_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Terracotta",
+    "minecraft_id": "minecraft:light_blue_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Blue Wool",
+    "minecraft_id": "minecraft:light_blue_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Candle",
+    "minecraft_id": "minecraft:light_gray_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Concrete",
+    "minecraft_id": "minecraft:light_gray_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Concrete Powder",
+    "minecraft_id": "minecraft:light_gray_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Glazed Terracotta",
+    "minecraft_id": "minecraft:light_gray_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Stained Glass",
+    "minecraft_id": "minecraft:light_gray_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Stained Glass Pane",
+    "minecraft_id": "minecraft:light_gray_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Terracotta",
+    "minecraft_id": "minecraft:light_gray_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Wool",
+    "minecraft_id": "minecraft:light_gray_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lightning Rod",
+    "minecraft_id": "minecraft:lightning_rod",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lilac",
+    "minecraft_id": "minecraft:lilac",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lily of the Valley",
+    "minecraft_id": "minecraft:lily_of_the_valley",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lily Pad",
+    "minecraft_id": "minecraft:lily_pad",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Candle",
+    "minecraft_id": "minecraft:lime_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Concrete",
+    "minecraft_id": "minecraft:lime_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Concrete Powder",
+    "minecraft_id": "minecraft:lime_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Glazed Terracotta",
+    "minecraft_id": "minecraft:lime_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Stained Glass",
+    "minecraft_id": "minecraft:lime_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Stained Glass Pane",
+    "minecraft_id": "minecraft:lime_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Terracotta",
+    "minecraft_id": "minecraft:lime_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lime Wool",
+    "minecraft_id": "minecraft:lime_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Lodestone",
+    "minecraft_id": "minecraft:lodestone",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Loom",
+    "minecraft_id": "minecraft:loom",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Candle",
+    "minecraft_id": "minecraft:magenta_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Concrete",
+    "minecraft_id": "minecraft:magenta_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Concrete Powder",
+    "minecraft_id": "minecraft:magenta_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Glazed Terracotta",
+    "minecraft_id": "minecraft:magenta_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Stained Glass",
+    "minecraft_id": "minecraft:magenta_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Stained Glass Pane",
+    "minecraft_id": "minecraft:magenta_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Terracotta",
+    "minecraft_id": "minecraft:magenta_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Wool",
+    "minecraft_id": "minecraft:magenta_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magma Block",
+    "minecraft_id": "minecraft:magma_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Door",
+    "minecraft_id": "minecraft:mangrove_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Fence",
+    "minecraft_id": "minecraft:mangrove_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Fence Gate",
+    "minecraft_id": "minecraft:mangrove_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Leaves",
+    "minecraft_id": "minecraft:mangrove_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Log",
+    "minecraft_id": "minecraft:mangrove_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Planks",
+    "minecraft_id": "minecraft:mangrove_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Roots",
+    "minecraft_id": "minecraft:mangrove_roots",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Slab",
+    "minecraft_id": "minecraft:mangrove_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Stairs",
+    "minecraft_id": "minecraft:mangrove_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Trapdoor",
+    "minecraft_id": "minecraft:mangrove_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Wood",
+    "minecraft_id": "minecraft:mangrove_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Melon",
+    "minecraft_id": "minecraft:melon",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Moss Block",
+    "minecraft_id": "minecraft:moss_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Moss Carpet",
+    "minecraft_id": "minecraft:moss_carpet",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Cobblestone",
+    "minecraft_id": "minecraft:mossy_cobblestone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Cobblestone Slab",
+    "minecraft_id": "minecraft:mossy_cobblestone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Cobblestone Stairs",
+    "minecraft_id": "minecraft:mossy_cobblestone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Cobblestone Wall",
+    "minecraft_id": "minecraft:mossy_cobblestone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Stone Brick Slab",
+    "minecraft_id": "minecraft:mossy_stone_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Stone Brick Stairs",
+    "minecraft_id": "minecraft:mossy_stone_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Stone Brick Wall",
+    "minecraft_id": "minecraft:mossy_stone_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mossy Stone Bricks",
+    "minecraft_id": "minecraft:mossy_stone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mud",
+    "minecraft_id": "minecraft:mud",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mud Brick Slab",
+    "minecraft_id": "minecraft:mud_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mud Brick Stairs",
+    "minecraft_id": "minecraft:mud_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mud Brick Wall",
+    "minecraft_id": "minecraft:mud_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mud Bricks",
+    "minecraft_id": "minecraft:mud_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Muddy Mangrove Roots",
+    "minecraft_id": "minecraft:muddy_mangrove_roots",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mushroom Stem",
+    "minecraft_id": "minecraft:mushroom_stem",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mycelium",
+    "minecraft_id": "minecraft:mycelium",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Brick Slab",
+    "minecraft_id": "minecraft:nether_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Brick Stairs",
+    "minecraft_id": "minecraft:nether_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Brick Wall",
+    "minecraft_id": "minecraft:nether_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Bricks",
+    "minecraft_id": "minecraft:nether_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Gold Ore",
+    "minecraft_id": "minecraft:nether_gold_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Nether Wart Block",
+    "minecraft_id": "minecraft:nether_wart_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Netherrack",
+    "minecraft_id": "minecraft:netherrack",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Note Block",
+    "minecraft_id": "minecraft:note_block",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Door",
+    "minecraft_id": "minecraft:oak_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Fence",
+    "minecraft_id": "minecraft:oak_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Fence Gate",
+    "minecraft_id": "minecraft:oak_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Leaves",
+    "minecraft_id": "minecraft:oak_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Log",
+    "minecraft_id": "minecraft:oak_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Planks",
+    "minecraft_id": "minecraft:oak_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Slab",
+    "minecraft_id": "minecraft:oak_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Stairs",
+    "minecraft_id": "minecraft:oak_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Trapdoor",
+    "minecraft_id": "minecraft:oak_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oak Wood",
+    "minecraft_id": "minecraft:oak_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Obsidian",
+    "minecraft_id": "minecraft:obsidian",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Ochre Froglight",
+    "minecraft_id": "minecraft:ochre_froglight",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Open Eyeblossom",
+    "minecraft_id": "minecraft:open_eyeblossom",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Candle",
+    "minecraft_id": "minecraft:orange_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Concrete",
+    "minecraft_id": "minecraft:orange_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Concrete Powder",
+    "minecraft_id": "minecraft:orange_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Glazed Terracotta",
+    "minecraft_id": "minecraft:orange_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Stained Glass",
+    "minecraft_id": "minecraft:orange_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Stained Glass Pane",
+    "minecraft_id": "minecraft:orange_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Terracotta",
+    "minecraft_id": "minecraft:orange_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Tulip",
+    "minecraft_id": "minecraft:orange_tulip",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Wool",
+    "minecraft_id": "minecraft:orange_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxeye Daisy",
+    "minecraft_id": "minecraft:oxeye_daisy",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Chiseled Copper",
+    "minecraft_id": "minecraft:oxidized_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Bars",
+    "minecraft_id": "minecraft:oxidized_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Bulb",
+    "minecraft_id": "minecraft:oxidized_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Chain",
+    "minecraft_id": "minecraft:oxidized_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Chest",
+    "minecraft_id": "minecraft:oxidized_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Door",
+    "minecraft_id": "minecraft:oxidized_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Golem Statue",
+    "minecraft_id": "minecraft:oxidized_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Grate",
+    "minecraft_id": "minecraft:oxidized_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Lantern",
+    "minecraft_id": "minecraft:oxidized_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Copper Trapdoor",
+    "minecraft_id": "minecraft:oxidized_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Cut Copper",
+    "minecraft_id": "minecraft:oxidized_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Cut Copper Slab",
+    "minecraft_id": "minecraft:oxidized_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Oxidized Cut Copper Stairs",
+    "minecraft_id": "minecraft:oxidized_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Packed Ice",
+    "minecraft_id": "minecraft:packed_ice",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Packed Mud",
+    "minecraft_id": "minecraft:packed_mud",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pale Hanging Moss",
+    "minecraft_id": "minecraft:pale_hanging_moss",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pale Moss Block",
+    "minecraft_id": "minecraft:pale_moss_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pale Moss Carpet",
+    "minecraft_id": "minecraft:pale_moss_carpet",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pearlescent Froglight",
+    "minecraft_id": "minecraft:pearlescent_froglight",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Peony",
+    "minecraft_id": "minecraft:peony",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Piglin Head",
+    "minecraft_id": "minecraft:piglin_head",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Candle",
+    "minecraft_id": "minecraft:pink_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Concrete",
+    "minecraft_id": "minecraft:pink_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Concrete Powder",
+    "minecraft_id": "minecraft:pink_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Glazed Terracotta",
+    "minecraft_id": "minecraft:pink_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Stained Glass",
+    "minecraft_id": "minecraft:pink_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Stained Glass Pane",
+    "minecraft_id": "minecraft:pink_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Terracotta",
+    "minecraft_id": "minecraft:pink_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Tulip",
+    "minecraft_id": "minecraft:pink_tulip",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Wool",
+    "minecraft_id": "minecraft:pink_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pitcher Plant",
+    "minecraft_id": "minecraft:pitcher_plant",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Player Head",
+    "minecraft_id": "minecraft:player_head",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Podzol",
+    "minecraft_id": "minecraft:podzol",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Andesite",
+    "minecraft_id": "minecraft:polished_andesite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Andesite Slab",
+    "minecraft_id": "minecraft:polished_andesite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Andesite Stairs",
+    "minecraft_id": "minecraft:polished_andesite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Basalt",
+    "minecraft_id": "minecraft:polished_basalt",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone",
+    "minecraft_id": "minecraft:polished_blackstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Brick Slab",
+    "minecraft_id": "minecraft:polished_blackstone_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Brick Stairs",
+    "minecraft_id": "minecraft:polished_blackstone_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Brick Wall",
+    "minecraft_id": "minecraft:polished_blackstone_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Bricks",
+    "minecraft_id": "minecraft:polished_blackstone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Slab",
+    "minecraft_id": "minecraft:polished_blackstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Stairs",
+    "minecraft_id": "minecraft:polished_blackstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Blackstone Wall",
+    "minecraft_id": "minecraft:polished_blackstone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Cinnabar",
+    "minecraft_id": "minecraft:polished_cinnabar",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Cinnabar Slab",
+    "minecraft_id": "minecraft:polished_cinnabar_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Cinnabar Stairs",
+    "minecraft_id": "minecraft:polished_cinnabar_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Cinnabar Wall",
+    "minecraft_id": "minecraft:polished_cinnabar_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Deepslate",
+    "minecraft_id": "minecraft:polished_deepslate",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Deepslate Slab",
+    "minecraft_id": "minecraft:polished_deepslate_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Deepslate Stairs",
+    "minecraft_id": "minecraft:polished_deepslate_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Deepslate Wall",
+    "minecraft_id": "minecraft:polished_deepslate_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Diorite",
+    "minecraft_id": "minecraft:polished_diorite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Diorite Slab",
+    "minecraft_id": "minecraft:polished_diorite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Diorite Stairs",
+    "minecraft_id": "minecraft:polished_diorite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Granite",
+    "minecraft_id": "minecraft:polished_granite",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Granite Slab",
+    "minecraft_id": "minecraft:polished_granite_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Granite Stairs",
+    "minecraft_id": "minecraft:polished_granite_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Sulfur",
+    "minecraft_id": "minecraft:polished_sulfur",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Sulfur Slab",
+    "minecraft_id": "minecraft:polished_sulfur_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Sulfur Stairs",
+    "minecraft_id": "minecraft:polished_sulfur_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Sulfur Wall",
+    "minecraft_id": "minecraft:polished_sulfur_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Polished Tuff",
+    "minecraft_id": "minecraft:polished_tuff",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Tuff Slab",
+    "minecraft_id": "minecraft:polished_tuff_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Tuff Stairs",
+    "minecraft_id": "minecraft:polished_tuff_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Polished Tuff Wall",
+    "minecraft_id": "minecraft:polished_tuff_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Poppy",
+    "minecraft_id": "minecraft:poppy",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Potent Sulfur",
+    "minecraft_id": "minecraft:potent_sulfur",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Powder Snow",
+    "minecraft_id": "minecraft:powder_snow",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine",
+    "minecraft_id": "minecraft:prismarine",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Brick Slab",
+    "minecraft_id": "minecraft:prismarine_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Brick Stairs",
+    "minecraft_id": "minecraft:prismarine_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Bricks",
+    "minecraft_id": "minecraft:prismarine_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Slab",
+    "minecraft_id": "minecraft:prismarine_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Stairs",
+    "minecraft_id": "minecraft:prismarine_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Prismarine Wall",
+    "minecraft_id": "minecraft:prismarine_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pumpkin",
+    "minecraft_id": "minecraft:pumpkin",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Candle",
+    "minecraft_id": "minecraft:purple_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Concrete",
+    "minecraft_id": "minecraft:purple_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Concrete Powder",
+    "minecraft_id": "minecraft:purple_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Glazed Terracotta",
+    "minecraft_id": "minecraft:purple_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Stained Glass",
+    "minecraft_id": "minecraft:purple_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Stained Glass Pane",
+    "minecraft_id": "minecraft:purple_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Terracotta",
+    "minecraft_id": "minecraft:purple_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purple Wool",
+    "minecraft_id": "minecraft:purple_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purpur Block",
+    "minecraft_id": "minecraft:purpur_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Purpur Pillar",
+    "minecraft_id": "minecraft:purpur_pillar",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Quartz",
+    "minecraft_id": "minecraft:quartz_block",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Quartz Bricks",
+    "minecraft_id": "minecraft:quartz_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Quartz Pillar",
+    "minecraft_id": "minecraft:quartz_pillar",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Raw Copper",
+    "minecraft_id": "minecraft:raw_copper_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Raw Gold",
+    "minecraft_id": "minecraft:raw_gold_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Raw Iron",
+    "minecraft_id": "minecraft:raw_iron_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Candle",
+    "minecraft_id": "minecraft:red_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Concrete",
+    "minecraft_id": "minecraft:red_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Concrete Powder",
+    "minecraft_id": "minecraft:red_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Glazed Terracotta",
+    "minecraft_id": "minecraft:red_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Mushroom",
+    "minecraft_id": "minecraft:red_mushroom",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Mushroom Block",
+    "minecraft_id": "minecraft:red_mushroom_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Nether Brick Slab",
+    "minecraft_id": "minecraft:red_nether_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Nether Brick Stairs",
+    "minecraft_id": "minecraft:red_nether_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Nether Brick Wall",
+    "minecraft_id": "minecraft:red_nether_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Nether Bricks",
+    "minecraft_id": "minecraft:red_nether_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Sand",
+    "minecraft_id": "minecraft:red_sand",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Sandstone",
+    "minecraft_id": "minecraft:red_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Sandstone Slab",
+    "minecraft_id": "minecraft:red_sandstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Sandstone Stairs",
+    "minecraft_id": "minecraft:red_sandstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Sandstone Wall",
+    "minecraft_id": "minecraft:red_sandstone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Stained Glass",
+    "minecraft_id": "minecraft:red_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Stained Glass Pane",
+    "minecraft_id": "minecraft:red_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Terracotta",
+    "minecraft_id": "minecraft:red_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Tulip",
+    "minecraft_id": "minecraft:red_tulip",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Wool",
+    "minecraft_id": "minecraft:red_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Redstone",
+    "minecraft_id": "minecraft:redstone_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Redstone Lamp",
+    "minecraft_id": "minecraft:redstone_lamp",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Redstone Ore",
+    "minecraft_id": "minecraft:redstone_ore",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Resin Brick Slab",
+    "minecraft_id": "minecraft:resin_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Resin Brick Stairs",
+    "minecraft_id": "minecraft:resin_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Resin Brick Wall",
+    "minecraft_id": "minecraft:resin_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Resin Bricks",
+    "minecraft_id": "minecraft:resin_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Respawn Anchor",
+    "minecraft_id": "minecraft:respawn_anchor",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Rooted Dirt",
+    "minecraft_id": "minecraft:rooted_dirt",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Rose Bush",
+    "minecraft_id": "minecraft:rose_bush",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sand",
+    "minecraft_id": "minecraft:sand",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sandstone",
+    "minecraft_id": "minecraft:sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sandstone Slab",
+    "minecraft_id": "minecraft:sandstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sandstone Stairs",
+    "minecraft_id": "minecraft:sandstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sandstone Wall",
+    "minecraft_id": "minecraft:sandstone_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Scaffolding",
+    "minecraft_id": "minecraft:scaffolding",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sculk",
+    "minecraft_id": "minecraft:sculk",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sea Lantern",
+    "minecraft_id": "minecraft:sea_lantern",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Seagrass",
+    "minecraft_id": "minecraft:seagrass",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Shroomlight",
+    "minecraft_id": "minecraft:shroomlight",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Skeleton Skull",
+    "minecraft_id": "minecraft:skeleton_skull",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Small Dripleaf",
+    "minecraft_id": "minecraft:small_dripleaf",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smithing Table",
+    "minecraft_id": "minecraft:smithing_table",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smoker",
+    "minecraft_id": "minecraft:smoker",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Basalt",
+    "minecraft_id": "minecraft:smooth_basalt",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Quartz Block",
+    "minecraft_id": "minecraft:smooth_quartz",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Quartz Slab",
+    "minecraft_id": "minecraft:smooth_quartz_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Quartz Stairs",
+    "minecraft_id": "minecraft:smooth_quartz_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Red Sandstone",
+    "minecraft_id": "minecraft:smooth_red_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Red Sandstone Slab",
+    "minecraft_id": "minecraft:smooth_red_sandstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Red Sandstone Stairs",
+    "minecraft_id": "minecraft:smooth_red_sandstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Sandstone",
+    "minecraft_id": "minecraft:smooth_sandstone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Sandstone Slab",
+    "minecraft_id": "minecraft:smooth_sandstone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Sandstone Stairs",
+    "minecraft_id": "minecraft:smooth_sandstone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Stone",
+    "minecraft_id": "minecraft:smooth_stone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Smooth Stone Slab",
+    "minecraft_id": "minecraft:smooth_stone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Snow",
+    "minecraft_id": "minecraft:snow",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Snow Block",
+    "minecraft_id": "minecraft:snow_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Soul Campfire",
+    "minecraft_id": "minecraft:soul_campfire",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Soul Lantern",
+    "minecraft_id": "minecraft:soul_lantern",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Soul Torch",
+    "minecraft_id": "minecraft:soul_torch",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Soul Wall Torch",
+    "minecraft_id": "minecraft:soul_wall_torch",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sponge",
+    "minecraft_id": "minecraft:sponge",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spore Blossom",
+    "minecraft_id": "minecraft:spore_blossom",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Door",
+    "minecraft_id": "minecraft:spruce_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Fence",
+    "minecraft_id": "minecraft:spruce_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Fence Gate",
+    "minecraft_id": "minecraft:spruce_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Leaves",
+    "minecraft_id": "minecraft:spruce_leaves",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Log",
+    "minecraft_id": "minecraft:spruce_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Planks",
+    "minecraft_id": "minecraft:spruce_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Slab",
+    "minecraft_id": "minecraft:spruce_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Stairs",
+    "minecraft_id": "minecraft:spruce_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Trapdoor",
+    "minecraft_id": "minecraft:spruce_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Wood",
+    "minecraft_id": "minecraft:spruce_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone",
+    "minecraft_id": "minecraft:stone",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Brick Slab",
+    "minecraft_id": "minecraft:stone_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Brick Stairs",
+    "minecraft_id": "minecraft:stone_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Brick Wall",
+    "minecraft_id": "minecraft:stone_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Bricks",
+    "minecraft_id": "minecraft:stone_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Slab",
+    "minecraft_id": "minecraft:stone_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stone Stairs",
+    "minecraft_id": "minecraft:stone_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stonecutter",
+    "minecraft_id": "minecraft:stonecutter",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Acacia Log",
+    "minecraft_id": "minecraft:stripped_acacia_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Acacia Wood",
+    "minecraft_id": "minecraft:stripped_acacia_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Block of Stripped Bamboo",
+    "minecraft_id": "minecraft:stripped_bamboo_block",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Birch Log",
+    "minecraft_id": "minecraft:stripped_birch_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Birch Wood",
+    "minecraft_id": "minecraft:stripped_birch_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Cherry Log",
+    "minecraft_id": "minecraft:stripped_cherry_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Cherry Wood",
+    "minecraft_id": "minecraft:stripped_cherry_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Crimson Hyphae",
+    "minecraft_id": "minecraft:stripped_crimson_hyphae",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Crimson Stem",
+    "minecraft_id": "minecraft:stripped_crimson_stem",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Dark Oak Log",
+    "minecraft_id": "minecraft:stripped_dark_oak_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Dark Oak Wood",
+    "minecraft_id": "minecraft:stripped_dark_oak_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Jungle Log",
+    "minecraft_id": "minecraft:stripped_jungle_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Jungle Wood",
+    "minecraft_id": "minecraft:stripped_jungle_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Mangrove Log",
+    "minecraft_id": "minecraft:stripped_mangrove_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Mangrove Wood",
+    "minecraft_id": "minecraft:stripped_mangrove_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Oak Log",
+    "minecraft_id": "minecraft:stripped_oak_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Oak Wood",
+    "minecraft_id": "minecraft:stripped_oak_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Spruce Log",
+    "minecraft_id": "minecraft:stripped_spruce_log",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Spruce Wood",
+    "minecraft_id": "minecraft:stripped_spruce_wood",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Warped Hyphae",
+    "minecraft_id": "minecraft:stripped_warped_hyphae",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Stripped Warped Stem",
+    "minecraft_id": "minecraft:stripped_warped_stem",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sugar Cane",
+    "minecraft_id": "minecraft:sugar_cane",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Sulfur",
+    "minecraft_id": "minecraft:sulfur",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Brick Slab",
+    "minecraft_id": "minecraft:sulfur_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Brick Stairs",
+    "minecraft_id": "minecraft:sulfur_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Brick Wall",
+    "minecraft_id": "minecraft:sulfur_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Bricks",
+    "minecraft_id": "minecraft:sulfur_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Slab",
+    "minecraft_id": "minecraft:sulfur_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Spike",
+    "minecraft_id": "minecraft:sulfur_spike",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Stairs",
+    "minecraft_id": "minecraft:sulfur_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sulfur Wall",
+    "minecraft_id": "minecraft:sulfur_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": "26.2"
+  },
+  {
+    "name": "Sunflower",
+    "minecraft_id": "minecraft:sunflower",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Suspicious Gravel",
+    "minecraft_id": "minecraft:suspicious_gravel",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Suspicious Sand",
+    "minecraft_id": "minecraft:suspicious_sand",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tall Grass",
+    "minecraft_id": "minecraft:tall_grass",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tall Seagrass",
+    "minecraft_id": "minecraft:tall_seagrass",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Terracotta",
+    "minecraft_id": "minecraft:terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tinted Glass",
+    "minecraft_id": "minecraft:tinted_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Torch",
+    "minecraft_id": "minecraft:torch",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Torchflower",
+    "minecraft_id": "minecraft:torchflower",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Trapped Chest",
+    "minecraft_id": "minecraft:trapped_chest",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff",
+    "minecraft_id": "minecraft:tuff",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Brick Slab",
+    "minecraft_id": "minecraft:tuff_brick_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Brick Stairs",
+    "minecraft_id": "minecraft:tuff_brick_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Brick Wall",
+    "minecraft_id": "minecraft:tuff_brick_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Bricks",
+    "minecraft_id": "minecraft:tuff_bricks",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Slab",
+    "minecraft_id": "minecraft:tuff_slab",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Stairs",
+    "minecraft_id": "minecraft:tuff_stairs",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Tuff Wall",
+    "minecraft_id": "minecraft:tuff_wall",
+    "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Twisting Vines",
+    "minecraft_id": "minecraft:twisting_vines",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Verdant Froglight",
+    "minecraft_id": "minecraft:verdant_froglight",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Vines",
+    "minecraft_id": "minecraft:vine",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Wall Torch",
+    "minecraft_id": "minecraft:wall_torch",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Door",
+    "minecraft_id": "minecraft:warped_door",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Fence",
+    "minecraft_id": "minecraft:warped_fence",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Fence Gate",
+    "minecraft_id": "minecraft:warped_fence_gate",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Fungus",
+    "minecraft_id": "minecraft:warped_fungus",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Hyphae",
+    "minecraft_id": "minecraft:warped_hyphae",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Nylium",
+    "minecraft_id": "minecraft:warped_nylium",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Planks",
+    "minecraft_id": "minecraft:warped_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Roots",
+    "minecraft_id": "minecraft:warped_roots",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Slab",
+    "minecraft_id": "minecraft:warped_slab",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Stairs",
+    "minecraft_id": "minecraft:warped_stairs",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Stem",
+    "minecraft_id": "minecraft:warped_stem",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Trapdoor",
+    "minecraft_id": "minecraft:warped_trapdoor",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Wart Block",
+    "minecraft_id": "minecraft:warped_wart_block",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Water",
+    "minecraft_id": "minecraft:water",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Chiseled Copper",
+    "minecraft_id": "minecraft:waxed_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Bars",
+    "minecraft_id": "minecraft:waxed_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Block of Copper",
+    "minecraft_id": "minecraft:waxed_copper_block",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Bulb",
+    "minecraft_id": "minecraft:waxed_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Chain",
+    "minecraft_id": "minecraft:waxed_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Chest",
+    "minecraft_id": "minecraft:waxed_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Door",
+    "minecraft_id": "minecraft:waxed_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Golem Statue",
+    "minecraft_id": "minecraft:waxed_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Grate",
+    "minecraft_id": "minecraft:waxed_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Lantern",
+    "minecraft_id": "minecraft:waxed_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Copper Trapdoor",
+    "minecraft_id": "minecraft:waxed_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Cut Copper",
+    "minecraft_id": "minecraft:waxed_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Cut Copper Slab",
+    "minecraft_id": "minecraft:waxed_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Cut Copper Stairs",
+    "minecraft_id": "minecraft:waxed_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Chiseled Copper",
+    "minecraft_id": "minecraft:waxed_exposed_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Bars",
+    "minecraft_id": "minecraft:waxed_exposed_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Bulb",
+    "minecraft_id": "minecraft:waxed_exposed_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Chain",
+    "minecraft_id": "minecraft:waxed_exposed_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Chest",
+    "minecraft_id": "minecraft:waxed_exposed_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Door",
+    "minecraft_id": "minecraft:waxed_exposed_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Golem Statue",
+    "minecraft_id": "minecraft:waxed_exposed_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Grate",
+    "minecraft_id": "minecraft:waxed_exposed_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Lantern",
+    "minecraft_id": "minecraft:waxed_exposed_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Copper Trapdoor",
+    "minecraft_id": "minecraft:waxed_exposed_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Cut Copper",
+    "minecraft_id": "minecraft:waxed_exposed_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Cut Copper Slab",
+    "minecraft_id": "minecraft:waxed_exposed_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Exposed Cut Copper Stairs",
+    "minecraft_id": "minecraft:waxed_exposed_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Chiseled Copper",
+    "minecraft_id": "minecraft:waxed_oxidized_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Bars",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Bulb",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Chain",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Chest",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Door",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Golem Statue",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Grate",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Lantern",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Copper Trapdoor",
+    "minecraft_id": "minecraft:waxed_oxidized_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper",
+    "minecraft_id": "minecraft:waxed_oxidized_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper Slab",
+    "minecraft_id": "minecraft:waxed_oxidized_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Oxidized Cut Copper Stairs",
+    "minecraft_id": "minecraft:waxed_oxidized_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Chiseled Copper",
+    "minecraft_id": "minecraft:waxed_weathered_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Bars",
+    "minecraft_id": "minecraft:waxed_weathered_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Bulb",
+    "minecraft_id": "minecraft:waxed_weathered_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Chain",
+    "minecraft_id": "minecraft:waxed_weathered_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Chest",
+    "minecraft_id": "minecraft:waxed_weathered_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Door",
+    "minecraft_id": "minecraft:waxed_weathered_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Golem Statue",
+    "minecraft_id": "minecraft:waxed_weathered_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Grate",
+    "minecraft_id": "minecraft:waxed_weathered_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Lantern",
+    "minecraft_id": "minecraft:waxed_weathered_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Copper Trapdoor",
+    "minecraft_id": "minecraft:waxed_weathered_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Cut Copper",
+    "minecraft_id": "minecraft:waxed_weathered_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Cut Copper Slab",
+    "minecraft_id": "minecraft:waxed_weathered_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Waxed Weathered Cut Copper Stairs",
+    "minecraft_id": "minecraft:waxed_weathered_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Chiseled Copper",
+    "minecraft_id": "minecraft:weathered_chiseled_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Bars",
+    "minecraft_id": "minecraft:weathered_copper_bars",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Bulb",
+    "minecraft_id": "minecraft:weathered_copper_bulb",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Chain",
+    "minecraft_id": "minecraft:weathered_copper_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Chest",
+    "minecraft_id": "minecraft:weathered_copper_chest",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Door",
+    "minecraft_id": "minecraft:weathered_copper_door",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Golem Statue",
+    "minecraft_id": "minecraft:weathered_copper_golem_statue",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Grate",
+    "minecraft_id": "minecraft:weathered_copper_grate",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Lantern",
+    "minecraft_id": "minecraft:weathered_copper_lantern",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Copper Trapdoor",
+    "minecraft_id": "minecraft:weathered_copper_trapdoor",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Cut Copper",
+    "minecraft_id": "minecraft:weathered_cut_copper",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Cut Copper Slab",
+    "minecraft_id": "minecraft:weathered_cut_copper_slab",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weathered Cut Copper Stairs",
+    "minecraft_id": "minecraft:weathered_cut_copper_stairs",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Weeping Vines",
+    "minecraft_id": "minecraft:weeping_vines",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Wet Sponge",
+    "minecraft_id": "minecraft:wet_sponge",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Candle",
+    "minecraft_id": "minecraft:white_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Concrete",
+    "minecraft_id": "minecraft:white_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Concrete Powder",
+    "minecraft_id": "minecraft:white_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Glazed Terracotta",
+    "minecraft_id": "minecraft:white_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Stained Glass",
+    "minecraft_id": "minecraft:white_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Stained Glass Pane",
+    "minecraft_id": "minecraft:white_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Terracotta",
+    "minecraft_id": "minecraft:white_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Tulip",
+    "minecraft_id": "minecraft:white_tulip",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "White Wool",
+    "minecraft_id": "minecraft:white_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Wither Rose",
+    "minecraft_id": "minecraft:wither_rose",
+    "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Wither Skeleton Skull",
+    "minecraft_id": "minecraft:wither_skeleton_skull",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Candle",
+    "minecraft_id": "minecraft:yellow_candle",
+    "category": "lighting",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Concrete",
+    "minecraft_id": "minecraft:yellow_concrete",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Concrete Powder",
+    "minecraft_id": "minecraft:yellow_concrete_powder",
+    "category": "concrete",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Glazed Terracotta",
+    "minecraft_id": "minecraft:yellow_glazed_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Stained Glass",
+    "minecraft_id": "minecraft:yellow_stained_glass",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Stained Glass Pane",
+    "minecraft_id": "minecraft:yellow_stained_glass_pane",
+    "category": "glass",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Terracotta",
+    "minecraft_id": "minecraft:yellow_terracotta",
+    "category": "terracotta",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Wool",
+    "minecraft_id": "minecraft:yellow_wool",
+    "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Zombie Head",
+    "minecraft_id": "minecraft:zombie_head",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  }
+]

@@ -1,0 +1,6272 @@
+[
+  {
+    "id": "acacia_button",
+    "name": "Acacia Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_door",
+    "name": "Acacia Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_fence",
+    "name": "Acacia Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_fence_gate",
+    "name": "Acacia Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_hanging_sign",
+    "name": "Acacia Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_leaves",
+    "name": "Acacia Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_log",
+    "name": "Acacia Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_planks",
+    "name": "Acacia Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_pressure_plate",
+    "name": "Acacia Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_sapling",
+    "name": "Acacia Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_shelf",
+    "name": "Acacia Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_sign",
+    "name": "Acacia Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_slab",
+    "name": "Acacia Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_stairs",
+    "name": "Acacia Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_trapdoor",
+    "name": "Acacia Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "acacia_wall_hanging_sign",
+    "name": "Acacia Wall Hanging Sign",
+    "itemForm": "acacia_hanging_sign"
+  },
+  {
+    "id": "acacia_wall_sign",
+    "name": "Acacia Wall Sign",
+    "itemForm": "acacia_sign"
+  },
+  {
+    "id": "acacia_wood",
+    "name": "Acacia Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "activator_rail",
+    "name": "Activator Rail",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "air",
+    "name": "Air",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "allium",
+    "name": "Allium",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "amethyst_block",
+    "name": "Block of Amethyst",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "amethyst_cluster",
+    "name": "Amethyst Cluster",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "ancient_debris",
+    "name": "Ancient Debris",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "andesite",
+    "name": "Andesite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "andesite_slab",
+    "name": "Andesite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "andesite_stairs",
+    "name": "Andesite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "andesite_wall",
+    "name": "Andesite Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "anvil",
+    "name": "Anvil",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "attached_melon_stem",
+    "name": "Attached Melon Stem",
+    "itemForm": "melon_seeds"
+  },
+  {
+    "id": "attached_pumpkin_stem",
+    "name": "Attached Pumpkin Stem",
+    "itemForm": "pumpkin_seeds"
+  },
+  {
+    "id": "azalea",
+    "name": "Azalea",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "azalea_leaves",
+    "name": "Azalea Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "azure_bluet",
+    "name": "Azure Bluet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_block",
+    "name": "Block of Bamboo",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_button",
+    "name": "Bamboo Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_door",
+    "name": "Bamboo Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_fence",
+    "name": "Bamboo Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_fence_gate",
+    "name": "Bamboo Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_hanging_sign",
+    "name": "Bamboo Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_mosaic",
+    "name": "Bamboo Mosaic",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_mosaic_slab",
+    "name": "Bamboo Mosaic Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_mosaic_stairs",
+    "name": "Bamboo Mosaic Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_planks",
+    "name": "Bamboo Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_pressure_plate",
+    "name": "Bamboo Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_sapling",
+    "name": "Bamboo Shoot",
+    "itemForm": "bamboo"
+  },
+  {
+    "id": "bamboo_shelf",
+    "name": "Bamboo Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_sign",
+    "name": "Bamboo Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_slab",
+    "name": "Bamboo Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_stairs",
+    "name": "Bamboo Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_trapdoor",
+    "name": "Bamboo Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bamboo_wall_hanging_sign",
+    "name": "Bamboo Wall Hanging Sign",
+    "itemForm": "bamboo_hanging_sign"
+  },
+  {
+    "id": "bamboo_wall_sign",
+    "name": "Bamboo Wall Sign",
+    "itemForm": "bamboo_sign"
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "barrier",
+    "name": "Barrier",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "basalt",
+    "name": "Basalt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bedrock",
+    "name": "Bedrock",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bee_nest",
+    "name": "Bee Nest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "beehive",
+    "name": "Beehive",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "beetroots",
+    "name": "Beetroots",
+    "itemForm": "beetroot_seeds"
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "big_dripleaf",
+    "name": "Big Dripleaf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "big_dripleaf_stem",
+    "name": "Big Dripleaf Stem",
+    "itemForm": "big_dripleaf"
+  },
+  {
+    "id": "birch_button",
+    "name": "Birch Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_door",
+    "name": "Birch Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_fence",
+    "name": "Birch Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_fence_gate",
+    "name": "Birch Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_hanging_sign",
+    "name": "Birch Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_leaves",
+    "name": "Birch Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_log",
+    "name": "Birch Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_planks",
+    "name": "Birch Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_pressure_plate",
+    "name": "Birch Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_sapling",
+    "name": "Birch Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_shelf",
+    "name": "Birch Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_sign",
+    "name": "Birch Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_slab",
+    "name": "Birch Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_stairs",
+    "name": "Birch Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_trapdoor",
+    "name": "Birch Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "birch_wall_hanging_sign",
+    "name": "Birch Wall Hanging Sign",
+    "itemForm": "birch_hanging_sign"
+  },
+  {
+    "id": "birch_wall_sign",
+    "name": "Birch Wall Sign",
+    "itemForm": "birch_sign"
+  },
+  {
+    "id": "birch_wood",
+    "name": "Birch Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_banner",
+    "name": "Black Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_bed",
+    "name": "Black Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_candle",
+    "name": "Black Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_candle_cake",
+    "name": "Cake with Black Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "black_carpet",
+    "name": "Black Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_concrete",
+    "name": "Black Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_concrete_powder",
+    "name": "Black Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_glazed_terracotta",
+    "name": "Black Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_shulker_box",
+    "name": "Black Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_stained_glass",
+    "name": "Black Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_stained_glass_pane",
+    "name": "Black Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_terracotta",
+    "name": "Black Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_wall_banner",
+    "name": "Black Wall Banner",
+    "itemForm": "black_banner"
+  },
+  {
+    "id": "black_wool",
+    "name": "Black Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_wool_slab",
+    "name": "Black Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "black_wool_stairs",
+    "name": "Black Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blackstone",
+    "name": "Blackstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blackstone_slab",
+    "name": "Blackstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blackstone_stairs",
+    "name": "Blackstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blackstone_wall",
+    "name": "Blackstone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blast_furnace",
+    "name": "Blast Furnace",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_banner",
+    "name": "Blue Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_bed",
+    "name": "Blue Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_candle",
+    "name": "Blue Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_candle_cake",
+    "name": "Cake with Blue Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "blue_carpet",
+    "name": "Blue Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_concrete",
+    "name": "Blue Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_concrete_powder",
+    "name": "Blue Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_glazed_terracotta",
+    "name": "Blue Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_ice",
+    "name": "Blue Ice",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_orchid",
+    "name": "Blue Orchid",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_shulker_box",
+    "name": "Blue Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_stained_glass",
+    "name": "Blue Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_stained_glass_pane",
+    "name": "Blue Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_terracotta",
+    "name": "Blue Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_wall_banner",
+    "name": "Blue Wall Banner",
+    "itemForm": "blue_banner"
+  },
+  {
+    "id": "blue_wool",
+    "name": "Blue Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_wool_slab",
+    "name": "Blue Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "blue_wool_stairs",
+    "name": "Blue Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bone_block",
+    "name": "Bone Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bookshelf",
+    "name": "Bookshelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brain_coral",
+    "name": "Brain Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brain_coral_block",
+    "name": "Brain Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brain_coral_fan",
+    "name": "Brain Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brain_coral_wall_fan",
+    "name": "Brain Coral Wall Fan",
+    "itemForm": "brain_coral_fan"
+  },
+  {
+    "id": "brewing_stand",
+    "name": "Brewing Stand",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brick_slab",
+    "name": "Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brick_stairs",
+    "name": "Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brick_wall",
+    "name": "Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bricks",
+    "name": "Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_banner",
+    "name": "Brown Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_bed",
+    "name": "Brown Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_candle",
+    "name": "Brown Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_candle_cake",
+    "name": "Cake with Brown Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "brown_carpet",
+    "name": "Brown Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_concrete",
+    "name": "Brown Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_concrete_powder",
+    "name": "Brown Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_glazed_terracotta",
+    "name": "Brown Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_mushroom",
+    "name": "Brown Mushroom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_mushroom_block",
+    "name": "Brown Mushroom Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_shulker_box",
+    "name": "Brown Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_stained_glass",
+    "name": "Brown Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_stained_glass_pane",
+    "name": "Brown Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_terracotta",
+    "name": "Brown Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_wall_banner",
+    "name": "Brown Wall Banner",
+    "itemForm": "brown_banner"
+  },
+  {
+    "id": "brown_wool",
+    "name": "Brown Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_wool_slab",
+    "name": "Brown Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "brown_wool_stairs",
+    "name": "Brown Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bubble_column",
+    "name": "Bubble Column",
+    "itemForm": "None"
+  },
+  {
+    "id": "bubble_coral",
+    "name": "Bubble Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bubble_coral_block",
+    "name": "Bubble Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bubble_coral_fan",
+    "name": "Bubble Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bubble_coral_wall_fan",
+    "name": "Bubble Coral Wall Fan",
+    "itemForm": "bubble_coral_fan"
+  },
+  {
+    "id": "budding_amethyst",
+    "name": "Budding Amethyst",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "bush",
+    "name": "Bush",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cactus",
+    "name": "Cactus",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cactus_flower",
+    "name": "Cactus Flower",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "calcite",
+    "name": "Calcite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "calibrated_sculk_sensor",
+    "name": "Calibrated Sculk Sensor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "candle",
+    "name": "Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "candle_cake",
+    "name": "Cake with Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "carrots",
+    "name": "Carrots",
+    "itemForm": "carrot"
+  },
+  {
+    "id": "cartography_table",
+    "name": "Cartography Table",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "carved_pumpkin",
+    "name": "Carved Pumpkin",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cauldron",
+    "name": "Cauldron",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cave_air",
+    "name": "Cave Air",
+    "itemForm": "None"
+  },
+  {
+    "id": "cave_vines",
+    "name": "Cave Vines",
+    "itemForm": "glow_berries"
+  },
+  {
+    "id": "cave_vines_plant",
+    "name": "Cave Vines Plant",
+    "itemForm": "glow_berries"
+  },
+  {
+    "id": "chain_command_block",
+    "name": "Chain Command Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_button",
+    "name": "Cherry Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_door",
+    "name": "Cherry Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_fence",
+    "name": "Cherry Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_fence_gate",
+    "name": "Cherry Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_hanging_sign",
+    "name": "Cherry Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_leaves",
+    "name": "Cherry Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_log",
+    "name": "Cherry Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_planks",
+    "name": "Cherry Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_pressure_plate",
+    "name": "Cherry Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_sapling",
+    "name": "Cherry Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_shelf",
+    "name": "Cherry Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_sign",
+    "name": "Cherry Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_slab",
+    "name": "Cherry Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_stairs",
+    "name": "Cherry Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_trapdoor",
+    "name": "Cherry Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cherry_wall_hanging_sign",
+    "name": "Cherry Wall Hanging Sign",
+    "itemForm": "cherry_hanging_sign"
+  },
+  {
+    "id": "cherry_wall_sign",
+    "name": "Cherry Wall Sign",
+    "itemForm": "cherry_sign"
+  },
+  {
+    "id": "cherry_wood",
+    "name": "Cherry Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chest",
+    "name": "Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chipped_anvil",
+    "name": "Chipped Anvil",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_bookshelf",
+    "name": "Chiseled Bookshelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_cinnabar",
+    "name": "Chiseled Cinnabar",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_copper",
+    "name": "Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_deepslate",
+    "name": "Chiseled Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_nether_bricks",
+    "name": "Chiseled Nether Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_polished_blackstone",
+    "name": "Chiseled Polished Blackstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_quartz_block",
+    "name": "Chiseled Quartz Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_red_sandstone",
+    "name": "Chiseled Red Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_resin_bricks",
+    "name": "Chiseled Resin Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_sandstone",
+    "name": "Chiseled Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_stone_bricks",
+    "name": "Chiseled Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_sulfur",
+    "name": "Chiseled Sulfur",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_tuff",
+    "name": "Chiseled Tuff",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chiseled_tuff_bricks",
+    "name": "Chiseled Tuff Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chorus_flower",
+    "name": "Chorus Flower",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "chorus_plant",
+    "name": "Chorus Plant",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar",
+    "name": "Cinnabar",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_brick_slab",
+    "name": "Cinnabar Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_brick_stairs",
+    "name": "Cinnabar Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_brick_wall",
+    "name": "Cinnabar Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_bricks",
+    "name": "Cinnabar Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_slab",
+    "name": "Cinnabar Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_stairs",
+    "name": "Cinnabar Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cinnabar_wall",
+    "name": "Cinnabar Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "closed_eyeblossom",
+    "name": "Closed Eyeblossom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "coal_block",
+    "name": "Block of Coal",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "coal_ore",
+    "name": "Coal Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "coarse_dirt",
+    "name": "Coarse Dirt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobbled_deepslate",
+    "name": "Cobbled Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobbled_deepslate_slab",
+    "name": "Cobbled Deepslate Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobbled_deepslate_stairs",
+    "name": "Cobbled Deepslate Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobbled_deepslate_wall",
+    "name": "Cobbled Deepslate Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobblestone",
+    "name": "Cobblestone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobblestone_slab",
+    "name": "Cobblestone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobblestone_stairs",
+    "name": "Cobblestone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobblestone_wall",
+    "name": "Cobblestone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cobweb",
+    "name": "Cobweb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cocoa",
+    "name": "Cocoa",
+    "itemForm": "cocoa_beans"
+  },
+  {
+    "id": "command_block",
+    "name": "Command Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "comparator",
+    "name": "Redstone Comparator",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "composter",
+    "name": "Composter",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "conduit",
+    "name": "Conduit",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_bars",
+    "name": "Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_block",
+    "name": "Block of Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_bulb",
+    "name": "Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_chain",
+    "name": "Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_chest",
+    "name": "Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_door",
+    "name": "Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_golem_statue",
+    "name": "Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_grate",
+    "name": "Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_lantern",
+    "name": "Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_ore",
+    "name": "Copper Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_torch",
+    "name": "Copper Torch",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_trapdoor",
+    "name": "Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "copper_wall_torch",
+    "name": "Copper Wall Torch",
+    "itemForm": "copper_torch"
+  },
+  {
+    "id": "cornflower",
+    "name": "Cornflower",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cracked_deepslate_bricks",
+    "name": "Cracked Deepslate Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cracked_deepslate_tiles",
+    "name": "Cracked Deepslate Tiles",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cracked_nether_bricks",
+    "name": "Cracked Nether Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cracked_polished_blackstone_bricks",
+    "name": "Cracked Polished Blackstone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cracked_stone_bricks",
+    "name": "Cracked Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crafter",
+    "name": "Crafter",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crafting_table",
+    "name": "Crafting Table",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "creaking_heart",
+    "name": "Creaking Heart",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "creeper_head",
+    "name": "Creeper Head",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "creeper_wall_head",
+    "name": "Creeper Wall Head",
+    "itemForm": "creeper_head"
+  },
+  {
+    "id": "crimson_button",
+    "name": "Crimson Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_door",
+    "name": "Crimson Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_fence",
+    "name": "Crimson Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_fence_gate",
+    "name": "Crimson Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_fungus",
+    "name": "Crimson Fungus",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_hanging_sign",
+    "name": "Crimson Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_hyphae",
+    "name": "Crimson Hyphae",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_nylium",
+    "name": "Crimson Nylium",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_planks",
+    "name": "Crimson Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_pressure_plate",
+    "name": "Crimson Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_roots",
+    "name": "Crimson Roots",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_shelf",
+    "name": "Crimson Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_sign",
+    "name": "Crimson Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_slab",
+    "name": "Crimson Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_stairs",
+    "name": "Crimson Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_stem",
+    "name": "Crimson Stem",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_trapdoor",
+    "name": "Crimson Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "crimson_wall_hanging_sign",
+    "name": "Crimson Wall Hanging Sign",
+    "itemForm": "crimson_hanging_sign"
+  },
+  {
+    "id": "crimson_wall_sign",
+    "name": "Crimson Wall Sign",
+    "itemForm": "crimson_sign"
+  },
+  {
+    "id": "crying_obsidian",
+    "name": "Crying Obsidian",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_copper",
+    "name": "Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_copper_slab",
+    "name": "Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_copper_stairs",
+    "name": "Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_red_sandstone",
+    "name": "Cut Red Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_red_sandstone_slab",
+    "name": "Cut Red Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_sandstone",
+    "name": "Cut Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cut_sandstone_slab",
+    "name": "Cut Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_banner",
+    "name": "Cyan Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_bed",
+    "name": "Cyan Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_candle",
+    "name": "Cyan Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_candle_cake",
+    "name": "Cake with Cyan Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "cyan_carpet",
+    "name": "Cyan Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_concrete",
+    "name": "Cyan Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_concrete_powder",
+    "name": "Cyan Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_glazed_terracotta",
+    "name": "Cyan Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_shulker_box",
+    "name": "Cyan Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_stained_glass",
+    "name": "Cyan Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_stained_glass_pane",
+    "name": "Cyan Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_terracotta",
+    "name": "Cyan Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_wall_banner",
+    "name": "Cyan Wall Banner",
+    "itemForm": "cyan_banner"
+  },
+  {
+    "id": "cyan_wool",
+    "name": "Cyan Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_wool_slab",
+    "name": "Cyan Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "cyan_wool_stairs",
+    "name": "Cyan Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "damaged_anvil",
+    "name": "Damaged Anvil",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_button",
+    "name": "Dark Oak Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_door",
+    "name": "Dark Oak Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_fence",
+    "name": "Dark Oak Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_fence_gate",
+    "name": "Dark Oak Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_hanging_sign",
+    "name": "Dark Oak Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_leaves",
+    "name": "Dark Oak Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_log",
+    "name": "Dark Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_planks",
+    "name": "Dark Oak Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_pressure_plate",
+    "name": "Dark Oak Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_sapling",
+    "name": "Dark Oak Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_shelf",
+    "name": "Dark Oak Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_sign",
+    "name": "Dark Oak Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_slab",
+    "name": "Dark Oak Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_stairs",
+    "name": "Dark Oak Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_trapdoor",
+    "name": "Dark Oak Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_oak_wall_hanging_sign",
+    "name": "Dark Oak Wall Hanging Sign",
+    "itemForm": "dark_oak_hanging_sign"
+  },
+  {
+    "id": "dark_oak_wall_sign",
+    "name": "Dark Oak Wall Sign",
+    "itemForm": "dark_oak_sign"
+  },
+  {
+    "id": "dark_oak_wood",
+    "name": "Dark Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_prismarine",
+    "name": "Dark Prismarine",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_prismarine_slab",
+    "name": "Dark Prismarine Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dark_prismarine_stairs",
+    "name": "Dark Prismarine Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "daylight_detector",
+    "name": "Daylight Detector",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_brain_coral",
+    "name": "Dead Brain Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_brain_coral_block",
+    "name": "Dead Brain Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_brain_coral_fan",
+    "name": "Dead Brain Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_brain_coral_wall_fan",
+    "name": "Dead Brain Coral Wall Fan",
+    "itemForm": "dead_brain_coral_fan"
+  },
+  {
+    "id": "dead_bubble_coral",
+    "name": "Dead Bubble Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_bubble_coral_block",
+    "name": "Dead Bubble Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_bubble_coral_fan",
+    "name": "Dead Bubble Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_bubble_coral_wall_fan",
+    "name": "Dead Bubble Coral Wall Fan",
+    "itemForm": "dead_bubble_coral_fan"
+  },
+  {
+    "id": "dead_bush",
+    "name": "Dead Bush",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_fire_coral",
+    "name": "Dead Fire Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_fire_coral_block",
+    "name": "Dead Fire Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_fire_coral_fan",
+    "name": "Dead Fire Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_fire_coral_wall_fan",
+    "name": "Dead Fire Coral Wall Fan",
+    "itemForm": "dead_fire_coral_fan"
+  },
+  {
+    "id": "dead_horn_coral",
+    "name": "Dead Horn Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_horn_coral_block",
+    "name": "Dead Horn Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_horn_coral_fan",
+    "name": "Dead Horn Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_horn_coral_wall_fan",
+    "name": "Dead Horn Coral Wall Fan",
+    "itemForm": "dead_horn_coral_fan"
+  },
+  {
+    "id": "dead_tube_coral",
+    "name": "Dead Tube Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_tube_coral_block",
+    "name": "Dead Tube Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_tube_coral_fan",
+    "name": "Dead Tube Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dead_tube_coral_wall_fan",
+    "name": "Dead Tube Coral Wall Fan",
+    "itemForm": "dead_tube_coral_fan"
+  },
+  {
+    "id": "decorated_pot",
+    "name": "Decorated Pot",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate",
+    "name": "Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_brick_slab",
+    "name": "Deepslate Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_brick_stairs",
+    "name": "Deepslate Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_brick_wall",
+    "name": "Deepslate Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_bricks",
+    "name": "Deepslate Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_coal_ore",
+    "name": "Deepslate Coal Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_copper_ore",
+    "name": "Deepslate Copper Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_diamond_ore",
+    "name": "Deepslate Diamond Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_emerald_ore",
+    "name": "Deepslate Emerald Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_gold_ore",
+    "name": "Deepslate Gold Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_iron_ore",
+    "name": "Deepslate Iron Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_lapis_ore",
+    "name": "Deepslate Lapis Lazuli Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_redstone_ore",
+    "name": "Deepslate Redstone Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_tile_slab",
+    "name": "Deepslate Tile Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_tile_stairs",
+    "name": "Deepslate Tile Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_tile_wall",
+    "name": "Deepslate Tile Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "deepslate_tiles",
+    "name": "Deepslate Tiles",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "detector_rail",
+    "name": "Detector Rail",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diamond_block",
+    "name": "Block of Diamond",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diamond_ore",
+    "name": "Diamond Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diorite",
+    "name": "Diorite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diorite_slab",
+    "name": "Diorite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diorite_stairs",
+    "name": "Diorite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "diorite_wall",
+    "name": "Diorite Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dirt",
+    "name": "Dirt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dirt_path",
+    "name": "Dirt Path",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dispenser",
+    "name": "Dispenser",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dragon_egg",
+    "name": "Dragon Egg",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dragon_head",
+    "name": "Dragon Head",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dragon_wall_head",
+    "name": "Dragon Wall Head",
+    "itemForm": "dragon_head"
+  },
+  {
+    "id": "dried_ghast",
+    "name": "Dried Ghast",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dried_kelp_block",
+    "name": "Dried Kelp Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dripstone_block",
+    "name": "Dripstone Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "dropper",
+    "name": "Dropper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "emerald_block",
+    "name": "Block of Emerald",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "emerald_ore",
+    "name": "Emerald Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "enchanting_table",
+    "name": "Enchanting Table",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_gateway",
+    "name": "End Gateway",
+    "itemForm": "None"
+  },
+  {
+    "id": "end_portal",
+    "name": "End Portal",
+    "itemForm": "None"
+  },
+  {
+    "id": "end_portal_frame",
+    "name": "End Portal Frame",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_rod",
+    "name": "End Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_stone",
+    "name": "End Stone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_stone_brick_slab",
+    "name": "End Stone Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_stone_brick_stairs",
+    "name": "End Stone Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_stone_brick_wall",
+    "name": "End Stone Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "end_stone_bricks",
+    "name": "End Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "ender_chest",
+    "name": "Ender Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_chiseled_copper",
+    "name": "Exposed Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper",
+    "name": "Exposed Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_bars",
+    "name": "Exposed Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_bulb",
+    "name": "Exposed Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_chain",
+    "name": "Exposed Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_chest",
+    "name": "Exposed Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_door",
+    "name": "Exposed Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_golem_statue",
+    "name": "Exposed Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_grate",
+    "name": "Exposed Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_lantern",
+    "name": "Exposed Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_copper_trapdoor",
+    "name": "Exposed Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_cut_copper",
+    "name": "Exposed Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_cut_copper_slab",
+    "name": "Exposed Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_cut_copper_stairs",
+    "name": "Exposed Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "exposed_lightning_rod",
+    "name": "Exposed Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "farmland",
+    "name": "Farmland",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fire",
+    "name": "Fire",
+    "itemForm": "None"
+  },
+  {
+    "id": "fire_coral",
+    "name": "Fire Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fire_coral_block",
+    "name": "Fire Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fire_coral_fan",
+    "name": "Fire Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fire_coral_wall_fan",
+    "name": "Fire Coral Wall Fan",
+    "itemForm": "fire_coral_fan"
+  },
+  {
+    "id": "firefly_bush",
+    "name": "Firefly Bush",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "fletching_table",
+    "name": "Fletching Table",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "flower_pot",
+    "name": "Flower Pot",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "flowering_azalea",
+    "name": "Flowering Azalea",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "flowering_azalea_leaves",
+    "name": "Flowering Azalea Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "frogspawn",
+    "name": "Frogspawn",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "frosted_ice",
+    "name": "Frosted Ice",
+    "itemForm": "None"
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gilded_blackstone",
+    "name": "Gilded Blackstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "glass",
+    "name": "Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "glass_pane",
+    "name": "Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "glow_lichen",
+    "name": "Glow Lichen",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "glowstone",
+    "name": "Glowstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gold_block",
+    "name": "Block of Gold",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gold_ore",
+    "name": "Gold Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "golden_dandelion",
+    "name": "Golden Dandelion",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "granite",
+    "name": "Granite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "granite_slab",
+    "name": "Granite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "granite_stairs",
+    "name": "Granite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "granite_wall",
+    "name": "Granite Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "grass_block",
+    "name": "Grass Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gravel",
+    "name": "Gravel",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_banner",
+    "name": "Gray Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_bed",
+    "name": "Gray Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_candle",
+    "name": "Gray Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_candle_cake",
+    "name": "Cake with Gray Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "gray_carpet",
+    "name": "Gray Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_concrete",
+    "name": "Gray Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_concrete_powder",
+    "name": "Gray Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_glazed_terracotta",
+    "name": "Gray Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_shulker_box",
+    "name": "Gray Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_stained_glass",
+    "name": "Gray Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_stained_glass_pane",
+    "name": "Gray Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_terracotta",
+    "name": "Gray Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_wall_banner",
+    "name": "Gray Wall Banner",
+    "itemForm": "gray_banner"
+  },
+  {
+    "id": "gray_wool",
+    "name": "Gray Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_wool_slab",
+    "name": "Gray Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "gray_wool_stairs",
+    "name": "Gray Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_banner",
+    "name": "Green Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_bed",
+    "name": "Green Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_candle",
+    "name": "Green Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_candle_cake",
+    "name": "Cake with Green Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "green_carpet",
+    "name": "Green Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_concrete",
+    "name": "Green Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_concrete_powder",
+    "name": "Green Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_glazed_terracotta",
+    "name": "Green Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_shulker_box",
+    "name": "Green Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_stained_glass",
+    "name": "Green Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_stained_glass_pane",
+    "name": "Green Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_terracotta",
+    "name": "Green Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_wall_banner",
+    "name": "Green Wall Banner",
+    "itemForm": "green_banner"
+  },
+  {
+    "id": "green_wool",
+    "name": "Green Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_wool_slab",
+    "name": "Green Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "green_wool_stairs",
+    "name": "Green Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "grindstone",
+    "name": "Grindstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "hanging_roots",
+    "name": "Hanging Roots",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "hay_block",
+    "name": "Hay Bale",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "heavy_core",
+    "name": "Heavy Core",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "heavy_weighted_pressure_plate",
+    "name": "Heavy Weighted Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "honey_block",
+    "name": "Honey Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "honeycomb_block",
+    "name": "Honeycomb Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "hopper",
+    "name": "Hopper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "horn_coral",
+    "name": "Horn Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "horn_coral_block",
+    "name": "Horn Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "horn_coral_fan",
+    "name": "Horn Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "horn_coral_wall_fan",
+    "name": "Horn Coral Wall Fan",
+    "itemForm": "horn_coral_fan"
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_chiseled_stone_bricks",
+    "name": "Infested Chiseled Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_cobblestone",
+    "name": "Infested Cobblestone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_cracked_stone_bricks",
+    "name": "Infested Cracked Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_deepslate",
+    "name": "Infested Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_mossy_stone_bricks",
+    "name": "Infested Mossy Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_stone",
+    "name": "Infested Stone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "infested_stone_bricks",
+    "name": "Infested Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_bars",
+    "name": "Iron Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_block",
+    "name": "Block of Iron",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_chain",
+    "name": "Iron Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_door",
+    "name": "Iron Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_ore",
+    "name": "Iron Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "iron_trapdoor",
+    "name": "Iron Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jack_o_lantern",
+    "name": "Jack o'Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jigsaw",
+    "name": "Jigsaw Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jukebox",
+    "name": "Jukebox",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_button",
+    "name": "Jungle Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_door",
+    "name": "Jungle Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_fence",
+    "name": "Jungle Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_fence_gate",
+    "name": "Jungle Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_hanging_sign",
+    "name": "Jungle Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_leaves",
+    "name": "Jungle Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_log",
+    "name": "Jungle Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_planks",
+    "name": "Jungle Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_pressure_plate",
+    "name": "Jungle Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_sapling",
+    "name": "Jungle Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_shelf",
+    "name": "Jungle Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_sign",
+    "name": "Jungle Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_slab",
+    "name": "Jungle Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_stairs",
+    "name": "Jungle Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_trapdoor",
+    "name": "Jungle Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "jungle_wall_hanging_sign",
+    "name": "Jungle Wall Hanging Sign",
+    "itemForm": "jungle_hanging_sign"
+  },
+  {
+    "id": "jungle_wall_sign",
+    "name": "Jungle Wall Sign",
+    "itemForm": "jungle_sign"
+  },
+  {
+    "id": "jungle_wood",
+    "name": "Jungle Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "kelp",
+    "name": "Kelp",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "kelp_plant",
+    "name": "Kelp Plant",
+    "itemForm": "kelp"
+  },
+  {
+    "id": "ladder",
+    "name": "Ladder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lantern",
+    "name": "Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lapis_block",
+    "name": "Block of Lapis Lazuli",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lapis_ore",
+    "name": "Lapis Lazuli Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "large_amethyst_bud",
+    "name": "Large Amethyst Bud",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "large_fern",
+    "name": "Large Fern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lava",
+    "name": "Lava",
+    "itemForm": "None"
+  },
+  {
+    "id": "lava_cauldron",
+    "name": "Lava Cauldron",
+    "itemForm": "cauldron"
+  },
+  {
+    "id": "leaf_litter",
+    "name": "Leaf Litter",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lectern",
+    "name": "Lectern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lever",
+    "name": "Lever",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_banner",
+    "name": "Light Blue Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_bed",
+    "name": "Light Blue Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_candle",
+    "name": "Light Blue Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_candle_cake",
+    "name": "Cake with Light Blue Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "light_blue_carpet",
+    "name": "Light Blue Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_concrete",
+    "name": "Light Blue Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_concrete_powder",
+    "name": "Light Blue Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_glazed_terracotta",
+    "name": "Light Blue Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_shulker_box",
+    "name": "Light Blue Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_stained_glass",
+    "name": "Light Blue Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_stained_glass_pane",
+    "name": "Light Blue Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_terracotta",
+    "name": "Light Blue Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_wall_banner",
+    "name": "Light Blue Wall Banner",
+    "itemForm": "light_blue_banner"
+  },
+  {
+    "id": "light_blue_wool",
+    "name": "Light Blue Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_wool_slab",
+    "name": "Light Blue Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_blue_wool_stairs",
+    "name": "Light Blue Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_banner",
+    "name": "Light Gray Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_bed",
+    "name": "Light Gray Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_candle",
+    "name": "Light Gray Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_candle_cake",
+    "name": "Cake with Light Gray Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "light_gray_carpet",
+    "name": "Light Gray Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_concrete",
+    "name": "Light Gray Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_concrete_powder",
+    "name": "Light Gray Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_glazed_terracotta",
+    "name": "Light Gray Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_shulker_box",
+    "name": "Light Gray Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_stained_glass",
+    "name": "Light Gray Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_stained_glass_pane",
+    "name": "Light Gray Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_terracotta",
+    "name": "Light Gray Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_wall_banner",
+    "name": "Light Gray Wall Banner",
+    "itemForm": "light_gray_banner"
+  },
+  {
+    "id": "light_gray_wool",
+    "name": "Light Gray Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_wool_slab",
+    "name": "Light Gray Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_gray_wool_stairs",
+    "name": "Light Gray Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "light_weighted_pressure_plate",
+    "name": "Light Weighted Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lightning_rod",
+    "name": "Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lilac",
+    "name": "Lilac",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lily_of_the_valley",
+    "name": "Lily of the Valley",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lily_pad",
+    "name": "Lily Pad",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_banner",
+    "name": "Lime Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_bed",
+    "name": "Lime Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_candle",
+    "name": "Lime Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_candle_cake",
+    "name": "Cake with Lime Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "lime_carpet",
+    "name": "Lime Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_concrete",
+    "name": "Lime Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_concrete_powder",
+    "name": "Lime Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_glazed_terracotta",
+    "name": "Lime Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_shulker_box",
+    "name": "Lime Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_stained_glass",
+    "name": "Lime Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_stained_glass_pane",
+    "name": "Lime Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_terracotta",
+    "name": "Lime Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_wall_banner",
+    "name": "Lime Wall Banner",
+    "itemForm": "lime_banner"
+  },
+  {
+    "id": "lime_wool",
+    "name": "Lime Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_wool_slab",
+    "name": "Lime Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lime_wool_stairs",
+    "name": "Lime Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "lodestone",
+    "name": "Lodestone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_banner",
+    "name": "Magenta Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_bed",
+    "name": "Magenta Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_candle",
+    "name": "Magenta Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_candle_cake",
+    "name": "Cake with Magenta Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "magenta_carpet",
+    "name": "Magenta Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_concrete",
+    "name": "Magenta Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_concrete_powder",
+    "name": "Magenta Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_glazed_terracotta",
+    "name": "Magenta Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_shulker_box",
+    "name": "Magenta Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_stained_glass",
+    "name": "Magenta Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_stained_glass_pane",
+    "name": "Magenta Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_terracotta",
+    "name": "Magenta Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_wall_banner",
+    "name": "Magenta Wall Banner",
+    "itemForm": "magenta_banner"
+  },
+  {
+    "id": "magenta_wool",
+    "name": "Magenta Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_wool_slab",
+    "name": "Magenta Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magenta_wool_stairs",
+    "name": "Magenta Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "magma_block",
+    "name": "Magma Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_button",
+    "name": "Mangrove Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_door",
+    "name": "Mangrove Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_fence",
+    "name": "Mangrove Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_fence_gate",
+    "name": "Mangrove Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_hanging_sign",
+    "name": "Mangrove Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_leaves",
+    "name": "Mangrove Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_log",
+    "name": "Mangrove Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_planks",
+    "name": "Mangrove Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_pressure_plate",
+    "name": "Mangrove Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_propagule",
+    "name": "Mangrove Propagule",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_roots",
+    "name": "Mangrove Roots",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_shelf",
+    "name": "Mangrove Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_sign",
+    "name": "Mangrove Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_slab",
+    "name": "Mangrove Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_stairs",
+    "name": "Mangrove Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_trapdoor",
+    "name": "Mangrove Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mangrove_wall_hanging_sign",
+    "name": "Mangrove Wall Hanging Sign",
+    "itemForm": "mangrove_hanging_sign"
+  },
+  {
+    "id": "mangrove_wall_sign",
+    "name": "Mangrove Wall Sign",
+    "itemForm": "mangrove_sign"
+  },
+  {
+    "id": "mangrove_wood",
+    "name": "Mangrove Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "medium_amethyst_bud",
+    "name": "Medium Amethyst Bud",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "melon_stem",
+    "name": "Melon Stem",
+    "itemForm": "melon_seeds"
+  },
+  {
+    "id": "moss_block",
+    "name": "Moss Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "moss_carpet",
+    "name": "Moss Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_cobblestone",
+    "name": "Mossy Cobblestone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_cobblestone_slab",
+    "name": "Mossy Cobblestone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_cobblestone_stairs",
+    "name": "Mossy Cobblestone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_cobblestone_wall",
+    "name": "Mossy Cobblestone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_stone_brick_slab",
+    "name": "Mossy Stone Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_stone_brick_stairs",
+    "name": "Mossy Stone Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_stone_brick_wall",
+    "name": "Mossy Stone Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mossy_stone_bricks",
+    "name": "Mossy Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "moving_piston",
+    "name": "Moving Piston",
+    "itemForm": "None"
+  },
+  {
+    "id": "mud",
+    "name": "Mud",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mud_brick_slab",
+    "name": "Mud Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mud_brick_stairs",
+    "name": "Mud Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mud_brick_wall",
+    "name": "Mud Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mud_bricks",
+    "name": "Mud Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "muddy_mangrove_roots",
+    "name": "Muddy Mangrove Roots",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mushroom_stem",
+    "name": "Mushroom Stem",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "mycelium",
+    "name": "Mycelium",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_brick_fence",
+    "name": "Nether Brick Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_brick_slab",
+    "name": "Nether Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_brick_stairs",
+    "name": "Nether Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_brick_wall",
+    "name": "Nether Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_bricks",
+    "name": "Nether Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_gold_ore",
+    "name": "Nether Gold Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_portal",
+    "name": "Nether Portal",
+    "itemForm": "None"
+  },
+  {
+    "id": "nether_quartz_ore",
+    "name": "Nether Quartz Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_sprouts",
+    "name": "Nether Sprouts",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_wart",
+    "name": "Nether Wart",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "nether_wart_block",
+    "name": "Nether Wart Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "netherite_block",
+    "name": "Block of Netherite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "netherrack",
+    "name": "Netherrack",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "note_block",
+    "name": "Note Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_button",
+    "name": "Oak Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_door",
+    "name": "Oak Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_fence",
+    "name": "Oak Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_fence_gate",
+    "name": "Oak Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_hanging_sign",
+    "name": "Oak Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_leaves",
+    "name": "Oak Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_log",
+    "name": "Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_planks",
+    "name": "Oak Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_pressure_plate",
+    "name": "Oak Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_sapling",
+    "name": "Oak Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_shelf",
+    "name": "Oak Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_sign",
+    "name": "Oak Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_slab",
+    "name": "Oak Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_stairs",
+    "name": "Oak Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_trapdoor",
+    "name": "Oak Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oak_wall_hanging_sign",
+    "name": "Oak Wall Hanging Sign",
+    "itemForm": "oak_hanging_sign"
+  },
+  {
+    "id": "oak_wall_sign",
+    "name": "Oak Wall Sign",
+    "itemForm": "oak_sign"
+  },
+  {
+    "id": "oak_wood",
+    "name": "Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "observer",
+    "name": "Observer",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "ochre_froglight",
+    "name": "Ochre Froglight",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "open_eyeblossom",
+    "name": "Open Eyeblossom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_banner",
+    "name": "Orange Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_bed",
+    "name": "Orange Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_candle",
+    "name": "Orange Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_candle_cake",
+    "name": "Cake with Orange Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "orange_carpet",
+    "name": "Orange Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_concrete",
+    "name": "Orange Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_concrete_powder",
+    "name": "Orange Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_glazed_terracotta",
+    "name": "Orange Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_poplar_leaves",
+    "name": "Orange Poplar Leaves​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_shulker_box",
+    "name": "Orange Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_stained_glass",
+    "name": "Orange Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_stained_glass_pane",
+    "name": "Orange Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_terracotta",
+    "name": "Orange Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_tulip",
+    "name": "Orange Tulip",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_wall_banner",
+    "name": "Orange Wall Banner",
+    "itemForm": "orange_banner"
+  },
+  {
+    "id": "orange_wool",
+    "name": "Orange Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_wool_slab",
+    "name": "Orange Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "orange_wool_stairs",
+    "name": "Orange Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxeye_daisy",
+    "name": "Oxeye Daisy",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_chiseled_copper",
+    "name": "Oxidized Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper",
+    "name": "Oxidized Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_bars",
+    "name": "Oxidized Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_bulb",
+    "name": "Oxidized Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_chain",
+    "name": "Oxidized Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_chest",
+    "name": "Oxidized Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_door",
+    "name": "Oxidized Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_golem_statue",
+    "name": "Oxidized Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_grate",
+    "name": "Oxidized Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_lantern",
+    "name": "Oxidized Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_copper_trapdoor",
+    "name": "Oxidized Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_cut_copper",
+    "name": "Oxidized Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_cut_copper_slab",
+    "name": "Oxidized Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_cut_copper_stairs",
+    "name": "Oxidized Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "oxidized_lightning_rod",
+    "name": "Oxidized Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "packed_ice",
+    "name": "Packed Ice",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "packed_mud",
+    "name": "Packed Mud",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_hanging_moss",
+    "name": "Pale Hanging Moss",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_moss_block",
+    "name": "Pale Moss Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_moss_carpet",
+    "name": "Pale Moss Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_button",
+    "name": "Pale Oak Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_door",
+    "name": "Pale Oak Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_fence",
+    "name": "Pale Oak Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_fence_gate",
+    "name": "Pale Oak Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_hanging_sign",
+    "name": "Pale Oak Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_leaves",
+    "name": "Pale Oak Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_log",
+    "name": "Pale Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_planks",
+    "name": "Pale Oak Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_pressure_plate",
+    "name": "Pale Oak Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_sapling",
+    "name": "Pale Oak Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_shelf",
+    "name": "Pale Oak Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_sign",
+    "name": "Pale Oak Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_slab",
+    "name": "Pale Oak Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_stairs",
+    "name": "Pale Oak Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_trapdoor",
+    "name": "Pale Oak Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pale_oak_wall_hanging_sign",
+    "name": "Pale Oak Wall Hanging Sign",
+    "itemForm": "pale_oak_hanging_sign"
+  },
+  {
+    "id": "pale_oak_wall_sign",
+    "name": "Pale Oak Wall Sign",
+    "itemForm": "pale_oak_sign"
+  },
+  {
+    "id": "pale_oak_wood",
+    "name": "Pale Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pearlescent_froglight",
+    "name": "Pearlescent Froglight",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "peony",
+    "name": "Peony",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "petrified_oak_slab",
+    "name": "Petrified Oak Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "piglin_head",
+    "name": "Piglin Head",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "piglin_wall_head",
+    "name": "Piglin Wall Head",
+    "itemForm": "piglin_head"
+  },
+  {
+    "id": "pink_banner",
+    "name": "Pink Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_bed",
+    "name": "Pink Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_candle",
+    "name": "Pink Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_candle_cake",
+    "name": "Cake with Pink Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "pink_carpet",
+    "name": "Pink Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_concrete",
+    "name": "Pink Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_concrete_powder",
+    "name": "Pink Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_glazed_terracotta",
+    "name": "Pink Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_petals",
+    "name": "Pink Petals",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_shulker_box",
+    "name": "Pink Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_stained_glass",
+    "name": "Pink Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_stained_glass_pane",
+    "name": "Pink Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_terracotta",
+    "name": "Pink Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_tulip",
+    "name": "Pink Tulip",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_wall_banner",
+    "name": "Pink Wall Banner",
+    "itemForm": "pink_banner"
+  },
+  {
+    "id": "pink_wool",
+    "name": "Pink Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_wool_slab",
+    "name": "Pink Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pink_wool_stairs",
+    "name": "Pink Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "piston",
+    "name": "Piston",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "piston_head",
+    "name": "Piston Head",
+    "itemForm": "None"
+  },
+  {
+    "id": "pitcher_crop",
+    "name": "Pitcher Crop",
+    "itemForm": "pitcher_pod"
+  },
+  {
+    "id": "pitcher_plant",
+    "name": "Pitcher Plant",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "player_head",
+    "name": "Player Head",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "player_wall_head",
+    "name": "Player Wall Head",
+    "itemForm": "player_head"
+  },
+  {
+    "id": "podzol",
+    "name": "Podzol",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pointed_dripstone",
+    "name": "Pointed Dripstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_andesite",
+    "name": "Polished Andesite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_andesite_slab",
+    "name": "Polished Andesite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_andesite_stairs",
+    "name": "Polished Andesite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_basalt",
+    "name": "Polished Basalt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone",
+    "name": "Polished Blackstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_brick_slab",
+    "name": "Polished Blackstone Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_brick_stairs",
+    "name": "Polished Blackstone Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_brick_wall",
+    "name": "Polished Blackstone Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_bricks",
+    "name": "Polished Blackstone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_button",
+    "name": "Polished Blackstone Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_pressure_plate",
+    "name": "Polished Blackstone Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_slab",
+    "name": "Polished Blackstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_stairs",
+    "name": "Polished Blackstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_blackstone_wall",
+    "name": "Polished Blackstone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_cinnabar",
+    "name": "Polished Cinnabar",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_cinnabar_slab",
+    "name": "Polished Cinnabar Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_cinnabar_stairs",
+    "name": "Polished Cinnabar Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_cinnabar_wall",
+    "name": "Polished Cinnabar Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_deepslate",
+    "name": "Polished Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_deepslate_slab",
+    "name": "Polished Deepslate Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_deepslate_stairs",
+    "name": "Polished Deepslate Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_deepslate_wall",
+    "name": "Polished Deepslate Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_diorite",
+    "name": "Polished Diorite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_diorite_slab",
+    "name": "Polished Diorite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_diorite_stairs",
+    "name": "Polished Diorite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_granite",
+    "name": "Polished Granite",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_granite_slab",
+    "name": "Polished Granite Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_granite_stairs",
+    "name": "Polished Granite Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_sulfur",
+    "name": "Polished Sulfur",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_sulfur_slab",
+    "name": "Polished Sulfur Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_sulfur_stairs",
+    "name": "Polished Sulfur Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_sulfur_wall",
+    "name": "Polished Sulfur Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_tuff",
+    "name": "Polished Tuff",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_tuff_slab",
+    "name": "Polished Tuff Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_tuff_stairs",
+    "name": "Polished Tuff Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "polished_tuff_wall",
+    "name": "Polished Tuff Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_button",
+    "name": "Poplar Button​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_door",
+    "name": "Poplar Door​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_fence",
+    "name": "Poplar Fence​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_fence_gate",
+    "name": "Poplar Fence Gate​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_hanging_sign",
+    "name": "Poplar Hanging Sign​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_log",
+    "name": "Poplar Log​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_planks",
+    "name": "Poplar Planks​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_pressure_plate",
+    "name": "Poplar Pressure Plate​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_sapling",
+    "name": "Poplar Sapling​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_shelf",
+    "name": "Poplar Shelf​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_sign",
+    "name": "Poplar Sign​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_slab",
+    "name": "Poplar Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_stairs",
+    "name": "Poplar Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_trapdoor",
+    "name": "Poplar Trapdoor​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poplar_wall_hanging_sign",
+    "name": "Poplar Wall Hanging Sign​[upcoming: JE 26.3]",
+    "itemForm": "poplar_hanging_sign"
+  },
+  {
+    "id": "poplar_wall_sign",
+    "name": "Poplar Wall Sign​[upcoming: JE 26.3]",
+    "itemForm": "poplar_sign"
+  },
+  {
+    "id": "poplar_wood",
+    "name": "Poplar Wood​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "poppy",
+    "name": "Poppy",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "potatoes",
+    "name": "Potatoes",
+    "itemForm": "potato"
+  },
+  {
+    "id": "potent_sulfur",
+    "name": "Potent Sulfur",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "potted_acacia_sapling",
+    "name": "Potted Acacia Sapling",
+    "itemForm": "acacia_sapling"
+  },
+  {
+    "id": "potted_allium",
+    "name": "Potted Allium",
+    "itemForm": "allium"
+  },
+  {
+    "id": "potted_azalea_bush",
+    "name": "Potted Azalea",
+    "itemForm": "azalea"
+  },
+  {
+    "id": "potted_azure_bluet",
+    "name": "Potted Azure Bluet",
+    "itemForm": "azure_bluet"
+  },
+  {
+    "id": "potted_bamboo",
+    "name": "Potted Bamboo",
+    "itemForm": "bamboo"
+  },
+  {
+    "id": "potted_birch_sapling",
+    "name": "Potted Birch Sapling",
+    "itemForm": "birch_sapling"
+  },
+  {
+    "id": "potted_blue_orchid",
+    "name": "Potted Blue Orchid",
+    "itemForm": "blue_orchid"
+  },
+  {
+    "id": "potted_brown_mushroom",
+    "name": "Potted Brown Mushroom",
+    "itemForm": "brown_mushroom"
+  },
+  {
+    "id": "potted_cactus",
+    "name": "Potted Cactus",
+    "itemForm": "cactus"
+  },
+  {
+    "id": "potted_cherry_sapling",
+    "name": "Potted Cherry Sapling",
+    "itemForm": "cherry_sapling"
+  },
+  {
+    "id": "potted_closed_eyeblossom",
+    "name": "Potted Closed Eyeblossom",
+    "itemForm": "closed_eyeblossom"
+  },
+  {
+    "id": "potted_cornflower",
+    "name": "Potted Cornflower",
+    "itemForm": "cornflower"
+  },
+  {
+    "id": "potted_crimson_fungus",
+    "name": "Potted Crimson Fungus",
+    "itemForm": "crimson_fungus"
+  },
+  {
+    "id": "potted_crimson_roots",
+    "name": "Potted Crimson Roots",
+    "itemForm": "crimson_roots"
+  },
+  {
+    "id": "potted_dandelion",
+    "name": "Potted Dandelion",
+    "itemForm": "dandelion"
+  },
+  {
+    "id": "potted_dark_oak_sapling",
+    "name": "Potted Dark Oak Sapling",
+    "itemForm": "dark_oak_sapling"
+  },
+  {
+    "id": "potted_dead_bush",
+    "name": "Potted Dead Bush",
+    "itemForm": "dead_bush"
+  },
+  {
+    "id": "potted_fern",
+    "name": "Potted Fern",
+    "itemForm": "fern"
+  },
+  {
+    "id": "potted_flowering_azalea_bush",
+    "name": "Potted Flowering Azalea",
+    "itemForm": "flowering_azalea"
+  },
+  {
+    "id": "potted_golden_dandelion",
+    "name": "Potted Golden Dandelion",
+    "itemForm": "golden_dandelion"
+  },
+  {
+    "id": "potted_jungle_sapling",
+    "name": "Potted Jungle Sapling",
+    "itemForm": "jungle_sapling"
+  },
+  {
+    "id": "potted_lily_of_the_valley",
+    "name": "Potted Lily of the Valley",
+    "itemForm": "lily_of_the_valley"
+  },
+  {
+    "id": "potted_mangrove_propagule",
+    "name": "Potted Mangrove Propagule",
+    "itemForm": "mangrove_propagule"
+  },
+  {
+    "id": "potted_oak_sapling",
+    "name": "Potted Oak Sapling",
+    "itemForm": "oak_sapling"
+  },
+  {
+    "id": "potted_open_eyeblossom",
+    "name": "Potted Open Eyeblossom",
+    "itemForm": "open_eyeblossom"
+  },
+  {
+    "id": "potted_orange_tulip",
+    "name": "Potted Orange Tulip",
+    "itemForm": "orange_tulip"
+  },
+  {
+    "id": "potted_oxeye_daisy",
+    "name": "Potted Oxeye Daisy",
+    "itemForm": "oxeye_daisy"
+  },
+  {
+    "id": "potted_pale_oak_sapling",
+    "name": "Potted Pale Oak Sapling",
+    "itemForm": "pale_oak_sapling"
+  },
+  {
+    "id": "potted_pink_tulip",
+    "name": "Potted Pink Tulip",
+    "itemForm": "pink_tulip"
+  },
+  {
+    "id": "potted_poppy",
+    "name": "Potted Poppy",
+    "itemForm": "poppy"
+  },
+  {
+    "id": "potted_poplar_sapling",
+    "name": "Potted Poplar Sapling​[upcoming: JE 26.3]",
+    "itemForm": "poplar_sapling"
+  },
+  {
+    "id": "potted_red_mushroom",
+    "name": "Potted Red Mushroom",
+    "itemForm": "red_mushroom"
+  },
+  {
+    "id": "potted_red_tulip",
+    "name": "Potted Red Tulip",
+    "itemForm": "red_tulip"
+  },
+  {
+    "id": "potted_spruce_sapling",
+    "name": "Potted Spruce Sapling",
+    "itemForm": "spruce_sapling"
+  },
+  {
+    "id": "potted_torchflower",
+    "name": "Potted Torchflower",
+    "itemForm": "torchflower"
+  },
+  {
+    "id": "potted_warped_fungus",
+    "name": "Potted Warped Fungus",
+    "itemForm": "warped_fungus"
+  },
+  {
+    "id": "potted_warped_roots",
+    "name": "Potted Warped Roots",
+    "itemForm": "warped_roots"
+  },
+  {
+    "id": "potted_white_tulip",
+    "name": "Potted White Tulip",
+    "itemForm": "white_tulip"
+  },
+  {
+    "id": "potted_wither_rose",
+    "name": "Potted Wither Rose",
+    "itemForm": "wither_rose"
+  },
+  {
+    "id": "powder_snow",
+    "name": "Powder Snow",
+    "itemForm": "powder_snow_bucket"
+  },
+  {
+    "id": "powder_snow_cauldron",
+    "name": "Powder Snow Cauldron",
+    "itemForm": "cauldron"
+  },
+  {
+    "id": "powered_rail",
+    "name": "Powered Rail",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine",
+    "name": "Prismarine",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_brick_slab",
+    "name": "Prismarine Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_brick_stairs",
+    "name": "Prismarine Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_bricks",
+    "name": "Prismarine Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_slab",
+    "name": "Prismarine Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_stairs",
+    "name": "Prismarine Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "prismarine_wall",
+    "name": "Prismarine Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "pumpkin_stem",
+    "name": "Pumpkin Stem",
+    "itemForm": "pumpkin_seeds"
+  },
+  {
+    "id": "purple_banner",
+    "name": "Purple Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_bed",
+    "name": "Purple Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_candle",
+    "name": "Purple Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_candle_cake",
+    "name": "Cake with Purple Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "purple_carpet",
+    "name": "Purple Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_concrete",
+    "name": "Purple Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_concrete_powder",
+    "name": "Purple Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_glazed_terracotta",
+    "name": "Purple Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_shulker_box",
+    "name": "Purple Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_stained_glass",
+    "name": "Purple Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_stained_glass_pane",
+    "name": "Purple Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_terracotta",
+    "name": "Purple Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_wall_banner",
+    "name": "Purple Wall Banner",
+    "itemForm": "purple_banner"
+  },
+  {
+    "id": "purple_wool",
+    "name": "Purple Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_wool_slab",
+    "name": "Purple Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purple_wool_stairs",
+    "name": "Purple Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purpur_block",
+    "name": "Purpur Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purpur_pillar",
+    "name": "Purpur Pillar",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purpur_slab",
+    "name": "Purpur Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "purpur_stairs",
+    "name": "Purpur Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "quartz_block",
+    "name": "Block of Quartz",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "quartz_bricks",
+    "name": "Quartz Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "quartz_pillar",
+    "name": "Quartz Pillar",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "quartz_slab",
+    "name": "Quartz Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "quartz_stairs",
+    "name": "Quartz Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "rail",
+    "name": "Rail",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "raw_copper_block",
+    "name": "Block of Raw Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "raw_gold_block",
+    "name": "Block of Raw Gold",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "raw_iron_block",
+    "name": "Block of Raw Iron",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_banner",
+    "name": "Red Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_bed",
+    "name": "Red Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_candle",
+    "name": "Red Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_candle_cake",
+    "name": "Cake with Red Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "red_carpet",
+    "name": "Red Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_concrete",
+    "name": "Red Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_concrete_powder",
+    "name": "Red Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_glazed_terracotta",
+    "name": "Red Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_mushroom",
+    "name": "Red Mushroom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_mushroom_block",
+    "name": "Red Mushroom Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_nether_brick_slab",
+    "name": "Red Nether Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_nether_brick_stairs",
+    "name": "Red Nether Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_nether_brick_wall",
+    "name": "Red Nether Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_nether_bricks",
+    "name": "Red Nether Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_poplar_leaves",
+    "name": "Red Poplar Leaves​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_sand",
+    "name": "Red Sand",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_sandstone",
+    "name": "Red Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_sandstone_slab",
+    "name": "Red Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_sandstone_stairs",
+    "name": "Red Sandstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_sandstone_wall",
+    "name": "Red Sandstone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_shrub",
+    "name": "Red Shrub​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_shulker_box",
+    "name": "Red Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_stained_glass",
+    "name": "Red Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_stained_glass_pane",
+    "name": "Red Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_terracotta",
+    "name": "Red Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_tulip",
+    "name": "Red Tulip",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_wall_banner",
+    "name": "Red Wall Banner",
+    "itemForm": "red_banner"
+  },
+  {
+    "id": "red_wool",
+    "name": "Red Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_wool_slab",
+    "name": "Red Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "red_wool_stairs",
+    "name": "Red Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_block",
+    "name": "Block of Resin",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_brick_slab",
+    "name": "Resin Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_brick_stairs",
+    "name": "Resin Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_brick_wall",
+    "name": "Resin Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_bricks",
+    "name": "Resin Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "resin_clump",
+    "name": "Resin Clump",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "redstone_block",
+    "name": "Block of Redstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "redstone_lamp",
+    "name": "Redstone Lamp",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "redstone_ore",
+    "name": "Redstone Ore",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "redstone_torch",
+    "name": "Redstone Torch",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "redstone_wall_torch",
+    "name": "Redstone Wall Torch",
+    "itemForm": "redstone_torch"
+  },
+  {
+    "id": "redstone_wire",
+    "name": "Redstone Wire",
+    "itemForm": "redstone"
+  },
+  {
+    "id": "reinforced_deepslate",
+    "name": "Reinforced Deepslate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "repeater",
+    "name": "Redstone Repeater",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "repeating_command_block",
+    "name": "Repeating Command Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "respawn_anchor",
+    "name": "Respawn Anchor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "rooted_dirt",
+    "name": "Rooted Dirt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "rose_bush",
+    "name": "Rose Bush",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sand",
+    "name": "Sand",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sandstone",
+    "name": "Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sandstone_slab",
+    "name": "Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sandstone_stairs",
+    "name": "Sandstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sandstone_wall",
+    "name": "Sandstone Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "scaffolding",
+    "name": "Scaffolding",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sculk",
+    "name": "Sculk",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sculk_catalyst",
+    "name": "Sculk Catalyst",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sculk_sensor",
+    "name": "Sculk Sensor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sculk_shrieker",
+    "name": "Sculk Shrieker",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sculk_vein",
+    "name": "Sculk Vein",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sea_lantern",
+    "name": "Sea Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sea_pickle",
+    "name": "Sea Pickle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "seagrass",
+    "name": "Seagrass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "shelf_mushroom",
+    "name": "Shelf Mushroom​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "short_dry_grass",
+    "name": "Short Dry Grass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "short_grass",
+    "name": "Short Grass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "shroomlight",
+    "name": "Shroomlight",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "shulker_box",
+    "name": "Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "skeleton_skull",
+    "name": "Skeleton Skull",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "skeleton_wall_skull",
+    "name": "Skeleton Wall Skull",
+    "itemForm": "skeleton_skull"
+  },
+  {
+    "id": "slime_block",
+    "name": "Slime Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "small_amethyst_bud",
+    "name": "Small Amethyst Bud",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "small_dripleaf",
+    "name": "Small Dripleaf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smithing_table",
+    "name": "Smithing Table",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smoker",
+    "name": "Smoker",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_basalt",
+    "name": "Smooth Basalt",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_quartz",
+    "name": "Smooth Quartz Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_quartz_slab",
+    "name": "Smooth Quartz Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_quartz_stairs",
+    "name": "Smooth Quartz Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_red_sandstone",
+    "name": "Smooth Red Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_red_sandstone_slab",
+    "name": "Smooth Red Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_red_sandstone_stairs",
+    "name": "Smooth Red Sandstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_sandstone",
+    "name": "Smooth Sandstone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_sandstone_slab",
+    "name": "Smooth Sandstone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_sandstone_stairs",
+    "name": "Smooth Sandstone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_stone",
+    "name": "Smooth Stone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "smooth_stone_slab",
+    "name": "Smooth Stone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sniffer_egg",
+    "name": "Sniffer Egg",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "snow",
+    "name": "Snow",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "snow_block",
+    "name": "Snow Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_campfire",
+    "name": "Soul Campfire",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_fire",
+    "name": "Soul Fire",
+    "itemForm": "None"
+  },
+  {
+    "id": "soul_lantern",
+    "name": "Soul Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_sand",
+    "name": "Soul Sand",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_soil",
+    "name": "Soul Soil",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_torch",
+    "name": "Soul Torch",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "soul_wall_torch",
+    "name": "Soul Wall Torch",
+    "itemForm": "soul_torch"
+  },
+  {
+    "id": "spawner",
+    "name": "Monster Spawner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sponge",
+    "name": "Sponge",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spore_blossom",
+    "name": "Spore Blossom",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_button",
+    "name": "Spruce Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_door",
+    "name": "Spruce Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_fence",
+    "name": "Spruce Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_fence_gate",
+    "name": "Spruce Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_hanging_sign",
+    "name": "Spruce Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_leaves",
+    "name": "Spruce Leaves",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_log",
+    "name": "Spruce Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_planks",
+    "name": "Spruce Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_pressure_plate",
+    "name": "Spruce Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_sapling",
+    "name": "Spruce Sapling",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_shelf",
+    "name": "Spruce Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_sign",
+    "name": "Spruce Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_slab",
+    "name": "Spruce Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_stairs",
+    "name": "Spruce Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_trapdoor",
+    "name": "Spruce Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "spruce_wall_hanging_sign",
+    "name": "Spruce Wall Hanging Sign",
+    "itemForm": "spruce_hanging_sign"
+  },
+  {
+    "id": "spruce_wall_sign",
+    "name": "Spruce Wall Sign",
+    "itemForm": "spruce_sign"
+  },
+  {
+    "id": "spruce_wood",
+    "name": "Spruce Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sticky_piston",
+    "name": "Sticky Piston",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_brick_slab",
+    "name": "Stone Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_brick_stairs",
+    "name": "Stone Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_brick_wall",
+    "name": "Stone Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_bricks",
+    "name": "Stone Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_button",
+    "name": "Stone Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_pressure_plate",
+    "name": "Stone Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_slab",
+    "name": "Stone Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stone_stairs",
+    "name": "Stone Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stonecutter",
+    "name": "Stonecutter",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "straw_bed",
+    "name": "Straw Bed​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_acacia_log",
+    "name": "Stripped Acacia Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_acacia_wood",
+    "name": "Stripped Acacia Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_bamboo_block",
+    "name": "Block of Stripped Bamboo",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_birch_log",
+    "name": "Stripped Birch Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_birch_wood",
+    "name": "Stripped Birch Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_cherry_log",
+    "name": "Stripped Cherry Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_cherry_wood",
+    "name": "Stripped Cherry Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_crimson_hyphae",
+    "name": "Stripped Crimson Hyphae",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_crimson_stem",
+    "name": "Stripped Crimson Stem",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_dark_oak_log",
+    "name": "Stripped Dark Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_dark_oak_wood",
+    "name": "Stripped Dark Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_jungle_log",
+    "name": "Stripped Jungle Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_jungle_wood",
+    "name": "Stripped Jungle Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_mangrove_log",
+    "name": "Stripped Mangrove Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_mangrove_wood",
+    "name": "Stripped Mangrove Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_oak_log",
+    "name": "Stripped Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_oak_wood",
+    "name": "Stripped Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_pale_oak_log",
+    "name": "Stripped Pale Oak Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_pale_oak_wood",
+    "name": "Stripped Pale Oak Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_poplar_log",
+    "name": "Stripped Poplar Log​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_poplar_wood",
+    "name": "Stripped Poplar Wood​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_spruce_log",
+    "name": "Stripped Spruce Log",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_spruce_wood",
+    "name": "Stripped Spruce Wood",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_warped_hyphae",
+    "name": "Stripped Warped Hyphae",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "stripped_warped_stem",
+    "name": "Stripped Warped Stem",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "structure_block",
+    "name": "Structure Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "structure_void",
+    "name": "Structure Void",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sugar_cane",
+    "name": "Sugar Cane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_brick_slab",
+    "name": "Sulfur Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_brick_stairs",
+    "name": "Sulfur Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_brick_wall",
+    "name": "Sulfur Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_bricks",
+    "name": "Sulfur Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_slab",
+    "name": "Sulfur Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_spike",
+    "name": "Sulfur Spike",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_stairs",
+    "name": "Sulfur Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sulfur_wall",
+    "name": "Sulfur Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "suspicious_gravel",
+    "name": "Suspicious Gravel",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "suspicious_sand",
+    "name": "Suspicious Sand",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "sweet_berry_bush",
+    "name": "Sweet Berry Bush",
+    "itemForm": "sweet_berries"
+  },
+  {
+    "id": "tall_dry_grass",
+    "name": "Tall Dry Grass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tall_grass",
+    "name": "Tall Grass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tall_seagrass",
+    "name": "Tall Seagrass",
+    "itemForm": "seagrass"
+  },
+  {
+    "id": "target",
+    "name": "Target",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "terracotta",
+    "name": "Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "test_block",
+    "name": "Test Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "test_instance_block",
+    "name": "Test Instance Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tinted_glass",
+    "name": "Tinted Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tnt",
+    "name": "TNT",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "torch",
+    "name": "Torch",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "torchflower",
+    "name": "Torchflower",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "torchflower_crop",
+    "name": "Torchflower Crop",
+    "itemForm": "torchflower_seeds"
+  },
+  {
+    "id": "trapped_chest",
+    "name": "Trapped Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "trial_spawner",
+    "name": "Trial Spawner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tripwire",
+    "name": "Tripwire",
+    "itemForm": "string"
+  },
+  {
+    "id": "tripwire_hook",
+    "name": "Tripwire Hook",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tube_coral",
+    "name": "Tube Coral",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tube_coral_block",
+    "name": "Tube Coral Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tube_coral_fan",
+    "name": "Tube Coral Fan",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tube_coral_wall_fan",
+    "name": "Tube Coral Wall Fan",
+    "itemForm": "tube_coral_fan"
+  },
+  {
+    "id": "tuff",
+    "name": "Tuff",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_brick_slab",
+    "name": "Tuff Brick Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_brick_stairs",
+    "name": "Tuff Brick Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_brick_wall",
+    "name": "Tuff Brick Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_bricks",
+    "name": "Tuff Bricks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_slab",
+    "name": "Tuff Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_stairs",
+    "name": "Tuff Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "tuff_wall",
+    "name": "Tuff Wall",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "turtle_egg",
+    "name": "Turtle Egg",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "twisting_vines",
+    "name": "Twisting Vines",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "twisting_vines_plant",
+    "name": "Twisting Vines Plant",
+    "itemForm": "twisting_vines"
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "verdant_froglight",
+    "name": "Verdant Froglight",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "vine",
+    "name": "Vines",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "void_air",
+    "name": "Void Air",
+    "itemForm": "None"
+  },
+  {
+    "id": "wall_torch",
+    "name": "Wall Torch",
+    "itemForm": "torch"
+  },
+  {
+    "id": "warped_button",
+    "name": "Warped Button",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_door",
+    "name": "Warped Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_fence",
+    "name": "Warped Fence",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_fence_gate",
+    "name": "Warped Fence Gate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_fungus",
+    "name": "Warped Fungus",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_hanging_sign",
+    "name": "Warped Hanging Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_hyphae",
+    "name": "Warped Hyphae",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_nylium",
+    "name": "Warped Nylium",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_planks",
+    "name": "Warped Planks",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_pressure_plate",
+    "name": "Warped Pressure Plate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_roots",
+    "name": "Warped Roots",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_shelf",
+    "name": "Warped Shelf",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_sign",
+    "name": "Warped Sign",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_slab",
+    "name": "Warped Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_stairs",
+    "name": "Warped Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_stem",
+    "name": "Warped Stem",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_trapdoor",
+    "name": "Warped Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "warped_wall_hanging_sign",
+    "name": "Warped Wall Hanging Sign",
+    "itemForm": "warped_hanging_sign"
+  },
+  {
+    "id": "warped_wall_sign",
+    "name": "Warped Wall Sign",
+    "itemForm": "warped_sign"
+  },
+  {
+    "id": "warped_wart_block",
+    "name": "Warped Wart Block",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "itemForm": "None"
+  },
+  {
+    "id": "water_cauldron",
+    "name": "Water Cauldron",
+    "itemForm": "cauldron"
+  },
+  {
+    "id": "waxed_chiseled_copper",
+    "name": "Waxed Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_bars",
+    "name": "Waxed Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_block",
+    "name": "Waxed Block of Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_bulb",
+    "name": "Waxed Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_chain",
+    "name": "Waxed Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_chest",
+    "name": "Waxed Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_door",
+    "name": "Waxed Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_golem_statue",
+    "name": "Waxed Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_grate",
+    "name": "Waxed Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_lantern",
+    "name": "Waxed Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_copper_trapdoor",
+    "name": "Waxed Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_cut_copper",
+    "name": "Waxed Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_cut_copper_slab",
+    "name": "Waxed Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_cut_copper_stairs",
+    "name": "Waxed Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_chiseled_copper",
+    "name": "Waxed Exposed Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper",
+    "name": "Waxed Exposed Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_bars",
+    "name": "Waxed Exposed Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_bulb",
+    "name": "Waxed Exposed Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_chain",
+    "name": "Waxed Exposed Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_chest",
+    "name": "Waxed Exposed Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_door",
+    "name": "Waxed Exposed Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_golem_statue",
+    "name": "Waxed Exposed Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_grate",
+    "name": "Waxed Exposed Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_lantern",
+    "name": "Waxed Exposed Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_copper_trapdoor",
+    "name": "Waxed Exposed Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_cut_copper",
+    "name": "Waxed Exposed Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_cut_copper_slab",
+    "name": "Waxed Exposed Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_cut_copper_stairs",
+    "name": "Waxed Exposed Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_exposed_lightning_rod",
+    "name": "Waxed Exposed Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_lightning_rod",
+    "name": "Waxed Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_chiseled_copper",
+    "name": "Waxed Oxidized Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper",
+    "name": "Waxed Oxidized Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_bars",
+    "name": "Waxed Oxidized Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_bulb",
+    "name": "Waxed Oxidized Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_chain",
+    "name": "Waxed Oxidized Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_chest",
+    "name": "Waxed Oxidized Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_door",
+    "name": "Waxed Oxidized Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_golem_statue",
+    "name": "Waxed Oxidized Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_grate",
+    "name": "Waxed Oxidized Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_lantern",
+    "name": "Waxed Oxidized Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_copper_trapdoor",
+    "name": "Waxed Oxidized Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_cut_copper",
+    "name": "Waxed Oxidized Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_cut_copper_slab",
+    "name": "Waxed Oxidized Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_cut_copper_stairs",
+    "name": "Waxed Oxidized Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_oxidized_lightning_rod",
+    "name": "Waxed Oxidized Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_chiseled_copper",
+    "name": "Waxed Weathered Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper",
+    "name": "Waxed Weathered Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_bars",
+    "name": "Waxed Weathered Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_bulb",
+    "name": "Waxed Weathered Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_chain",
+    "name": "Waxed Weathered Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_chest",
+    "name": "Waxed Weathered Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_door",
+    "name": "Waxed Weathered Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_golem_statue",
+    "name": "Waxed Weathered Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_grate",
+    "name": "Waxed Weathered Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_lantern",
+    "name": "Waxed Weathered Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_copper_trapdoor",
+    "name": "Waxed Weathered Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_cut_copper",
+    "name": "Waxed Weathered Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_cut_copper_slab",
+    "name": "Waxed Weathered Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "waxed_weathered_cut_copper_stairs",
+    "name": "Waxed Weathered Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_lightning_rod",
+    "name": "Waxed Weathered Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_chiseled_copper",
+    "name": "Weathered Chiseled Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper",
+    "name": "Weathered Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_bars",
+    "name": "Weathered Copper Bars",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_bulb",
+    "name": "Weathered Copper Bulb",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_chain",
+    "name": "Weathered Copper Chain",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_chest",
+    "name": "Weathered Copper Chest",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_door",
+    "name": "Weathered Copper Door",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_golem_statue",
+    "name": "Weathered Copper Golem Statue",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_grate",
+    "name": "Weathered Copper Grate",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_lantern",
+    "name": "Weathered Copper Lantern",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_copper_trapdoor",
+    "name": "Weathered Copper Trapdoor",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_cut_copper",
+    "name": "Weathered Cut Copper",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_cut_copper_slab",
+    "name": "Weathered Cut Copper Slab",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_cut_copper_stairs",
+    "name": "Weathered Cut Copper Stairs",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weathered_lightning_rod",
+    "name": "Weathered Lightning Rod",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weeping_vines",
+    "name": "Weeping Vines",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "weeping_vines_plant",
+    "name": "Weeping Vines Plant",
+    "itemForm": "weeping_vines"
+  },
+  {
+    "id": "wet_sponge",
+    "name": "Wet Sponge",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat Crops",
+    "itemForm": "wheat_seeds"
+  },
+  {
+    "id": "white_banner",
+    "name": "White Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_bed",
+    "name": "White Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_candle",
+    "name": "White Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_candle_cake",
+    "name": "Cake with White Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "white_carpet",
+    "name": "White Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_concrete",
+    "name": "White Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_concrete_powder",
+    "name": "White Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_glazed_terracotta",
+    "name": "White Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_shulker_box",
+    "name": "White Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_stained_glass",
+    "name": "White Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_stained_glass_pane",
+    "name": "White Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_terracotta",
+    "name": "White Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_tulip",
+    "name": "White Tulip",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_wall_banner",
+    "name": "White Wall Banner",
+    "itemForm": "white_banner"
+  },
+  {
+    "id": "white_wool",
+    "name": "White Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_wool_slab",
+    "name": "White Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "white_wool_stairs",
+    "name": "White Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "wildflowers",
+    "name": "Wildflowers",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "wither_rose",
+    "name": "Wither Rose",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "wither_skeleton_skull",
+    "name": "Wither Skeleton Skull",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "wither_skeleton_wall_skull",
+    "name": "Wither Skeleton Wall Skull",
+    "itemForm": "wither_skeleton_skull"
+  },
+  {
+    "id": "yellow_banner",
+    "name": "Yellow Banner",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_bed",
+    "name": "Yellow Bed",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_candle",
+    "name": "Yellow Candle",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_candle_cake",
+    "name": "Cake with Yellow Candle",
+    "itemForm": "cake"
+  },
+  {
+    "id": "yellow_carpet",
+    "name": "Yellow Carpet",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_concrete",
+    "name": "Yellow Concrete",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_concrete_powder",
+    "name": "Yellow Concrete Powder",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_glazed_terracotta",
+    "name": "Yellow Glazed Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_poplar_leaves",
+    "name": "Yellow Poplar Leaves​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_shulker_box",
+    "name": "Yellow Shulker Box",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_stained_glass",
+    "name": "Yellow Stained Glass",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_stained_glass_pane",
+    "name": "Yellow Stained Glass Pane",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_terracotta",
+    "name": "Yellow Terracotta",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_wall_banner",
+    "name": "Yellow Wall Banner",
+    "itemForm": "yellow_banner"
+  },
+  {
+    "id": "yellow_wool",
+    "name": "Yellow Wool",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_wool_slab",
+    "name": "Yellow Wool Slab​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "yellow_wool_stairs",
+    "name": "Yellow Wool Stairs​[upcoming: JE 26.3]",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "zombie_head",
+    "name": "Zombie Head",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "zombie_wall_head",
+    "name": "Zombie Wall Head",
+    "itemForm": "zombie_head"
+  }
+]
