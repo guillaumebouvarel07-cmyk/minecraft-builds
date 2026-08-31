@@ -7,6 +7,8 @@ import { getAdminUser } from "@/lib/auth/admin";
 const navLinks = [
   { href: "/admin", label: "Dashboard" },
   { href: "/admin/constructions", label: "Constructions" },
+  { href: "/admin/categories", label: "Catégories" },
+  { href: "/admin/tags", label: "Tags" },
 ];
 
 /**

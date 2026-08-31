@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+import { slugPattern } from "@/lib/slug";
 
 const optionalText = (max: number) =>
   z.preprocess(
@@ -49,17 +49,3 @@ export type ConstructionFormState = {
 };
 
 export const initialConstructionFormState: ConstructionFormState = { status: "idle" };
-
-const DIACRITICS = new RegExp("[\\u0300-\\u036f]", "g");
-
-/** Génère un slug propre (minuscules, tirets) à partir d'un texte libre. */
-export function slugify(input: string): string {
-  return input
-    .normalize("NFD")
-    .replace(DIACRITICS, "")
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 200);
-}

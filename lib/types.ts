@@ -75,3 +75,15 @@ export type ConstructionMaterial = {
   quantity: number;
   material: Pick<Material, "id" | "name" | "minecraft_id" | "category">;
 };
+
+export type Tag = {
+  id: string;
+  slug: string;
+  name: string;
+};
+
+export type ConstructionTag = {
+  construction_id: string;
+  tag_id: string;
+  tag: Tag;
+};

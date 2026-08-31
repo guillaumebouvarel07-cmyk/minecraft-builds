@@ -3,9 +3,9 @@
 import { useActionState, useEffect, useState } from "react";
 
 import { SubmitButton } from "@/components/admin/SubmitButton";
+import { slugify } from "@/lib/slug";
 import {
   initialConstructionFormState,
-  slugify,
   type ConstructionFormState,
 } from "@/lib/validation/construction";
 import type { Construction } from "@/lib/types";

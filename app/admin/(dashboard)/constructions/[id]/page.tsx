@@ -9,13 +9,17 @@ import { ImageUploader } from "@/components/admin/ImageUploader";
 import { MaterialPicker } from "@/components/admin/MaterialPicker";
 import { MaterialsList } from "@/components/admin/MaterialsList";
 import { StatusToggleButton } from "@/components/admin/StatusToggleButton";
+import { TagBadgeList } from "@/components/admin/TagBadgeList";
+import { TagPicker } from "@/components/admin/TagPicker";
 import { formatDate } from "@/lib/constructions-labels";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type {
   Construction,
   ConstructionImage,
   ConstructionMaterial,
+  ConstructionTag,
   Material,
+  Tag,
 } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Modifier une construction" };
@@ -34,6 +38,8 @@ export default async function EditConstructionPage({
     { data: images },
     { data: constructionMaterials },
     { data: allMaterials },
+    { data: constructionTags },
+    { data: allTags },
   ] = await Promise.all([
     supabase.from("constructions").select("*").eq("id", id).maybeSingle<Construction>(),
     supabase.from("categories").select("id, name").order("name"),
@@ -55,6 +61,12 @@ export default async function EditConstructionPage({
       .select("id, name, minecraft_id, icon_url, category, version_added, is_building_block")
       .order("name")
       .returns<Material[]>(),
+    supabase
+      .from("construction_tags")
+      .select("construction_id, tag_id, tag:tags(id, name, slug)")
+      .eq("construction_id", id)
+      .returns<ConstructionTag[]>(),
+    supabase.from("tags").select("id, name, slug").order("name").returns<Tag[]>(),
   ]);
 
   if (!construction) {
@@ -63,6 +75,9 @@ export default async function EditConstructionPage({
 
   const attachedMaterialIds = new Set((constructionMaterials ?? []).map((m) => m.material_id));
   const availableMaterials = (allMaterials ?? []).filter((m) => !attachedMaterialIds.has(m.id));
+
+  const attachedTagIds = new Set((constructionTags ?? []).map((t) => t.tag_id));
+  const availableTags = (allTags ?? []).filter((t) => !attachedTagIds.has(t.id));
 
   return (
     <div>
@@ -119,6 +134,21 @@ export default async function EditConstructionPage({
 
         <div className="mt-6">
           <MaterialsList constructionId={construction.id} materials={constructionMaterials ?? []} />
+        </div>
+      </div>
+
+      <div className="mt-10 border-t border-line pt-8">
+        <h2 className="text-lg font-semibold tracking-tight">Tags</h2>
+        <p className="mt-1 text-sm text-muted">
+          Mots-clés libres pour affiner la découverte de cette construction.
+        </p>
+
+        <div className="mt-4">
+          <TagPicker constructionId={construction.id} availableTags={availableTags} />
+        </div>
+
+        <div className="mt-6">
+          <TagBadgeList constructionId={construction.id} tags={constructionTags ?? []} />
         </div>
       </div>
     </div>
