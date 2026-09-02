@@ -1,7 +1,7 @@
 import { DeleteFileButton } from "@/components/admin/DeleteFileButton";
 import { DownloadFileButton } from "@/components/admin/DownloadFileButton";
 import { formatDate } from "@/lib/constructions-labels";
-import { formatFileSize } from "@/lib/validation/construction-file";
+import { formatFileSize } from "@/lib/format";
 import type { ConstructionFile } from "@/lib/types";
 
 const fileKindLabels: Record<ConstructionFile["file_type"], string> = {
