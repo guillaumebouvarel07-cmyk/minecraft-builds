@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BuildingPlaceholder } from "@/components/public/BuildingPlaceholder";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
+import type { ContentStatus } from "@/lib/content-status";
 import { difficultyLabels, editionLabels } from "@/lib/constructions-labels";
 import type { DifficultyLevel, EditionType } from "@/lib/types";
 
@@ -15,6 +16,7 @@ export type ConstructionCardData = {
   width: number | null;
   length: number | null;
   height: number | null;
+  contentStatus: ContentStatus;
   category: { name: string; slug: string } | null;
   tags: string[];
   imageUrl?: string | null;
@@ -22,8 +24,20 @@ export type ConstructionCardData = {
 };
 
 export function ConstructionCard({ construction }: { construction: ConstructionCardData }) {
-  const { slug, name, difficulty, edition, width, length, height, category, tags, imageUrl, imageAlt } =
-    construction;
+  const {
+    slug,
+    name,
+    difficulty,
+    edition,
+    width,
+    length,
+    height,
+    contentStatus,
+    category,
+    tags,
+    imageUrl,
+    imageAlt,
+  } = construction;
 
   const dimensions = width && length && height ? `${width} × ${length} × ${height}` : null;
 
@@ -31,6 +45,11 @@ export function ConstructionCard({ construction }: { construction: ConstructionC
     <Card hover className="group overflow-hidden">
       <Link href={`/construction/${slug}`} className="block">
         <div className="relative aspect-[4/3] overflow-hidden bg-surface-2">
+          {contentStatus === "demo" && (
+            <span className="absolute left-2 top-2 z-10 rounded-full border border-line bg-surface/90 px-2 py-0.5 text-[11px] font-medium text-muted backdrop-blur-sm">
+              Démo
+            </span>
+          )}
           {imageUrl ? (
             <Image
               src={imageUrl}

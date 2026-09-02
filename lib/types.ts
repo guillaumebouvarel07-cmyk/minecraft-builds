@@ -1,3 +1,5 @@
+import type { ContentStatus, SourceType } from "@/lib/content-status";
+
 export type DifficultyLevel = "facile" | "moyen" | "difficile" | "expert";
 export type EditionType = "java" | "bedrock" | "both";
 export type ConstructionStatus = "brouillon" | "publie";
@@ -25,6 +27,13 @@ export type Construction = {
   length: number | null;
   height: number | null;
   status: ConstructionStatus;
+  content_status: ContentStatus;
+  creator_name: string | null;
+  source_type: SourceType | null;
+  source_url: string | null;
+  license: string | null;
+  permission_note: string | null;
+  rights_confirmed: boolean;
   view_count: number;
   download_count: number;
   created_at: string;

@@ -497,6 +497,9 @@ async function upsertConstructions() {
           length: item.length,
           height: item.height,
           status: "publie",
+          // Étape 18 : ce catalogue de démonstration ne doit jamais se faire
+          // passer pour du contenu vérifié — voir lib/content-status.ts.
+          content_status: "demo",
         },
         { onConflict: "slug" },
       )

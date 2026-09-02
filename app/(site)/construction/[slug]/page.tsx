@@ -8,6 +8,7 @@ import { ConstructionFilesList, type FileRow } from "@/components/public/Constru
 import { ConstructionGallery, type GalleryImage } from "@/components/public/ConstructionGallery";
 import { ConstructionMaterialsList, type MaterialRow } from "@/components/public/ConstructionMaterialsList";
 import { Badge } from "@/components/ui/Badge";
+import { isVerified, type ContentStatus } from "@/lib/content-status";
 import { difficultyLabels, editionLabels } from "@/lib/constructions-labels";
 import {
   PUBLIC_CONSTRUCTION_CARD_SELECT,
@@ -43,6 +44,7 @@ type ConstructionDetail = {
   width: number | null;
   length: number | null;
   height: number | null;
+  content_status: ContentStatus;
   category_id: string | null;
   category: { name: string; slug: string } | null;
   construction_images: GalleryImage[];
@@ -60,7 +62,7 @@ async function getConstruction(slug: string) {
     .from("constructions")
     .select(
       `id, slug, name, description, style, difficulty, edition, min_version, max_version,
-       width, length, height, category_id,
+       width, length, height, content_status, category_id,
        category:categories(name, slug),
        construction_images(id, url, alt_text, position),
        construction_tags(tag:tags(name, slug)),
@@ -104,6 +106,25 @@ export async function generateMetadata({
   const description = truncateDescription(construction.description);
   const canonical = `/construction/${construction.slug}`;
   const image = mainImageUrl(construction);
+
+  // Étape 18 : une fiche "demo" ne représente pas encore un vrai plan
+  // vérifié — elle reste consultable (utile pour tester le site) mais ne
+  // doit pas être indexée comme un contenu réel. follow: true pour rester
+  // cohérent avec le reste du site (les liens qu'elle contient — catégorie,
+  // constructions similaires — restent suivables).
+  if (!isVerified(construction.content_status)) {
+    return {
+      title: construction.name,
+      description,
+      robots: { index: false, follow: true },
+      openGraph: {
+        type: "website",
+        title: construction.name,
+        description,
+        ...(image ? { images: [{ url: image }] } : {}),
+      },
+    };
+  }
 
   return {
     title: construction.name,
@@ -207,10 +228,16 @@ export default async function ConstructionPage({
     })),
   };
 
+  const verified = isVerified(construction.content_status);
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
-      <script {...jsonLdScriptProps(constructionJsonLd)} />
-      <script {...jsonLdScriptProps(breadcrumbJsonLd)} />
+      {verified && (
+        <>
+          <script {...jsonLdScriptProps(constructionJsonLd)} />
+          <script {...jsonLdScriptProps(breadcrumbJsonLd)} />
+        </>
+      )}
       <ConstructionViewTracker
         constructionId={construction.id}
         constructionSlug={construction.slug}
@@ -233,7 +260,16 @@ export default async function ConstructionPage({
         {construction.name}
       </h1>
 
+      {!verified && (
+        <div className="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-muted">
+          <span className="font-medium text-fg">Construction de démonstration</span> — Cette fiche
+          sert actuellement à présenter les fonctionnalités du site et n&apos;a pas encore été
+          vérifiée bloc par bloc.
+        </div>
+      )}
+
       <div className="mt-3 flex flex-wrap items-center gap-1.5">
+        {verified && <Badge variant="accent">Vérifiée</Badge>}
         <Badge variant="accent">{difficultyLabels[construction.difficulty]}</Badge>
         <Badge variant="accent">{editionLabels[construction.edition]}</Badge>
         <Badge>{formatVersions(construction.min_version, construction.max_version)}</Badge>
@@ -270,7 +306,7 @@ export default async function ConstructionPage({
         </div>
       </section>
 
-      {construction.construction_files.length > 0 && (
+      {verified && construction.construction_files.length > 0 && (
         <section className="mt-10">
           <h2 className="text-xl font-semibold tracking-tight">Téléchargements</h2>
           <div className="mt-4">

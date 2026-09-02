@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
+import { isVerified, type ContentStatus } from "@/lib/content-status";
 import { sanitizeDownloadFilename, type FileKind } from "@/lib/validation/construction-file";
 import { createAdminClient } from "@/lib/supabase/admin";
 
@@ -27,7 +28,7 @@ type DownloadFileRow = {
   original_filename: string;
   file_type: FileKind;
   construction_id: string;
-  construction: { status: "brouillon" | "publie" } | null;
+  construction: { status: "brouillon" | "publie"; content_status: ContentStatus } | null;
 };
 
 function jsonNoStore(body: unknown, status: number) {
@@ -58,7 +59,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ fil
 
   const { data: file, error: lookupError } = await supabase
     .from("construction_files")
-    .select("id, storage_path, original_filename, file_type, construction_id, construction:constructions(status)")
+    .select(
+      "id, storage_path, original_filename, file_type, construction_id, construction:constructions(status, content_status)",
+    )
     .eq("id", parsedId.data)
     .maybeSingle<DownloadFileRow>();
 
@@ -71,7 +74,13 @@ export async function GET(_request: Request, { params }: { params: Promise<{ fil
   // protège déjà côté anon : ici on utilise le client service_role
   // (nécessaire pour générer une URL signée sur un bucket privé), qui
   // contourne RLS — donc le contrôle "publié" DOIT être fait ici, en code.
-  if (!file || file.construction?.status !== "publie") {
+  //
+  // Étape 18 : le téléchargement public est réservé aux constructions
+  // "verified" — un fichier de test interne rattaché à une fiche "demo"
+  // (même publiée) ne doit jamais être présenté comme un véritable plan
+  // vérifié. Réponse identique à "introuvable", comme pour un brouillon :
+  // aucune information distincte n'est révélée.
+  if (!file || file.construction?.status !== "publie" || !isVerified(file.construction.content_status)) {
     return notFound();
   }
 

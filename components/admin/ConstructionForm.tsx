@@ -3,6 +3,7 @@
 import { useActionState, useEffect, useState } from "react";
 
 import { SubmitButton } from "@/components/admin/SubmitButton";
+import { SOURCE_TYPES, sourceTypeLabels } from "@/lib/content-status";
 import { slugify } from "@/lib/slug";
 import {
   initialConstructionFormState,
@@ -276,6 +277,103 @@ export function ConstructionForm({
             className={inputClass}
           />
         </Field>
+      </div>
+
+      <div className="border-t border-line pt-6">
+        <h3 className="text-sm font-semibold text-fg">Statut du contenu</h3>
+        <p className="mt-1 text-xs text-muted">
+          « Vérifiée » exige une fiche complète (description, catégorie, dimensions, au moins une
+          image, un matériau et un tag) et une provenance renseignée ci-dessous — sinon
+          l&apos;enregistrement est refusé.
+        </p>
+
+        <div className="mt-4 grid gap-6 sm:grid-cols-2">
+          <Field label="Statut de contenu" htmlFor="content_status" error={errors.content_status}>
+            <select
+              id="content_status"
+              name="content_status"
+              defaultValue={construction?.content_status ?? "demo"}
+              className={inputClass}
+            >
+              <option value="demo">Démonstration</option>
+              <option value="verified">Vérifiée</option>
+            </select>
+          </Field>
+
+          <Field label="Provenance" htmlFor="source_type" error={errors.source_type}>
+            <select
+              id="source_type"
+              name="source_type"
+              defaultValue={construction?.source_type ?? ""}
+              className={inputClass}
+            >
+              <option value="">Non renseignée</option>
+              {SOURCE_TYPES.map((value) => (
+                <option key={value} value={value}>
+                  {sourceTypeLabels[value]}
+                </option>
+              ))}
+            </select>
+          </Field>
+        </div>
+
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          <Field label="Créateur / auteur" htmlFor="creator_name" error={errors.creator_name}>
+            <input
+              id="creator_name"
+              name="creator_name"
+              defaultValue={construction?.creator_name ?? ""}
+              placeholder="ex : notre équipe, pseudo du créateur…"
+              className={inputClass}
+            />
+          </Field>
+
+          <Field label="URL source (optionnel)" htmlFor="source_url" error={errors.source_url}>
+            <input
+              id="source_url"
+              name="source_url"
+              type="url"
+              defaultValue={construction?.source_url ?? ""}
+              className={inputClass}
+            />
+          </Field>
+        </div>
+
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          <Field label="Licence (optionnel)" htmlFor="license" error={errors.license}>
+            <input
+              id="license"
+              name="license"
+              defaultValue={construction?.license ?? ""}
+              placeholder="ex : CC BY 4.0"
+              className={inputClass}
+            />
+          </Field>
+
+          <Field label="Note d'autorisation (optionnel)" htmlFor="permission_note" error={errors.permission_note}>
+            <input
+              id="permission_note"
+              name="permission_note"
+              defaultValue={construction?.permission_note ?? ""}
+              placeholder="ex : autorisation par message du 12/03"
+              className={inputClass}
+            />
+          </Field>
+        </div>
+
+        <label htmlFor="rights_confirmed" className="mt-4 flex items-start gap-2 text-sm text-fg">
+          <input
+            id="rights_confirmed"
+            name="rights_confirmed"
+            type="checkbox"
+            defaultChecked={construction?.rights_confirmed ?? false}
+            className="mt-0.5 h-4 w-4 rounded border-line bg-surface accent-accent"
+          />
+          <span>
+            Je confirme avoir le droit de publier ce contenu (création propre, autorisation du
+            créateur, ou licence compatible).
+          </span>
+        </label>
       </div>
 
       <div className="flex items-center gap-3 border-t border-line pt-6">

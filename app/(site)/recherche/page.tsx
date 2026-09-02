@@ -7,6 +7,7 @@ import { MaterialAutocomplete } from "@/components/public/MaterialAutocomplete";
 import type { ConstructionCardData } from "@/components/public/ConstructionCard";
 import { LinkButton } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
+import type { ContentStatus } from "@/lib/content-status";
 import { difficultyLabels, editionLabels } from "@/lib/constructions-labels";
 import { createPublicClient } from "@/lib/supabase/public";
 import { SEARCH_PAGE_SIZE, parseSearchParams, type SearchParams } from "@/lib/validation/search";
@@ -48,6 +49,7 @@ type SearchRow = {
 
 type EnrichmentRow = {
   id: string;
+  content_status: ContentStatus;
   construction_tags: { tag: { name: string } }[];
   construction_images: { url: string; alt_text: string | null; position: number }[];
 };
@@ -101,7 +103,9 @@ async function runSearch(params: SearchParams) {
   if (ids.length > 0) {
     const { data: enrichRows } = await supabase
       .from("constructions")
-      .select("id, construction_tags(tag:tags(name)), construction_images(url, alt_text, position)")
+      .select(
+        "id, content_status, construction_tags(tag:tags(name)), construction_images(url, alt_text, position)",
+      )
       .in("id", ids)
       .returns<EnrichmentRow[]>();
 
@@ -125,6 +129,7 @@ async function runSearch(params: SearchParams) {
       width: row.width,
       length: row.length,
       height: row.height,
+      contentStatus: enrichment?.content_status ?? "demo",
       category:
         row.category_name && row.category_slug
           ? { name: row.category_name, slug: row.category_slug }

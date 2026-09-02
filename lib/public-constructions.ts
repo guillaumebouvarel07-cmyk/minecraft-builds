@@ -1,4 +1,5 @@
 import type { ConstructionCardData } from "@/components/public/ConstructionCard";
+import type { ContentStatus } from "@/lib/content-status";
 import type { DifficultyLevel, EditionType } from "@/lib/types";
 
 /** Nombre de constructions chargées par page sur les listings publics
@@ -14,6 +15,7 @@ export type PublicConstructionRow = {
   width: number | null;
   length: number | null;
   height: number | null;
+  content_status: ContentStatus;
   category: { name: string; slug: string } | null;
   construction_tags: { tag: { name: string } }[];
   construction_images: { url: string; alt_text: string | null; position: number }[];
@@ -21,7 +23,7 @@ export type PublicConstructionRow = {
 
 /** Le select() Supabase commun aux listings publics (homepage, catégorie, tag). */
 export const PUBLIC_CONSTRUCTION_CARD_SELECT =
-  "slug, name, difficulty, edition, width, length, height, category:categories(name, slug), construction_tags(tag:tags(name)), construction_images(url, alt_text, position)";
+  "slug, name, difficulty, edition, width, length, height, content_status, category:categories(name, slug), construction_tags(tag:tags(name)), construction_images(url, alt_text, position)";
 
 export function toConstructionCardData(row: PublicConstructionRow): ConstructionCardData {
   const sortedImages = [...row.construction_images].sort((a, b) => a.position - b.position);
@@ -35,6 +37,7 @@ export function toConstructionCardData(row: PublicConstructionRow): Construction
     width: row.width,
     length: row.length,
     height: row.height,
+    contentStatus: row.content_status,
     category: row.category,
     tags: row.construction_tags.map((t) => t.tag.name),
     imageUrl: mainImage?.url ?? null,

@@ -10,7 +10,7 @@ import {
 } from "@/lib/public-constructions";
 import { absoluteUrl, jsonLdScriptProps } from "@/lib/seo";
 import { createPublicClient } from "@/lib/supabase/public";
-import { getPublishedConstructionsForTag, isTagIndexable } from "@/lib/tags-seo";
+import { getVerifiedConstructionsForTag, isTagIndexable } from "@/lib/tags-seo";
 
 /**
  * Page tag publique.
@@ -59,13 +59,14 @@ export async function generateMetadata({
   if (!tag) return { robots: { index: false, follow: false } };
 
   const supabase = createPublicClient();
-  const publishedCount = (await getPublishedConstructionsForTag(supabase, tag.id)).length;
+  const verifiedCount = (await getVerifiedConstructionsForTag(supabase, tag.id)).length;
 
   // Règle centralisée dans lib/tags-seo.ts (même seuil, même requête que
-  // app/sitemap.ts) : un tag avec trop peu de constructions publiées
-  // resterait une page quasi vide pour Google — accessible aux visiteurs,
-  // mais hors index tant qu'il n'atteint pas le seuil.
-  if (!isTagIndexable(publishedCount)) {
+  // app/sitemap.ts) : un tag avec trop peu de constructions publiées ET
+  // vérifiées resterait une page quasi vide/peu fiable pour Google —
+  // accessible aux visiteurs, mais hors index tant qu'il n'atteint pas le
+  // seuil (les constructions "demo" ne comptent pas).
+  if (!isTagIndexable(verifiedCount)) {
     return { title: tag.name, robots: { index: false, follow: true } };
   }
 
@@ -105,10 +106,13 @@ export default async function TagPage({ params }: { params: Promise<{ slug: stri
   const cards = (constructions ?? []).map(toConstructionCardData);
   const total = count ?? cards.length;
 
-  // Même comptage que celui ci-dessus (constructions publiées avec ce tag) :
-  // pas besoin d'une requête séparée, seul le seuil vient de lib/tags-seo.ts
-  // (la même fonction qu'utilisent generateMetadata et app/sitemap.ts).
-  const indexable = isTagIndexable(total);
+  // "total" (ci-dessus) compte TOUTES les constructions publiées, demo
+  // incluses — c'est le nombre affiché aux visiteurs, les fiches demo
+  // restant visibles dans les listings (voir le rapport de l'étape 18).
+  // L'indexabilité, elle, ne doit compter que les vérifiées : requête
+  // séparée, via la même fonction que generateMetadata et app/sitemap.ts.
+  const verifiedCount = (await getVerifiedConstructionsForTag(supabase, tag.id)).length;
+  const indexable = isTagIndexable(verifiedCount);
 
   // JSON-LD uniquement pour les tags indexables : pas d'intérêt à fournir
   // des données structurées pour une page qu'on demande explicitement à

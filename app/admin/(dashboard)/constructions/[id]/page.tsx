@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { updateConstruction } from "@/actions/constructions";
 import { ConstructionForm } from "@/components/admin/ConstructionForm";
+import { VerificationChecklist } from "@/components/admin/VerificationChecklist";
 import { DeleteConstructionButton } from "@/components/admin/DeleteConstructionButton";
 import { FileList } from "@/components/admin/FileList";
 import { FileUploader } from "@/components/admin/FileUploader";
@@ -14,6 +15,7 @@ import { StatusToggleButton } from "@/components/admin/StatusToggleButton";
 import { TagBadgeList } from "@/components/admin/TagBadgeList";
 import { TagPicker } from "@/components/admin/TagPicker";
 import { formatDate } from "@/lib/constructions-labels";
+import { getVerificationChecklist } from "@/lib/content-status";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type {
   Construction,
@@ -89,6 +91,21 @@ export default async function EditConstructionPage({
   const attachedTagIds = new Set((constructionTags ?? []).map((t) => t.tag_id));
   const availableTags = (allTags ?? []).filter((t) => !attachedTagIds.has(t.id));
 
+  const checklist = getVerificationChecklist({
+    description: construction.description,
+    category_id: construction.category_id,
+    width: construction.width,
+    length: construction.length,
+    height: construction.height,
+    creator_name: construction.creator_name,
+    source_type: construction.source_type,
+    rights_confirmed: construction.rights_confirmed,
+    imageCount: images?.length ?? 0,
+    materialCount: constructionMaterials?.length ?? 0,
+    tagCount: constructionTags?.length ?? 0,
+    fileCount: files?.length ?? 0,
+  });
+
   return (
     <div>
       <div className="flex flex-wrap items-start justify-between gap-4">
@@ -106,6 +123,10 @@ export default async function EditConstructionPage({
           />
           <DeleteConstructionButton id={construction.id} name={construction.name} />
         </div>
+      </div>
+
+      <div className="mt-6">
+        <VerificationChecklist checklist={checklist} contentStatus={construction.content_status} />
       </div>
 
       <div className="mt-8">
