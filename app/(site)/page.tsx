@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { ConstructionCard } from "@/components/public/ConstructionCard";
@@ -21,6 +22,28 @@ import { site } from "@/lib/site";
  * performance dans le rapport de l'étape 11 pour le détail.
  */
 export const revalidate = 60;
+
+const homeTitle = `${site.name} — ${site.tagline}`;
+
+// `title: { absolute }` court-circuite le template "%s · Blokprint" du
+// layout racine : la homepage porte déjà le nom du site dans son titre, pas
+// besoin de le dupliquer.
+export const metadata: Metadata = {
+  title: { absolute: homeTitle },
+  description: site.description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    title: homeTitle,
+    description: site.description,
+    url: "/",
+  },
+  twitter: {
+    card: "summary",
+    title: homeTitle,
+    description: site.description,
+  },
+};
 
 type CategoryRow = {
   id: string;

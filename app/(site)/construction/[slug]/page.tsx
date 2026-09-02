@@ -13,6 +13,7 @@ import {
   toConstructionCardData,
   type PublicConstructionRow,
 } from "@/lib/public-constructions";
+import { absoluteUrl, jsonLdScriptProps, truncateDescription } from "@/lib/seo";
 import { createPublicClient } from "@/lib/supabase/public";
 import type { DifficultyLevel, EditionType } from "@/lib/types";
 
@@ -47,6 +48,8 @@ type ConstructionDetail = {
   construction_tags: { tag: { name: string; slug: string } }[];
   construction_materials: MaterialRow[];
   construction_files: FileRow[];
+  created_at: string;
+  updated_at: string;
 };
 
 async function getConstruction(slug: string) {
@@ -61,12 +64,19 @@ async function getConstruction(slug: string) {
        construction_images(id, url, alt_text, position),
        construction_tags(tag:tags(name, slug)),
        construction_materials(quantity, material:materials(name, minecraft_id, category)),
-       construction_files(id, original_filename, file_type, file_size)`,
+       construction_files(id, original_filename, file_type, file_size),
+       created_at, updated_at`,
     )
     .eq("slug", slug)
     .maybeSingle<ConstructionDetail>();
 
   return data;
+}
+
+function mainImageUrl(construction: ConstructionDetail): string | null {
+  if (construction.construction_images.length === 0) return null;
+  const sorted = [...construction.construction_images].sort((a, b) => a.position - b.position);
+  return sorted[0].url;
 }
 
 export async function generateStaticParams() {
@@ -83,11 +93,34 @@ export async function generateMetadata({
   const { slug } = await params;
   const construction = await getConstruction(slug);
 
-  if (!construction) return {};
+  // Un slug de brouillon ou inexistant produit le même résultat (RLS ne
+  // renvoie aucune ligne) : dans les deux cas, pas de metadata publiques
+  // exploitables. La page elle-même appelle notFound() juste après, qui
+  // prend le relais avec son propre noindex (voir not-found.tsx) — ce
+  // retour explicite est une seconde barrière, pas la seule.
+  if (!construction) return { robots: { index: false, follow: false } };
+
+  const description = truncateDescription(construction.description);
+  const canonical = `/construction/${construction.slug}`;
+  const image = mainImageUrl(construction);
 
   return {
     title: construction.name,
-    description: construction.description.slice(0, 160),
+    description,
+    alternates: { canonical },
+    openGraph: {
+      type: "website",
+      title: construction.name,
+      description,
+      url: canonical,
+      ...(image ? { images: [{ url: image }] } : {}),
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title: construction.name,
+      description,
+      ...(image ? { images: [image] } : {}),
+    },
   };
 }
 
@@ -124,9 +157,60 @@ export default async function ConstructionPage({
     : { data: [] as PublicConstructionRow[] };
 
   const similar = (similarRows ?? []).map(toConstructionCardData);
+  const canonical = absoluteUrl(`/construction/${construction.slug}`);
+  const image = mainImageUrl(construction);
+
+  const breadcrumbItems = [
+    { name: "Accueil", url: absoluteUrl("/") },
+    ...(construction.category
+      ? [{ name: construction.category.name, url: absoluteUrl(`/categorie/${construction.category.slug}`) }]
+      : []),
+    { name: construction.name, url: canonical },
+  ];
+
+  // CreativeWork : la construction est un plan/modèle à reproduire dans le
+  // jeu, pas un produit à vendre ni un article de blog — aucun schéma
+  // schema.org plus spécifique ne correspond mieux sans forcer des
+  // propriétés qui n'ont pas de sens ici (Product implique un prix,
+  // Article implique un auteur éditorial). Seules les propriétés dont la
+  // valeur existe réellement en base sont renseignées : aucune note, avis,
+  // auteur ou prix n'est inventé.
+  const constructionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: construction.name,
+    description: construction.description,
+    url: canonical,
+    inLanguage: "fr",
+    ...(image ? { image } : {}),
+    dateCreated: construction.created_at,
+    dateModified: construction.updated_at,
+    ...(construction.category || construction.construction_tags.length > 0
+      ? {
+          keywords: [
+            ...(construction.category ? [construction.category.name] : []),
+            ...construction.construction_tags.map((t) => t.tag.name),
+          ],
+        }
+      : {}),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
+      <script {...jsonLdScriptProps(constructionJsonLd)} />
+      <script {...jsonLdScriptProps(breadcrumbJsonLd)} />
+
       <Breadcrumb
         items={[
           { label: "Accueil", href: "/" },

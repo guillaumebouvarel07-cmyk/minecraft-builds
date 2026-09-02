@@ -18,9 +18,15 @@ import type { DifficultyLevel, EditionType } from "@/lib/types";
  * est illimité — ISR/génération statique n'a pas de sens ici. Chaque
  * requête utilise lib/supabase/public.ts (clé anon), jamais service_role.
  */
+// noindex : les résultats de recherche ne doivent jamais être indexés (une
+// combinaison de filtres n'est pas un contenu, et il en existe un nombre
+// illimité). follow: true en revanche — la page elle-même reste crawlable
+// (voir app/robots.ts, qui ne bloque que les URLs avec query string), donc
+// Google peut suivre les liens vers les fiches construction/catégorie
+// qu'elle contient.
 export const metadata: Metadata = {
   title: "Recherche",
-  robots: { index: false, follow: false },
+  robots: { index: false, follow: true },
 };
 
 type RawSearchParams = Record<string, string | string[] | undefined>;

@@ -9,6 +9,7 @@ import {
   toConstructionCardData,
   type PublicConstructionRow,
 } from "@/lib/public-constructions";
+import { absoluteUrl, jsonLdScriptProps, truncateDescription } from "@/lib/seo";
 import { createPublicClient } from "@/lib/supabase/public";
 
 /**
@@ -52,11 +53,23 @@ export async function generateMetadata({
   const { slug } = await params;
   const category = await getCategory(slug);
 
-  if (!category) return {};
+  if (!category) return { robots: { index: false, follow: false } };
+
+  const description = truncateDescription(
+    category.description ?? `Découvre les constructions Minecraft de la catégorie ${category.name}.`,
+  );
+  const canonical = `/categorie/${category.slug}`;
 
   return {
     title: category.name,
-    description: category.description ?? undefined,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      type: "website",
+      title: category.name,
+      description,
+      url: canonical,
+    },
   };
 }
 
@@ -84,8 +97,25 @@ export default async function CategoryPage({
   const cards = (constructions ?? []).map(toConstructionCardData);
   const total = count ?? cards.length;
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Catégories", item: absoluteUrl("/#categories") },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: category.name,
+        item: absoluteUrl(`/categorie/${category.slug}`),
+      },
+    ],
+  };
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <script {...jsonLdScriptProps(breadcrumbJsonLd)} />
+
       <Breadcrumb
         items={[
           { label: "Accueil", href: "/" },
