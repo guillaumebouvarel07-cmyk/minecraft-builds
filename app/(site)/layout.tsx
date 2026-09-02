@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 
 import { Footer } from "@/components/layout/Footer";
@@ -35,6 +36,18 @@ export const metadata: Metadata = {
     : {}),
 };
 
+const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
+// Vercel donne VERCEL_ENV=production/preview/development, plus précis que
+// NODE_ENV (toujours "production" au build, y compris pour les preview
+// deployments) — sans ça, chaque PR/preview polluerait la vraie propriété
+// GA4. En dehors de Vercel (dev local), on retombe sur NODE_ENV.
+const isProductionDeployment = process.env.VERCEL_ENV
+  ? process.env.VERCEL_ENV === "production"
+  : process.env.NODE_ENV === "production";
+
+const shouldLoadAnalytics = Boolean(gaMeasurementId) && isProductionDeployment;
+
 export default function SiteRootLayout({
   children,
 }: Readonly<{
@@ -49,6 +62,7 @@ export default function SiteRootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
+      {shouldLoadAnalytics && <GoogleAnalytics gaId={gaMeasurementId!} />}
     </html>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { ConstructionViewTracker } from "@/components/analytics/ConstructionViewTracker";
 import { Breadcrumb } from "@/components/public/Breadcrumb";
 import { ConstructionCard } from "@/components/public/ConstructionCard";
 import { ConstructionFilesList, type FileRow } from "@/components/public/ConstructionFilesList";
@@ -210,6 +211,13 @@ export default async function ConstructionPage({
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
       <script {...jsonLdScriptProps(constructionJsonLd)} />
       <script {...jsonLdScriptProps(breadcrumbJsonLd)} />
+      <ConstructionViewTracker
+        constructionId={construction.id}
+        constructionSlug={construction.slug}
+        category={construction.category?.name ?? null}
+        difficulty={construction.difficulty}
+        edition={construction.edition}
+      />
 
       <Breadcrumb
         items={[

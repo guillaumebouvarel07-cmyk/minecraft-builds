@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { RechercheAnalytics } from "@/components/analytics/RechercheAnalytics";
 import { Breadcrumb } from "@/components/public/Breadcrumb";
 import { ConstructionGrid } from "@/components/public/ConstructionGrid";
 import { MaterialAutocomplete } from "@/components/public/MaterialAutocomplete";
@@ -231,6 +232,16 @@ export default async function SearchPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <RechercheAnalytics
+        searchTerm={params.q}
+        filters={{
+          difficulty: params.difficulty,
+          edition: params.edition,
+          category: params.category,
+          tag: params.tag,
+          material: params.material,
+        }}
+      />
       <Breadcrumb items={[{ label: "Accueil", href: "/" }, { label: "Recherche" }]} />
 
       <h1 className="mt-4 text-3xl font-semibold tracking-tight">
