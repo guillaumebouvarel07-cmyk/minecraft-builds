@@ -274,7 +274,11 @@ export default async function ConstructionPage({
         <section className="mt-10">
           <h2 className="text-xl font-semibold tracking-tight">Téléchargements</h2>
           <div className="mt-4">
-            <ConstructionFilesList files={construction.construction_files} />
+            <ConstructionFilesList
+              files={construction.construction_files}
+              constructionId={construction.id}
+              constructionSlug={construction.slug}
+            />
           </div>
         </section>
       )}

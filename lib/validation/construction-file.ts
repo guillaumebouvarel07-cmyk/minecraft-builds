@@ -35,6 +35,25 @@ export function fileKindFromFilename(filename: string): FileKind | null {
   return ext && (ALLOWED_FILE_EXTENSIONS as readonly string[]).includes(ext) ? (ext as FileKind) : null;
 }
 
+/**
+ * Nom sûr pour l'en-tête Content-Disposition d'un téléchargement public.
+ * `original_filename` vient d'un upload admin (donc pas hostile), mais un
+ * header HTTP ne doit jamais faire confiance aveuglément à une valeur
+ * stockée : on retire séparateurs de chemin, guillemets et caractères de
+ * contrôle, et on impose l'extension VALIDÉE au moment de l'upload plutôt
+ * que celle — potentiellement absente ou différente — du nom d'origine.
+ */
+export function sanitizeDownloadFilename(originalFilename: string, fileType: FileKind): string {
+  const base = originalFilename
+    .replace(/\.[a-z0-9]+$/i, "")
+    .replace(/[/\\]/g, "-")
+    .replace(/[\x00-\x1f\x7f"]/g, "")
+    .trim();
+
+  const safeBase = base.length > 0 ? base.slice(0, 150) : "construction";
+  return `${safeBase}.${fileType}`;
+}
+
 export type FileValidationResult =
   | { ok: true; fileType: FileKind }
   | { ok: false; message: string };

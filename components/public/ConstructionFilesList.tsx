@@ -1,3 +1,4 @@
+import { DownloadButton } from "@/components/public/DownloadButton";
 import { formatFileSize } from "@/lib/format";
 
 const fileKindLabels: Record<"litematic" | "schem" | "schematic", string> = {
@@ -13,7 +14,15 @@ export type FileRow = {
   file_size: number;
 };
 
-export function ConstructionFilesList({ files }: { files: FileRow[] }) {
+export function ConstructionFilesList({
+  files,
+  constructionId,
+  constructionSlug,
+}: {
+  files: FileRow[];
+  constructionId: string;
+  constructionSlug: string;
+}) {
   if (files.length === 0) return null;
 
   return (
@@ -26,14 +35,12 @@ export function ConstructionFilesList({ files }: { files: FileRow[] }) {
               {fileKindLabels[file.file_type]} · {formatFileSize(file.file_size)}
             </p>
           </div>
-          <button
-            type="button"
-            disabled
-            title="Le téléchargement public arrive dans une prochaine étape"
-            className="shrink-0 rounded-lg border border-line px-3 py-1.5 text-sm text-muted opacity-50"
-          >
-            Bientôt disponible
-          </button>
+          <DownloadButton
+            fileId={file.id}
+            fileType={file.file_type}
+            constructionId={constructionId}
+            constructionSlug={constructionSlug}
+          />
         </li>
       ))}
     </ul>

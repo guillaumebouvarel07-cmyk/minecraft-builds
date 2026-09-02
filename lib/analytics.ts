@@ -62,18 +62,22 @@ export function trackConstructionView(params: ConstructionViewParams): void {
 export type FileDownloadParams = {
   constructionId: string;
   constructionSlug: string;
+  fileId: string;
   fileType: string;
 };
 
 /**
- * Préparée pour l'étape téléchargement public (pas encore construite) : à
- * appeler uniquement après un téléchargement réellement abouti, jamais de
- * façon simulée. Rien n'appelle encore cette fonction.
+ * À appeler uniquement après confirmation serveur qu'un téléchargement est
+ * réellement accordé (voir components/public/DownloadButton.tsx) — jamais
+ * de façon optimiste avant de savoir si /api/download a réussi, pour ne
+ * jamais compter un téléchargement refusé (brouillon, fileId invalide,
+ * erreur serveur) dans GA4.
  */
 export function trackFileDownload(params: FileDownloadParams): void {
   sendGAEvent("event", "file_download", {
     construction_id: params.constructionId,
     construction_slug: params.constructionSlug,
+    file_id: params.fileId,
     file_type: params.fileType,
   });
 }
