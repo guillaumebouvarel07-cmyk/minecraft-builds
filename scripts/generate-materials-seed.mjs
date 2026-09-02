@@ -99,6 +99,14 @@ for (const id of [
   "bamboo_door", "bamboo_trapdoor",
 ]) add(id, "wood");
 
+// Shelf : variante par essence de bois, jamais ajoutée jusqu'ici (repérée en
+// préparant la 1re construction verified — voir docs/verified-build-workflow.md).
+// pale_oak_shelf/poplar_shelf sont marqués [upcoming: JE 26.3] dans la source,
+// donc automatiquement exclus par has() sans traitement spécial.
+for (const f of [...WOOD_FAMILIES, ...STEM_FAMILIES, "bamboo"]) {
+  add(`${f}_shelf`, "wood");
+}
+
 // ---------------------------------------------------------------------
 // STONE — matériau de base + variantes stairs/slab/wall si elles existent
 // ---------------------------------------------------------------------
@@ -170,7 +178,10 @@ add("gold_block", "metal");
 add("iron_bars", "metal");
 add("iron_door", "metal");
 add("iron_trapdoor", "metal");
-add("chain", "metal");
+// "chain" (sans préfixe) n'existe plus comme id réel dans la source — le
+// bloc s'appelle "iron_chain" (repéré en préparant la 1re construction
+// verified), cohérent avec copper_chain généré plus bas.
+add("iron_chain", "metal");
 add("lightning_rod", "metal");
 add("bell", "metal");
 
@@ -241,6 +252,10 @@ for (const id of [
   "player_head", "creeper_head", "zombie_head", "skeleton_skull", "wither_skeleton_skull",
   "dragon_head", "piglin_head", "carved_pumpkin",
 ]) add(id, "decorative");
+
+// Lits : jamais ajoutés jusqu'ici (repéré en préparant la 1re construction
+// verified — voir docs/verified-build-workflow.md), une couleur par teinture.
+for (const c of COLORS) add(`${c}_bed`, "functional");
 
 // ---------------------------------------------------------------------
 // FUNCTIONAL

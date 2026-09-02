@@ -42,6 +42,13 @@
     "version_added": null
   },
   {
+    "name": "Acacia Shelf",
+    "minecraft_id": "minecraft:acacia_shelf",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Acacia Slab",
     "minecraft_id": "minecraft:acacia_slab",
     "category": "wood",
@@ -217,6 +224,13 @@
     "version_added": null
   },
   {
+    "name": "Bamboo Shelf",
+    "minecraft_id": "minecraft:bamboo_shelf",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Bamboo Slab",
     "minecraft_id": "minecraft:bamboo_slab",
     "category": "wood",
@@ -329,6 +343,13 @@
     "version_added": null
   },
   {
+    "name": "Birch Shelf",
+    "minecraft_id": "minecraft:birch_shelf",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Birch Slab",
     "minecraft_id": "minecraft:birch_slab",
     "category": "wood",
@@ -353,6 +374,13 @@
     "name": "Birch Wood",
     "minecraft_id": "minecraft:birch_wood",
     "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Black Bed",
+    "minecraft_id": "minecraft:black_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -448,6 +476,13 @@
     "version_added": null
   },
   {
+    "name": "Blue Bed",
+    "minecraft_id": "minecraft:blue_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Blue Candle",
     "minecraft_id": "minecraft:blue_candle",
     "category": "lighting",
@@ -534,6 +569,13 @@
   {
     "name": "Brewing Stand",
     "minecraft_id": "minecraft:brewing_stand",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Brown Bed",
+    "minecraft_id": "minecraft:brown_bed",
     "category": "functional",
     "is_building_block": true,
     "version_added": null
@@ -716,6 +758,13 @@
   {
     "name": "Cherry Planks",
     "minecraft_id": "minecraft:cherry_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cherry Shelf",
+    "minecraft_id": "minecraft:cherry_shelf",
     "category": "wood",
     "is_building_block": true,
     "version_added": null
@@ -1253,6 +1302,13 @@
     "version_added": null
   },
   {
+    "name": "Crimson Shelf",
+    "minecraft_id": "minecraft:crimson_shelf",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Crimson Slab",
     "minecraft_id": "minecraft:crimson_slab",
     "category": "wood",
@@ -1319,6 +1375,13 @@
     "name": "Cut Sandstone",
     "minecraft_id": "minecraft:cut_sandstone",
     "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Cyan Bed",
+    "minecraft_id": "minecraft:cyan_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -1430,6 +1493,13 @@
   {
     "name": "Dark Oak Planks",
     "minecraft_id": "minecraft:dark_oak_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Dark Oak Shelf",
+    "minecraft_id": "minecraft:dark_oak_shelf",
     "category": "wood",
     "is_building_block": true,
     "version_added": null
@@ -1967,6 +2037,13 @@
     "version_added": null
   },
   {
+    "name": "Gray Bed",
+    "minecraft_id": "minecraft:gray_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Gray Candle",
     "minecraft_id": "minecraft:gray_candle",
     "category": "lighting",
@@ -2019,6 +2096,13 @@
     "name": "Gray Wool",
     "minecraft_id": "minecraft:gray_wool",
     "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Green Bed",
+    "minecraft_id": "minecraft:green_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -2135,6 +2219,13 @@
     "version_added": null
   },
   {
+    "name": "Iron Chain",
+    "minecraft_id": "minecraft:iron_chain",
+    "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Iron Door",
     "minecraft_id": "minecraft:iron_door",
     "category": "metal",
@@ -2200,6 +2291,13 @@
   {
     "name": "Jungle Planks",
     "minecraft_id": "minecraft:jungle_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Jungle Shelf",
+    "minecraft_id": "minecraft:jungle_shelf",
     "category": "wood",
     "is_building_block": true,
     "version_added": null
@@ -2289,6 +2387,13 @@
     "version_added": null
   },
   {
+    "name": "Light Blue Bed",
+    "minecraft_id": "minecraft:light_blue_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Light Blue Candle",
     "minecraft_id": "minecraft:light_blue_candle",
     "category": "lighting",
@@ -2341,6 +2446,13 @@
     "name": "Light Blue Wool",
     "minecraft_id": "minecraft:light_blue_wool",
     "category": "wool",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Light Gray Bed",
+    "minecraft_id": "minecraft:light_gray_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -2429,6 +2541,13 @@
     "version_added": null
   },
   {
+    "name": "Lime Bed",
+    "minecraft_id": "minecraft:lime_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Lime Candle",
     "minecraft_id": "minecraft:lime_candle",
     "category": "lighting",
@@ -2494,6 +2613,13 @@
   {
     "name": "Loom",
     "minecraft_id": "minecraft:loom",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Magenta Bed",
+    "minecraft_id": "minecraft:magenta_bed",
     "category": "functional",
     "is_building_block": true,
     "version_added": null
@@ -2606,6 +2732,13 @@
   {
     "name": "Mangrove Roots",
     "minecraft_id": "minecraft:mangrove_roots",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Mangrove Shelf",
+    "minecraft_id": "minecraft:mangrove_shelf",
     "category": "wood",
     "is_building_block": true,
     "version_added": null
@@ -2870,6 +3003,13 @@
     "version_added": null
   },
   {
+    "name": "Oak Shelf",
+    "minecraft_id": "minecraft:oak_shelf",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Oak Slab",
     "minecraft_id": "minecraft:oak_slab",
     "category": "wood",
@@ -2915,6 +3055,13 @@
     "name": "Open Eyeblossom",
     "minecraft_id": "minecraft:open_eyeblossom",
     "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Orange Bed",
+    "minecraft_id": "minecraft:orange_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -3132,6 +3279,13 @@
     "name": "Piglin Head",
     "minecraft_id": "minecraft:piglin_head",
     "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Pink Bed",
+    "minecraft_id": "minecraft:pink_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -3535,6 +3689,13 @@
     "version_added": null
   },
   {
+    "name": "Purple Bed",
+    "minecraft_id": "minecraft:purple_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Purple Candle",
     "minecraft_id": "minecraft:purple_candle",
     "category": "lighting",
@@ -3643,6 +3804,13 @@
     "name": "Block of Raw Iron",
     "minecraft_id": "minecraft:raw_iron_block",
     "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Red Bed",
+    "minecraft_id": "minecraft:red_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
@@ -4132,6 +4300,13 @@
   {
     "name": "Spruce Planks",
     "minecraft_id": "minecraft:spruce_planks",
+    "category": "wood",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Spruce Shelf",
+    "minecraft_id": "minecraft:spruce_shelf",
     "category": "wood",
     "is_building_block": true,
     "version_added": null
@@ -4644,6 +4819,13 @@
     "name": "Warped Roots",
     "minecraft_id": "minecraft:warped_roots",
     "category": "natural",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Warped Shelf",
+    "minecraft_id": "minecraft:warped_shelf",
+    "category": "wood",
     "is_building_block": true,
     "version_added": null
   },
@@ -5166,6 +5348,13 @@
     "version_added": null
   },
   {
+    "name": "White Bed",
+    "minecraft_id": "minecraft:white_bed",
+    "category": "functional",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "White Candle",
     "minecraft_id": "minecraft:white_candle",
     "category": "lighting",
@@ -5239,6 +5428,13 @@
     "name": "Wither Skeleton Skull",
     "minecraft_id": "minecraft:wither_skeleton_skull",
     "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Yellow Bed",
+    "minecraft_id": "minecraft:yellow_bed",
+    "category": "functional",
     "is_building_block": true,
     "version_added": null
   },
