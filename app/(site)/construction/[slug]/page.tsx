@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { Breadcrumb } from "@/components/public/Breadcrumb";
-import { ConstructionCard, type ConstructionCardData } from "@/components/public/ConstructionCard";
+import { ConstructionCard } from "@/components/public/ConstructionCard";
 import { ConstructionFilesList, type FileRow } from "@/components/public/ConstructionFilesList";
 import { ConstructionGallery, type GalleryImage } from "@/components/public/ConstructionGallery";
 import { ConstructionMaterialsList, type MaterialRow } from "@/components/public/ConstructionMaterialsList";
 import { Badge } from "@/components/ui/Badge";
 import { difficultyLabels, editionLabels } from "@/lib/constructions-labels";
+import {
+  PUBLIC_CONSTRUCTION_CARD_SELECT,
+  toConstructionCardData,
+  type PublicConstructionRow,
+} from "@/lib/public-constructions";
 import { createPublicClient } from "@/lib/supabase/public";
 import type { DifficultyLevel, EditionType } from "@/lib/types";
 
@@ -43,38 +48,6 @@ type ConstructionDetail = {
   construction_materials: MaterialRow[];
   construction_files: FileRow[];
 };
-
-type SimilarRow = {
-  slug: string;
-  name: string;
-  difficulty: DifficultyLevel;
-  edition: EditionType;
-  width: number | null;
-  length: number | null;
-  height: number | null;
-  category: { name: string; slug: string } | null;
-  construction_tags: { tag: { name: string } }[];
-  construction_images: { url: string; alt_text: string | null; position: number }[];
-};
-
-function toCardData(row: SimilarRow): ConstructionCardData {
-  const sortedImages = [...row.construction_images].sort((a, b) => a.position - b.position);
-  const mainImage = sortedImages[0] ?? null;
-
-  return {
-    slug: row.slug,
-    name: row.name,
-    difficulty: row.difficulty,
-    edition: row.edition,
-    width: row.width,
-    length: row.length,
-    height: row.height,
-    category: row.category,
-    tags: row.construction_tags.map((t) => t.tag.name),
-    imageUrl: mainImage?.url ?? null,
-    imageAlt: mainImage?.alt_text ?? null,
-  };
-}
 
 async function getConstruction(slug: string) {
   const supabase = createPublicClient();
@@ -143,16 +116,14 @@ export default async function ConstructionPage({
   const { data: similarRows } = construction.category_id
     ? await supabase
         .from("constructions")
-        .select(
-          "slug, name, difficulty, edition, width, length, height, category:categories(name, slug), construction_tags(tag:tags(name)), construction_images(url, alt_text, position)",
-        )
+        .select(PUBLIC_CONSTRUCTION_CARD_SELECT)
         .eq("category_id", construction.category_id)
         .neq("id", construction.id)
         .limit(4)
-        .returns<SimilarRow[]>()
-    : { data: [] as SimilarRow[] };
+        .returns<PublicConstructionRow[]>()
+    : { data: [] as PublicConstructionRow[] };
 
-  const similar = (similarRows ?? []).map(toCardData);
+  const similar = (similarRows ?? []).map(toConstructionCardData);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">

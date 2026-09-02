@@ -1,12 +1,16 @@
 import Link from "next/link";
 
-import { ConstructionCard, type ConstructionCardData } from "@/components/public/ConstructionCard";
+import { ConstructionCard } from "@/components/public/ConstructionCard";
 import { CategoryCard } from "@/components/public/CategoryCard";
 import { Input } from "@/components/ui/Input";
 import { LinkButton } from "@/components/ui/Button";
+import {
+  PUBLIC_CONSTRUCTION_CARD_SELECT,
+  toConstructionCardData,
+  type PublicConstructionRow,
+} from "@/lib/public-constructions";
 import { createPublicClient } from "@/lib/supabase/public";
 import { site } from "@/lib/site";
-import type { DifficultyLevel, EditionType } from "@/lib/types";
 
 /**
  * Homepage publique.
@@ -26,38 +30,6 @@ type CategoryRow = {
   constructions: { count: number }[];
 };
 
-type ConstructionRow = {
-  slug: string;
-  name: string;
-  difficulty: DifficultyLevel;
-  edition: EditionType;
-  width: number | null;
-  length: number | null;
-  height: number | null;
-  category: { name: string; slug: string } | null;
-  construction_tags: { tag: { name: string } }[];
-  construction_images: { url: string; alt_text: string | null; position: number }[];
-};
-
-function toCardData(row: ConstructionRow): ConstructionCardData {
-  const sortedImages = [...row.construction_images].sort((a, b) => a.position - b.position);
-  const mainImage = sortedImages[0] ?? null;
-
-  return {
-    slug: row.slug,
-    name: row.name,
-    difficulty: row.difficulty,
-    edition: row.edition,
-    width: row.width,
-    length: row.length,
-    height: row.height,
-    category: row.category,
-    tags: row.construction_tags.map((t) => t.tag.name),
-    imageUrl: mainImage?.url ?? null,
-    imageAlt: mainImage?.alt_text ?? null,
-  };
-}
-
 const discoveryLinks = [
   {
     label: "Faciles à construire",
@@ -67,22 +39,22 @@ const discoveryLinks = [
   {
     label: "Pour la survie",
     description: "Pensées pour un usage réel en partie survie.",
-    href: "/recherche?tag=survival",
+    href: "/tag/survival",
   },
   {
     label: "Grandes constructions",
     description: "Des projets ambitieux pour les bâtisseurs patients.",
-    href: "/recherche?tag=large",
+    href: "/tag/large",
   },
   {
     label: "Style médiéval",
     description: "Tours, forteresses et villages d'inspiration médiévale.",
-    href: "/recherche?tag=medieval",
+    href: "/tag/medieval",
   },
   {
     label: "Style moderne",
     description: "Béton, verre et lignes épurées.",
-    href: "/recherche?tag=modern",
+    href: "/tag/modern",
   },
 ];
 
@@ -105,16 +77,14 @@ export default async function HomePage() {
       .returns<CategoryRow[]>(),
     supabase
       .from("constructions")
-      .select(
-        "slug, name, difficulty, edition, width, length, height, category:categories(name, slug), construction_tags(tag:tags(name)), construction_images(url, alt_text, position)",
-      )
+      .select(PUBLIC_CONSTRUCTION_CARD_SELECT)
       .order("created_at", { ascending: false })
       .limit(8)
-      .returns<ConstructionRow[]>(),
+      .returns<PublicConstructionRow[]>(),
     supabase.from("constructions").select("*", { count: "exact", head: true }),
   ]);
 
-  const cards = (constructions ?? []).map(toCardData);
+  const cards = (constructions ?? []).map(toConstructionCardData);
   const categoryCount = categories?.length ?? 0;
 
   return (

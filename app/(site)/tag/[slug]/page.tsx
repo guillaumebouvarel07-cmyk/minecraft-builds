@@ -1,0 +1,105 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+
+import { Breadcrumb } from "@/components/public/Breadcrumb";
+import { ConstructionGrid } from "@/components/public/ConstructionGrid";
+import {
+  CONSTRUCTIONS_PAGE_SIZE,
+  toConstructionCardData,
+  type PublicConstructionRow,
+} from "@/lib/public-constructions";
+import { createPublicClient } from "@/lib/supabase/public";
+
+/**
+ * Page tag publique.
+ *
+ * Même stratégie que la page catégorie : statique + ISR, generateStaticParams()
+ * au build, revalidate=60, lecture exclusivement via lib/supabase/public.ts.
+ */
+export const revalidate = 60;
+
+type TagRow = {
+  id: string;
+  slug: string;
+  name: string;
+};
+
+// construction_tags!inner force la jointure à restreindre les constructions
+// retournées à celles ayant réellement ce tag (pas juste un filtre sur les
+// lignes embarquées) — c'est le pattern PostgREST documenté pour ce cas.
+const TAG_FILTERED_SELECT =
+  "slug, name, difficulty, edition, width, length, height, category:categories(name, slug), construction_tags!inner(tag_id, tag:tags(name)), construction_images(url, alt_text, position)";
+
+async function getTag(slug: string) {
+  const supabase = createPublicClient();
+  const { data } = await supabase
+    .from("tags")
+    .select("id, slug, name")
+    .eq("slug", slug)
+    .maybeSingle<TagRow>();
+  return data;
+}
+
+export async function generateStaticParams() {
+  const supabase = createPublicClient();
+  const { data } = await supabase.from("tags").select("slug");
+  return (data ?? []).map((t) => ({ slug: t.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const tag = await getTag(slug);
+
+  if (!tag) return {};
+
+  return { title: tag.name };
+}
+
+export default async function TagPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tag = await getTag(slug);
+
+  if (!tag) {
+    notFound();
+  }
+
+  const supabase = createPublicClient();
+  const { data: constructions, count } = await supabase
+    .from("constructions")
+    .select(TAG_FILTERED_SELECT, { count: "exact" })
+    .eq("construction_tags.tag_id", tag.id)
+    .order("created_at", { ascending: false })
+    .range(0, CONSTRUCTIONS_PAGE_SIZE - 1)
+    .returns<PublicConstructionRow[]>();
+
+  const cards = (constructions ?? []).map(toConstructionCardData);
+  const total = count ?? cards.length;
+
+  return (
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <Breadcrumb
+        items={[{ label: "Accueil", href: "/" }, { label: "Tags" }, { label: tag.name }]}
+      />
+
+      <h1 className="mt-4 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+        {tag.name}
+      </h1>
+
+      <p className="mt-3 text-sm text-muted">
+        <span className="font-medium text-fg">{total}</span> construction{total > 1 ? "s" : ""} publiée
+        {total > 1 ? "s" : ""}
+      </p>
+
+      <div className="mt-8">
+        <ConstructionGrid
+          constructions={cards}
+          emptyMessage="Aucune construction publiée avec ce tag pour l'instant."
+        />
+      </div>
+    </div>
+  );
+}
