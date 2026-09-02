@@ -1,39 +1,89 @@
+import { ConstructionCard, type ConstructionCardData } from "@/components/public/ConstructionCard";
+import { CategoryCard } from "@/components/public/CategoryCard";
+import { Input } from "@/components/ui/Input";
+import { createClient } from "@/lib/supabase/server";
 import { site } from "@/lib/site";
+import type { DifficultyLevel, EditionType } from "@/lib/types";
 
 /**
- * Page d'accueil TEMPORAIRE (étape 0).
+ * Page d'accueil TEMPORAIRE (étape 10).
  *
- * Son seul rôle est de vérifier que Next.js, TypeScript et Tailwind CSS
- * fonctionnent correctement ensemble. Elle donne aussi un premier aperçu
- * de la direction visuelle : sombre, moderne, une seule couleur d'accent.
- *
- * Elle sera entièrement remplacée à l'étape 11.
+ * Sert à valider la direction visuelle et le layout public avec de vraies
+ * données Supabase (lues via la clé publique, donc uniquement le contenu
+ * publié). La vraie logique de homepage (mise en avant éditoriale, sections
+ * dynamiques…) arrive à une étape ultérieure.
  */
 
-const checks = [
-  { label: "Next.js 16 · App Router", detail: "Cette page est un Server Component." },
-  { label: "TypeScript", detail: "Types stricts activés dans tsconfig.json." },
-  { label: "Tailwind CSS v4", detail: "Couleurs et polices définies dans globals.css." },
-  { label: "Design mobile-first", detail: "Réduis la fenêtre : la mise en page suit." },
-];
+type CategoryRow = {
+  id: string;
+  slug: string;
+  name: string;
+  constructions: { count: number }[];
+};
 
-const nextSteps = [
-  "Connecter Supabase et créer le schéma de base de données",
-  "Mettre en place l'authentification et l'interface d'administration",
-  "Construire les pages publiques et la recherche",
-];
+type ConstructionRow = {
+  slug: string;
+  name: string;
+  difficulty: DifficultyLevel;
+  edition: EditionType;
+  width: number | null;
+  length: number | null;
+  height: number | null;
+  category: { name: string; slug: string } | null;
+  construction_tags: { tag: { name: string } }[];
+  construction_images: { url: string; alt_text: string | null; position: number }[];
+};
 
-export default function HomePage() {
+function toCardData(row: ConstructionRow): ConstructionCardData {
+  const sortedImages = [...row.construction_images].sort((a, b) => a.position - b.position);
+  const mainImage = sortedImages[0] ?? null;
+
+  return {
+    slug: row.slug,
+    name: row.name,
+    difficulty: row.difficulty,
+    edition: row.edition,
+    width: row.width,
+    length: row.length,
+    height: row.height,
+    category: row.category,
+    tags: row.construction_tags.map((t) => t.tag.name),
+    imageUrl: mainImage?.url ?? null,
+    imageAlt: mainImage?.alt_text ?? null,
+  };
+}
+
+export default async function HomePage() {
+  const supabase = await createClient();
+
+  const [{ data: categories }, { data: constructions }] = await Promise.all([
+    supabase
+      .from("categories")
+      .select("id, slug, name, constructions(count)")
+      .order("name")
+      .returns<CategoryRow[]>(),
+    supabase
+      .from("constructions")
+      .select(
+        "slug, name, difficulty, edition, width, length, height, category:categories(name, slug), construction_tags(tag:tags(name)), construction_images(url, alt_text, position)",
+      )
+      .order("created_at", { ascending: false })
+      .limit(8)
+      .returns<ConstructionRow[]>(),
+  ]);
+
+  const cards = (constructions ?? []).map(toCardData);
+
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <div>
       {/* Hero */}
-      <section className="py-16 sm:py-24">
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
         <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-accent">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
-          Projet initialisé
+          Catalogue de démonstration
         </p>
 
-        <h1 className="mt-6 text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+        <h1 className="mt-6 max-w-3xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
           {site.tagline}
         </h1>
 
@@ -41,66 +91,63 @@ export default function HomePage() {
           {site.description}
         </p>
 
-        <p className="mt-8 inline-block rounded-lg border border-line bg-surface px-4 py-2 font-mono text-sm text-muted">
-          Le catalogue arrive. Rien n&apos;est encore connecté à une base de données.
-        </p>
+        <form
+          id="recherche"
+          method="get"
+          action="/recherche"
+          className="mt-8 flex max-w-lg scroll-mt-24 gap-2"
+        >
+          <Input
+            type="search"
+            name="q"
+            placeholder="Rechercher une construction…"
+            aria-label="Rechercher une construction"
+          />
+        </form>
       </section>
 
-      {/* Vérifications techniques */}
-      <section className="border-t border-line py-12 sm:py-16">
-        <h2 className="text-xs font-semibold tracking-widest text-muted uppercase">
-          Vérification de l&apos;installation
-        </h2>
+      {/* Constructions */}
+      <section id="constructions" className="scroll-mt-16 border-t border-line">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
+          <h2 className="text-2xl font-semibold tracking-tight">Constructions récentes</h2>
+          <p className="mt-1.5 text-sm text-muted">
+            Un aperçu du catalogue — {cards.length} construction{cards.length > 1 ? "s" : ""} publiée
+            {cards.length > 1 ? "s" : ""}.
+          </p>
 
-        <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-          {checks.map((check) => (
-            <li
-              key={check.label}
-              className="flex gap-3 rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent/40"
-            >
-              <span
-                aria-hidden
-                className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-accent-dim text-accent"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-3 w-3"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="3.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="m5 13 4 4L19 7" />
-                </svg>
-              </span>
-              <span>
-                <span className="block text-sm font-medium">{check.label}</span>
-                <span className="mt-0.5 block text-sm text-muted">
-                  {check.detail}
-                </span>
-              </span>
-            </li>
-          ))}
-        </ul>
+          {cards.length === 0 ? (
+            <p className="mt-8 text-sm text-muted">Aucune construction publiée pour l&apos;instant.</p>
+          ) : (
+            <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              {cards.map((construction) => (
+                <ConstructionCard key={construction.slug} construction={construction} />
+              ))}
+            </div>
+          )}
+        </div>
       </section>
 
-      {/* Prochaines étapes */}
-      <section className="border-t border-line py-12 sm:py-16">
-        <h2 className="text-xs font-semibold tracking-widest text-muted uppercase">
-          Prochaines étapes
-        </h2>
+      {/* Catégories */}
+      <section id="categories" className="scroll-mt-16 border-t border-line">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
+          <h2 className="text-2xl font-semibold tracking-tight">Catégories</h2>
+          <p className="mt-1.5 text-sm text-muted">Parcourir le catalogue par type de construction.</p>
 
-        <ol className="mt-6 space-y-3">
-          {nextSteps.map((step, index) => (
-            <li key={step} className="flex items-center gap-4">
-              <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg border border-line bg-surface-2 font-mono text-xs text-muted">
-                {index + 1}
-              </span>
-              <span className="text-sm text-muted">{step}</span>
-            </li>
-          ))}
-        </ol>
+          {!categories || categories.length === 0 ? (
+            <p className="mt-8 text-sm text-muted">Aucune catégorie pour l&apos;instant.</p>
+          ) : (
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {categories.map((category) => (
+                <CategoryCard
+                  key={category.id}
+                  slug={category.slug}
+                  name={category.name}
+                  count={category.constructions[0]?.count ?? 0}
+                />
+              ))}
+            </div>
+          )}
+        </div>
       </section>
     </div>
   );

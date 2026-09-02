@@ -23,3 +23,16 @@ export const site = {
  */
 export const legalDisclaimer =
   "Ce site n'est pas un produit officiel Minecraft. Il n'est ni approuvé par, ni associé à Mojang ou Microsoft.";
+
+/**
+ * Navigation principale. Pointe pour l'instant vers des ancres de la page
+ * d'accueil (Constructions/Catégories) : les pages dédiées (/constructions,
+ * /categorie/[slug]) arrivent aux étapes suivantes. Éviter des liens morts
+ * en attendant plutôt que de faire pointer vers des routes qui n'existent
+ * pas encore.
+ */
+export const navLinks = [
+  { href: "/", label: "Accueil" },
+  { href: "/#constructions", label: "Constructions" },
+  { href: "/#categories", label: "Catégories" },
+] as const;
