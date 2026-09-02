@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix",
     "typecheck": "tsc --noEmit",
     "generate:materials-seed": "node scripts/generate-materials-seed.mjs",
-    "seed:materials": "node --env-file=.env.local scripts/seed-materials.mjs"
+    "seed:materials": "node --env-file=.env.local scripts/seed-materials.mjs",
+    "seed:demo": "node --env-file=.env.local scripts/seed-demo-constructions.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.5",
