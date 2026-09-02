@@ -1,0 +1,22 @@
+[
+  {
+    "id": "painting",
+    "name": "Painting",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "item_frame",
+    "name": "Item Frame",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "glow_item_frame",
+    "name": "Glow Item Frame",
+    "itemForm": "Identical"
+  },
+  {
+    "id": "armor_stand",
+    "name": "Armor Stand",
+    "itemForm": "Identical"
+  }
+]

@@ -140,6 +140,13 @@
     "version_added": null
   },
   {
+    "name": "Armor Stand",
+    "minecraft_id": "minecraft:armor_stand",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Azalea",
     "minecraft_id": "minecraft:azalea",
     "category": "natural",
@@ -1967,6 +1974,13 @@
     "version_added": null
   },
   {
+    "name": "Glow Item Frame",
+    "minecraft_id": "minecraft:glow_item_frame",
+    "category": "decorative",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
     "name": "Glow Lichen",
     "minecraft_id": "minecraft:glow_lichen",
     "category": "natural",
@@ -2243,6 +2257,13 @@
     "name": "Iron Trapdoor",
     "minecraft_id": "minecraft:iron_trapdoor",
     "category": "metal",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Item Frame",
+    "minecraft_id": "minecraft:item_frame",
+    "category": "decorative",
     "is_building_block": true,
     "version_added": null
   },
@@ -3237,6 +3258,13 @@
     "name": "Packed Mud",
     "minecraft_id": "minecraft:packed_mud",
     "category": "stone",
+    "is_building_block": true,
+    "version_added": null
+  },
+  {
+    "name": "Painting",
+    "minecraft_id": "minecraft:painting",
+    "category": "decorative",
     "is_building_block": true,
     "version_added": null
   },

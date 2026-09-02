@@ -1,22 +1,35 @@
-// Génère supabase/seed/materials-java-26-2.json à partir de la liste brute
-// des blocs Minecraft (supabase/seed/source-minecraft-wiki-blocks-26.2.json),
-// elle-même extraite de la page de référence officielle du wiki Minecraft :
+// Génère supabase/seed/materials-java-26-2.json à partir de deux listes
+// brutes : les blocs Minecraft (supabase/seed/source-minecraft-wiki-blocks-26.2.json)
+// et les entités plaçables pertinentes pour la construction
+// (supabase/seed/source-minecraft-wiki-entities-26.2.json), extraites des
+// pages de référence officielles du wiki Minecraft :
 // https://minecraft.wiki/w/Java_Edition_data_values/Blocks
+// https://minecraft.wiki/w/Java_Edition_data_values/Entities
+//
+// La distinction blocs/entités existe parce que ce sont deux pages wiki
+// séparées : painting/item_frame/armor_stand sont des ENTITÉS, pas des
+// blocs (repéré en préparant la 1re construction verified — une painting
+// dans son schematic n'apparaissait dans aucune des deux sources tant que
+// le fichier d'entités n'existait pas, alors même que le script tentait
+// déjà de les add()).
 //
 // Ce script ne fait AUCUN appel réseau : il ne fait que filtrer/catégoriser
 // la donnée déjà collectée. Pour régénérer la donnée source (ex: après une
 // nouvelle version du jeu), il faut re-extraire manuellement le tableau de
-// cette page wiki dans le même format (colonnes séparées par des tabulations :
-// id, nom, forme d'item) et remplacer le fichier source.
+// la page wiki correspondante dans le même format (colonnes séparées par
+// des tabulations : id, nom, forme d'item) et remplacer le fichier source.
 //
 // Règles de curation :
-// - Exclut tout bloc marqué "[upcoming: JE 26.3]" sur le wiki (pas encore
-//   sorti dans la version 26.2 ciblée).
+// - Exclut tout bloc/entité marqué "[upcoming: JE 26.3]" sur le wiki (pas
+//   encore sorti dans la version 26.2 ciblée).
 // - Ne garde que les blocs réellement utilisables pour construire (bois,
 //   pierre + variantes stairs/slab/wall, verre, béton, terre cuite, laine,
 //   métaux, éléments naturels, éclairage, décoratif, fonctionnel) — exclut
 //   les blocs techniques/créatif uniquement (barrier, jigsaw, command_block…),
 //   les stades de pousse de culture (wheat, carrots…), les portails, etc.
+//   Côté entités, ne garde que celles qu'un schematic peut réellement
+//   contenir et qui correspondent à un objet fabricable (painting,
+//   item_frame...) — pas les mobs.
 // - `addVariants()` détecte automatiquement si _stairs/_slab/_wall existent
 //   réellement pour un bloc de base plutôt que de les supposer, et gère le
 //   cas particulier des blocs "..._bricks" (pluriel) dont les variantes sont
@@ -26,13 +39,20 @@
 
 import { readFileSync, writeFileSync } from "fs";
 
-const SOURCE_PATH = new URL(
+const BLOCKS_SOURCE_PATH = new URL(
   "../supabase/seed/source-minecraft-wiki-blocks-26.2.json",
+  import.meta.url,
+);
+const ENTITIES_SOURCE_PATH = new URL(
+  "../supabase/seed/source-minecraft-wiki-entities-26.2.json",
   import.meta.url,
 );
 const OUTPUT_PATH = new URL("../supabase/seed/materials-java-26-2.json", import.meta.url);
 
-const rows = JSON.parse(readFileSync(SOURCE_PATH, "utf8"));
+const rows = [
+  ...JSON.parse(readFileSync(BLOCKS_SOURCE_PATH, "utf8")),
+  ...JSON.parse(readFileSync(ENTITIES_SOURCE_PATH, "utf8")),
+];
 
 // Exclut tout ce qui n'existe pas encore réellement en 26.2 (marqué [upcoming: JE 26.3] sur le wiki).
 const current = rows.filter((r) => !r.name.includes("upcoming"));
@@ -247,7 +267,7 @@ add("candle", "lighting");
 // DECORATIVE
 // ---------------------------------------------------------------------
 for (const id of [
-  "bookshelf", "chiseled_bookshelf", "flower_pot", "item_frame", "painting",
+  "bookshelf", "chiseled_bookshelf", "flower_pot", "item_frame", "glow_item_frame", "painting",
   "armor_stand", "decorated_pot", "cobweb",
   "player_head", "creeper_head", "zombie_head", "skeleton_skull", "wither_skeleton_skull",
   "dragon_head", "piglin_head", "carved_pumpkin",
