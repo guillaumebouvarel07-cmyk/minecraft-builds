@@ -4,26 +4,27 @@
 reflète l'état réel constaté à cette date, pas un objectif générique —
 revérifier avant le lancement effectif si du temps s'est écoulé.
 
-## Domaine et hébergement
+## Domaine et hébergement (Netlify)
 
-- [ ] Domaine réel choisi et communiqué
-- [ ] Domaine connecté au projet Vercel
-- [ ] Version canonique choisie (`https://domaine.tld` ou `https://www.domaine.tld`) et l'autre redirigée
-- [ ] DNS configurés selon les valeurs exactes données par Vercel (jamais des valeurs génériques)
-- [ ] Certificat HTTPS actif sur le domaine
+- [x] Domaine réel choisi : `blokprint.fr`
+- [ ] Domaine connecté au site Netlify (*Domain management*)
+- [x] Version canonique choisie : `https://blokprint.fr` (sans `www`) — `www.blokprint.fr` à rediriger en 301 si le domaine est acheté avec ce sous-domaine par défaut
+- [ ] DNS configurés selon les valeurs exactes données par Netlify (jamais des valeurs génériques — Netlify les affiche dans *Domain management* une fois le domaine ajouté)
+- [ ] Certificat HTTPS actif sur le domaine (Netlify le provisionne automatiquement — Let's Encrypt — une fois les DNS propagés)
 - [ ] Redirection HTTP → HTTPS vérifiée
 - [ ] Aucun mixed content
 
-## Variables d'environnement (Vercel → Production)
+## Variables d'environnement (Netlify → Production)
 
-- [ ] `NEXT_PUBLIC_SITE_URL` = URL canonique réelle (jamais `localhost`)
+- [ ] `NEXT_PUBLIC_SITE_URL` = `https://blokprint.fr` (jamais `localhost`, jamais un sous-domaine `*.netlify.app`)
 - [ ] `NEXT_PUBLIC_SUPABASE_URL`
 - [ ] `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 - [ ] `SUPABASE_SERVICE_ROLE_KEY` (serveur uniquement — jamais préfixée `NEXT_PUBLIC_`)
 - [ ] `ADMIN_EMAIL`
 - [ ] `GOOGLE_SITE_VERIFICATION` (si Search Console déjà configuré)
 - [ ] `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optionnel — le site fonctionne sans)
-- [ ] Les mêmes variables (sauf `SUPABASE_SERVICE_ROLE_KEY`, à garder identique) sont cohérentes en Preview
+- [ ] Les mêmes variables sont cohérentes en Deploy Preview / Branch deploy (voir rapport de la migration Netlify pour la stratégie previews)
+- [ ] Le scoping par contexte (Builds/Functions/Runtime) n'est pas disponible sur le plan Free — toutes les variables sont donc partagées build+runtime par défaut ; c'est acceptable ici car `SUPABASE_SERVICE_ROLE_KEY` n'est de toute façon jamais lue pendant `next build` (voir rapport, section H)
 
 ## Supabase production
 
@@ -67,9 +68,9 @@ revérifier avant le lancement effectif si du temps s'est écoulé.
 - [x] Aucun chargement GA4 avant consentement (vérifié en local)
 - [x] Bandeau Accepter/Refuser à parité, testé
 - [x] `/admin` toujours sans bandeau ni GA
-- [x] `VERCEL_ENV !== "production"` empêche GA4 sur Preview même avec un ID configuré
+- [x] `CONTEXT !== "production"` (Netlify) empêche GA4 sur Deploy Preview/Branch deploy même avec un ID configuré — remplace l'ancienne logique `VERCEL_ENV` (voir `lib/deployment.ts`)
 - [ ] `NEXT_PUBLIC_GA_MEASUREMENT_ID` réel configuré (optionnel — pas un blocker de lancement)
-- [ ] Test réel sur le domaine de production une fois en ligne
+- [ ] Test réel sur le domaine de production une fois en ligne (impossible à vérifier avant le premier vrai déploiement Netlify)
 
 ## Search Console
 
@@ -125,7 +126,16 @@ revérifier avant le lancement effectif si du temps s'est écoulé.
 - [x] JS client limité aux composants qui en ont réellement besoin (galerie, consentement, recherche, formulaires admin)
 - [ ] Audit Lighthouse/PageSpeed réel — nécessite le domaine de production (`next dev` n'est pas représentatif du TTFB/LCP réel)
 
+## Netlify — spécifique migration
+
+- [x] Toute référence à `VERCEL_ENV`/`VERCEL_URL` retirée du code (`lib/deployment.ts` remplace l'ancienne logique)
+- [x] `netlify.toml` créé (minimal : `NODE_VERSION`, `SECRETS_SCAN_OMIT_PATHS` — voir ce fichier pour la justification complète)
+- [ ] Premier déploiement réel effectué et vérifié (rien de ce qui suit n'est testable avant)
+- [ ] En-têtes de sécurité (`next.config.ts` → `headers()`) confirmés présents sur la vraie réponse HTTP de production (`curl -I https://blokprint.fr`) — des bugs du Next.js Runtime Netifly ont historiquement fait disparaître les headers `next.config.js` en production alors qu'ils fonctionnaient en local ; à revérifier explicitement, pas supposé fonctionner par défaut
+- [ ] Upload de plusieurs images (formulaire admin, jusqu'à ~20 Mo cumulés) testé en conditions réelles — les Netlify Functions synchrones ont une limite connue de 6 Mo de payload (20 Mo si la réponse est streamée) ; le comportement réel de la Server Action `uploadConstructionImages` sur Netlify n'a pas pu être vérifié en local
+- [ ] Politique Deploy Previews confirmée sans danger pour la base Supabase de production (voir rapport, section F)
+
 ## Sauvegarde / rollback
 
 - [ ] Vérifier que Supabase a des sauvegardes automatiques actives sur le plan utilisé (à confirmer dans le dashboard Supabase)
-- [ ] Confirmer que chaque déploiement Vercel reste réactivable individuellement (comportement par défaut de Vercel — pas de configuration requise, à vérifier une fois le premier déploiement fait)
+- [ ] Confirmer que chaque déploiement Netlify reste réactivable individuellement (*Deploys → [ancien déploiement] → Publish deploy* — comportement par défaut, pas de configuration requise, à vérifier une fois le premier déploiement fait)

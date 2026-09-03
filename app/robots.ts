@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 
+import { isProductionDeployment } from "@/lib/deployment";
 import { absoluteUrl } from "@/lib/seo";
 
 /**
@@ -13,8 +14,20 @@ import { absoluteUrl } from "@/lib/seo";
  * les liens qu'elle contient vers de vraies pages indexables — un Disallow
  * total sur /recherche empêcherait justement de découvrir ce noindex et de
  * suivre ces liens, ce qui irait à l'encontre du but recherché.
+ *
+ * Migration Netlify : un Deploy Preview / Branch deploy sert exactement le
+ * même code que la production, y compris les pages dont le <meta robots>
+ * dit "index" (ex. une fiche construction verified) — ce <meta> ne suffit
+ * donc pas à empêcher l'indexation d'une URL de preview qui serait
+ * découverte/liée par accident. Un Disallow total ici est un signal
+ * indépendant du HTML de chaque page, qui s'applique uniformément sans
+ * toucher à la logique per-page existante (inchangée en production).
  */
 export default function robots(): MetadataRoute.Robots {
+  if (!isProductionDeployment()) {
+    return { rules: { userAgent: "*", disallow: "/" } };
+  }
+
   return {
     rules: {
       userAgent: "*",

@@ -47,7 +47,7 @@ Copy-Item .env.example .env.local
 | Langage      | TypeScript (mode strict)    |
 | Styles       | Tailwind CSS v4             |
 | Base de données | PostgreSQL via Supabase *(étape 1)* |
-| Hébergement  | Vercel                      |
+| Hébergement  | Netlify                     |
 
 ## Structure du projet
 
@@ -72,15 +72,17 @@ réutilisable vit dans `components/` ou `lib/`.
 Copie `.env.example` vers `.env.local` et remplis les valeurs.
 `.env.local` est ignoré par Git — les clés secrètes ne partent jamais sur GitHub.
 
-## Déploiement Vercel
+## Déploiement Netlify
 
-Le projet est prêt pour Vercel : aucune configuration particulière n'est nécessaire,
-Vercel détecte Next.js automatiquement.
+Le projet est prêt pour Netlify : Next.js est détecté et servi automatiquement via
+le Netlify Next.js Runtime (basé sur OpenNext), sans plugin à installer manuellement.
+`netlify.toml` ne contient que deux réglages non liés au déploiement lui-même (version
+Node, exclusion du cache de build du scan de secrets) — voir ce fichier pour le détail.
 
 1. Pousser le dépôt sur GitHub.
-2. Sur [vercel.com](https://vercel.com) : *Add New Project* → importer le dépôt.
-3. Renseigner les variables d'environnement dans *Settings → Environment Variables*.
-4. Déployer.
+2. Sur [app.netlify.com](https://app.netlify.com) : *Add new site* → importer le dépôt.
+3. Renseigner les variables d'environnement dans *Site configuration → Environment variables*.
+4. Déployer, puis connecter le domaine dans *Domain management*.
 
 ## Mention légale
 

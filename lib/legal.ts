@@ -26,11 +26,11 @@ export const publisher = {
   publicationDirector: LEGAL_PLACEHOLDER,
 } as const;
 
-/** Vérifié le 2026-09-03 sur vercel.com/legal/privacy-policy (section "Contact Us"). */
+/** Vérifié le 2026-09-04 sur netlify.com/privacy (section "Contact Us") — hébergeur depuis la migration Netlify. */
 export const host = {
-  name: "Vercel Inc.",
-  address: "440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis",
-  privacyUrl: "https://vercel.com/legal/privacy-policy",
+  name: "Netlify, Inc.",
+  address: "101 2nd Street, San Francisco, CA 94105, États-Unis",
+  privacyUrl: "https://www.netlify.com/privacy/",
 } as const;
 
 /**
@@ -40,7 +40,7 @@ export const host = {
  */
 export const dataProcessors = [
   {
-    name: "Vercel Inc.",
+    name: "Netlify, Inc.",
     role: "Hébergement du site, des pages et des fonctions serveur.",
     url: host.privacyUrl,
   },

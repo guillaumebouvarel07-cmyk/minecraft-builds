@@ -1,0 +1,25 @@
+# Configuration minimale — le Next.js Runtime de Netlify (OpenNext) détecte
+# et sert le projet en zéro-config ; ce fichier n'existe que pour deux
+# réglages qui, eux, ne peuvent pas être laissés aux valeurs par défaut :
+#
+# 1. NODE_VERSION : Netlify n'a pas de version par défaut documentée
+#    (dépend de leur "build image") — on la fixe explicitement pour éviter
+#    toute surprise, alignée sur la version utilisée en développement.
+#
+# 2. SECRETS_SCAN_OMIT_PATHS : le cache persistant de Turbopack
+#    (.next/cache/**, .netlify/.next/cache/**) contient un instantané des
+#    variables d'environnement lues pendant le build — AVEC leur valeur.
+#    Ce cache n'est jamais servi aux visiteurs (Netlify ne déploie que la
+#    sortie packagée par le Next.js Runtime), mais le scanner de secrets de
+#    Netlify inspecte tout ce que produit le build, donc il le détecte et
+#    bloque le déploiement. Exclusion ciblée sur ces deux chemins
+#    uniquement — le scan de secrets reste actif partout ailleurs.
+#    Aucune variable n'est exclue par nom (SECRETS_SCAN_OMIT_KEYS) : une
+#    exclusion par chemin est plus sûre qu'une exclusion par valeur, qui
+#    masquerait une vraie fuite de la même variable ailleurs dans le build.
+#
+# Aucun secret n'est stocké dans ce fichier — uniquement des chemins et une
+# version de runtime.
+[build.environment]
+  NODE_VERSION = "24"
+  SECRETS_SCAN_OMIT_PATHS = ".next/cache/**,.netlify/.next/cache/**"

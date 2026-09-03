@@ -38,8 +38,11 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# vercel
+# vercel (ancienne cible de déploiement — historique, plus utilisé)
 .vercel
+
+# netlify
+.netlify
 
 # typescript
 *.tsbuildinfo

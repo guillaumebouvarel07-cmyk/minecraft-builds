@@ -126,7 +126,7 @@ export default function ConfidentialitePage() {
         <section>
           <h2 className="text-lg font-semibold text-fg">Transferts hors Union européenne</h2>
           <p className="mt-2">
-            L&apos;hébergement (Vercel) et Google Analytics (au-delà de son entité européenne)
+            L&apos;hébergement (Netlify) et Google Analytics (au-delà de son entité européenne)
             peuvent impliquer un transfert de données vers les États-Unis. Ces prestataires
             s&apos;engagent contractuellement à appliquer des garanties reconnues par le RGPD
             (clauses contractuelles types) — voir leurs politiques de confidentialité respectives
