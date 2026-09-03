@@ -52,10 +52,10 @@ export function ConstructionMaterialsList({ materials }: { materials: MaterialRo
                   alt=""
                   width={24}
                   height={24}
-                  className="shrink-0 rounded [image-rendering:pixelated]"
+                  className="shrink-0 [image-rendering:pixelated]"
                 />
               ) : (
-                <span className="h-6 w-6 shrink-0 rounded bg-surface-2" aria-hidden />
+                <span className="h-6 w-6 shrink-0 bg-surface-2" aria-hidden />
               )}
               <div className="min-w-0">
                 <p className="truncate text-sm font-medium text-fg">{row.material.name}</p>
