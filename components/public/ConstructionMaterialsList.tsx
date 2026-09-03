@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { MATERIAL_CATEGORIES, type MaterialCategory } from "@/lib/types";
 
 export type MaterialRow = {
@@ -6,6 +8,7 @@ export type MaterialRow = {
     name: string;
     minecraft_id: string | null;
     category: MaterialCategory | null;
+    icon_url?: string | null;
   };
 };
 
@@ -42,11 +45,24 @@ export function ConstructionMaterialsList({ materials }: { materials: MaterialRo
             key={`${row.material.name}-${row.material.minecraft_id ?? ""}`}
             className="flex items-center justify-between gap-3 bg-surface px-4 py-3"
           >
-            <div className="min-w-0">
-              <p className="truncate text-sm font-medium text-fg">{row.material.name}</p>
-              {row.material.minecraft_id && (
-                <p className="truncate font-mono text-xs text-muted">{row.material.minecraft_id}</p>
+            <div className="flex min-w-0 items-center gap-2.5">
+              {row.material.icon_url ? (
+                <Image
+                  src={row.material.icon_url}
+                  alt=""
+                  width={24}
+                  height={24}
+                  className="shrink-0 rounded [image-rendering:pixelated]"
+                />
+              ) : (
+                <span className="h-6 w-6 shrink-0 rounded bg-surface-2" aria-hidden />
               )}
+              <div className="min-w-0">
+                <p className="truncate text-sm font-medium text-fg">{row.material.name}</p>
+                {row.material.minecraft_id && (
+                  <p className="truncate font-mono text-xs text-muted">{row.material.minecraft_id}</p>
+                )}
+              </div>
             </div>
             <span className="shrink-0 rounded-full border border-line bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-fg">
               × {row.quantity.toLocaleString("fr-FR")}

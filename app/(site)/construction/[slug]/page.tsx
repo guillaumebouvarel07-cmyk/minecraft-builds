@@ -66,7 +66,7 @@ async function getConstruction(slug: string) {
        category:categories(name, slug),
        construction_images(id, url, alt_text, position),
        construction_tags(tag:tags(name, slug)),
-       construction_materials(quantity, material:materials(name, minecraft_id, category)),
+       construction_materials(quantity, material:materials(name, minecraft_id, category, icon_url)),
        construction_files(id, original_filename, file_type, file_size),
        created_at, updated_at`,
     )
