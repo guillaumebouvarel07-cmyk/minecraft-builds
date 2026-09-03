@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { legalDisclaimer, navLinks, site } from "@/lib/site";
+import { legalDisclaimer, legalLinks, navLinks, site } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -19,11 +19,25 @@ export function Footer() {
               </Link>
             ))}
           </nav>
+
+          <nav aria-label="Liens légaux" className="flex flex-col gap-2 sm:items-end">
+            {legalLinks.map((link) => (
+              <Link key={link.href} href={link.href} className="text-sm text-muted transition-colors hover:text-fg">
+                {link.label}
+              </Link>
+            ))}
+          </nav>
         </div>
 
-        <div className="mt-8 border-t border-line pt-6">
+        <div className="mt-8 flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:items-center sm:justify-between">
           {/* Mention imposée par les Minecraft Usage Guidelines — ne pas retirer. */}
           <p className="max-w-xl text-xs leading-relaxed text-muted">{legalDisclaimer}</p>
+          <Link
+            href="/cookies"
+            className="shrink-0 text-xs text-muted underline underline-offset-2 transition-colors hover:text-fg"
+          >
+            Gérer les cookies
+          </Link>
         </div>
       </div>
     </footer>

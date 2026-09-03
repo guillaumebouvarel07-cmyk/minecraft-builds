@@ -36,3 +36,11 @@ export const navLinks = [
   { href: "/#constructions", label: "Constructions" },
   { href: "/#categories", label: "Catégories" },
 ] as const;
+
+/** Liens légaux affichés en pied de page (Étape 21). */
+export const legalLinks = [
+  { href: "/a-propos", label: "À propos" },
+  { href: "/mentions-legales", label: "Mentions légales" },
+  { href: "/confidentialite", label: "Confidentialité" },
+  { href: "/cookies", label: "Cookies" },
+] as const;

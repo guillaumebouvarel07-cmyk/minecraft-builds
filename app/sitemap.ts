@@ -53,6 +53,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 1,
     },
+    // Étape 21 : seule page "institutionnelle" volontairement mise en avant
+    // dans le sitemap — les pages légales (mentions/confidentialité/cookies)
+    // restent accessibles et indexables via le footer, mais ne sont pas
+    // du contenu à faire ranker.
+    {
+      url: absoluteUrl("/a-propos"),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
   ];
 
   for (const row of verifiedRows) {

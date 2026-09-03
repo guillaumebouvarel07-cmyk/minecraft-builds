@@ -1,15 +1,17 @@
 import { sendGAEvent } from "@next/third-parties/google";
 
+import { getStoredConsent } from "@/lib/cookie-consent";
+
 /**
  * Point d'entrée unique pour tout événement GA4 envoyé par le site public.
  * Aucun composant n'appelle `sendGAEvent`/`gtag` directement — ça garde les
  * noms d'événements et leurs paramètres cohérents à un seul endroit, et ça
  * évite de disperser des chaînes magiques dans toute la codebase.
  *
- * `sendGAEvent` (fourni par @next/third-parties/google) ne fait rien de
- * dangereux si GA n'a jamais été chargé (ID absent, environnement non
- * production) : il logue juste un avertissement en console et s'arrête —
- * donc ces fonctions sont safe à appeler inconditionnellement.
+ * Étape 21 : chaque fonction vérifie le consentement mémorisé avant
+ * d'appeler `sendGAEvent` — aucun événement n'est envoyé avant acceptation
+ * explicite, même si `sendGAEvent` lui-même ne ferait rien de dangereux
+ * sans GA chargé (il logue juste un avertissement console et s'arrête).
  *
  * Aucune donnée personnelle n'est envoyée par ce module : uniquement des
  * identifiants de contenu (slug, catégorie, difficulté...) et des termes
@@ -17,8 +19,14 @@ import { sendGAEvent } from "@next/third-parties/google";
  * recherche — jamais d'email, d'IP, ou d'identifiant de session admin.
  */
 
+function hasAnalyticsConsent(): boolean {
+  return getStoredConsent() === "accepted";
+}
+
 /** Recherche réellement lancée (homepage ou /recherche) avec un terme non vide. */
 export function trackSearch(searchTerm: string): void {
+  if (!hasAnalyticsConsent()) return;
+
   const trimmed = searchTerm.trim();
   if (!trimmed) return;
 
@@ -32,6 +40,8 @@ export function trackSearch(searchTerm: string): void {
  * utilisateur, uniquement des valeurs de filtre prédéfinies par l'UI.
  */
 export function trackFilterUsed(filterType: string, filterValue: string): void {
+  if (!hasAnalyticsConsent()) return;
+
   sendGAEvent("event", "filter_used", { filter_type: filterType, filter_value: filterValue });
 }
 
@@ -50,6 +60,8 @@ export type ConstructionViewParams = {
  * revalidation ISR — pas à chaque visite).
  */
 export function trackConstructionView(params: ConstructionViewParams): void {
+  if (!hasAnalyticsConsent()) return;
+
   sendGAEvent("event", "construction_view", {
     construction_id: params.constructionId,
     construction_slug: params.constructionSlug,
@@ -74,6 +86,8 @@ export type FileDownloadParams = {
  * erreur serveur) dans GA4.
  */
 export function trackFileDownload(params: FileDownloadParams): void {
+  if (!hasAnalyticsConsent()) return;
+
   sendGAEvent("event", "file_download", {
     construction_id: params.constructionId,
     construction_slug: params.constructionSlug,

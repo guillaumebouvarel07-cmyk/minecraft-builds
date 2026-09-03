@@ -1,6 +1,7 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 
+import { ConsentGate } from "@/components/analytics/ConsentGate";
+import { CookieConsentBanner } from "@/components/analytics/CookieConsentBanner";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { geistMono, geistSans } from "@/lib/fonts";
@@ -46,8 +47,6 @@ const isProductionDeployment = process.env.VERCEL_ENV
   ? process.env.VERCEL_ENV === "production"
   : process.env.NODE_ENV === "production";
 
-const shouldLoadAnalytics = Boolean(gaMeasurementId) && isProductionDeployment;
-
 export default function SiteRootLayout({
   children,
 }: Readonly<{
@@ -61,8 +60,9 @@ export default function SiteRootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CookieConsentBanner />
       </body>
-      {shouldLoadAnalytics && <GoogleAnalytics gaId={gaMeasurementId!} />}
+      <ConsentGate gaId={gaMeasurementId} enabled={isProductionDeployment} />
     </html>
   );
 }
