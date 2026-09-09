@@ -1,29 +1,41 @@
 /**
  * Informations utilisées par les pages légales (/mentions-legales,
- * /confidentialite, /contact) — Étape 21.
+ * /confidentialite, /contact).
  *
- * `publisher` : identité légale réelle de l'éditeur du site. Ne peut pas
- * être inventée — chaque champ est un placeholder explicite tant que
- * l'information réelle n'a pas été fournie (voir le rapport de l'étape 21
- * pour la liste exacte à transmettre avant lancement).
+ * RÉGIME APPLICABLE : Blokprint est édité à titre NON PROFESSIONNEL par une
+ * personne physique — aucune activité économique (pas de publicité, pas
+ * d'affiliation, pas de dons, pas de vente, pas de contenu payant).
+ *
+ * L'article 1-1 de la LCEN (loi n°2004-575 du 21 juin 2004, dans sa
+ * rédaction issue de la loi n°2024-449 du 21 mai 2024 — l'ancien article
+ * 6-III est abrogé) permet à un éditeur non professionnel de ne rendre
+ * publics que le nom et l'adresse de son hébergeur, dès lors qu'il a
+ * communiqué ses éléments d'identification à celui-ci (compte Netlify).
+ * C'est pourquoi ni adresse postale, ni téléphone, ni numéro
+ * d'immatriculation ne figurent ici : ils ne sont pas requis.
+ *
+ * Le nom de l'éditeur est néanmoins affiché volontairement : le RGPD
+ * impose d'identifier le responsable du traitement dans la politique de
+ * confidentialité, et un nom + une adresse de contact y répondent
+ * clairement.
+ *
+ * ⚠️ À METTRE À JOUR le jour où le site génère le moindre revenu
+ * (AdSense, affiliation, dons, partenariats...) : l'activité économique,
+ * même accessoire, fait basculer le site en régime PROFESSIONNEL, qui
+ * impose alors de publier l'identité complète de l'éditeur — nom, prénoms,
+ * domicile, téléphone, et numéro d'immatriculation le cas échéant.
  *
  * `host` et `dataProcessors` : faits vérifiés par recherche réelle (pas de
  * valeur inventée), sourcés individuellement ci-dessous.
  */
 
-export const LEGAL_PLACEHOLDER = "[à compléter avant lancement]";
-
 export const publisher = {
-  /** Raison sociale, ou nom + prénom si personne physique (auto-entrepreneur, etc.). */
-  name: LEGAL_PLACEHOLDER,
-  /** Ex. "Personne physique (auto-entrepreneur)", "SASU au capital de...". */
-  legalForm: LEGAL_PLACEHOLDER,
-  address: LEGAL_PLACEHOLDER,
-  /** SIRET/SIREN — laisser le placeholder si non applicable. */
-  siret: LEGAL_PLACEHOLDER,
-  email: LEGAL_PLACEHOLDER,
-  /** Souvent la même personne que l'éditeur pour un petit site. */
-  publicationDirector: LEGAL_PLACEHOLDER,
+  name: "Guillaume Bouvarel",
+  /** Mention affichée pour qualifier le régime (voir le bloc ci-dessus). */
+  legalForm:
+    "Site édité à titre personnel — éditeur non professionnel au sens de l'article 1-1 de la LCEN",
+  email: "blokprint.fr@gmail.com",
+  publicationDirector: "Guillaume Bouvarel",
 } as const;
 
 /** Vérifié le 2026-09-04 sur netlify.com/privacy (section "Contact Us") — hébergeur depuis la migration Netlify. */

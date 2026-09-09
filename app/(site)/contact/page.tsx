@@ -31,13 +31,17 @@ export default function ContactPage() {
           </a>
           ), vous pouvez nous écrire à :
         </p>
-        <p className="text-lg text-fg">{publisher.email}</p>
+        <p className="text-lg text-fg">
+          <a href={`mailto:${publisher.email}`} className="underline underline-offset-2 hover:text-accent">
+            {publisher.email}
+          </a>
+        </p>
         <p className="text-sm">
-          Adresse à activer avant le lancement public du site (voir les{" "}
+          Voir aussi les{" "}
           <a href="/mentions-legales" className="underline underline-offset-2 hover:text-accent">
             mentions légales
           </a>
-          ).
+          .
         </p>
       </div>
     </div>

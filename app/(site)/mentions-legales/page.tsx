@@ -28,18 +28,12 @@ export default function MentionsLegalesPage() {
         Mentions légales
       </h1>
 
-      <p className="mt-4 rounded-lg border border-line bg-surface px-4 py-3 text-sm text-muted">
-        Cette page est une base technique préparée avant le lancement public du site : les champs
-        signalés <span className="text-fg">« à compléter »</span> doivent être remplacés par les
-        informations réelles de l&apos;éditeur.
-      </p>
-
       <div className="mt-8 space-y-8 text-base leading-relaxed text-muted">
         <section>
           <h2 className="text-lg font-semibold text-fg">Éditeur du site</h2>
           <dl className="mt-2 space-y-1">
             <div>
-              <dt className="inline text-fg">Nom / raison sociale : </dt>
+              <dt className="inline text-fg">Nom : </dt>
               <dd className="inline">{publisher.name}</dd>
             </div>
             <div>
@@ -47,18 +41,15 @@ export default function MentionsLegalesPage() {
               <dd className="inline">{publisher.legalForm}</dd>
             </div>
             <div>
-              <dt className="inline text-fg">Adresse : </dt>
-              <dd className="inline">{publisher.address}</dd>
-            </div>
-            <div>
-              <dt className="inline text-fg">SIRET : </dt>
-              <dd className="inline">{publisher.siret}</dd>
-            </div>
-            <div>
               <dt className="inline text-fg">Contact : </dt>
               <dd className="inline">{publisher.email}</dd>
             </div>
           </dl>
+          <p className="mt-3 text-sm">
+            Conformément à l&apos;article 1-1 de la loi n°2004-575 du 21 juin 2004 (LCEN),
+            l&apos;éditeur, qui agit à titre non professionnel, a communiqué ses éléments
+            d&apos;identification à son hébergeur, dont les coordonnées figurent ci-dessous.
+          </p>
         </section>
 
         <section>

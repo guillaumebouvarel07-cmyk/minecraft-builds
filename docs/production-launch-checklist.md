@@ -55,13 +55,21 @@ revérifier avant le lancement effectif si du temps s'est écoulé.
 
 ## Informations légales
 
-- [ ] **BLOQUANT** — nom/raison sociale de l'éditeur
-- [ ] **BLOQUANT** — statut juridique
-- [ ] **BLOQUANT** — adresse à afficher légalement
-- [ ] SIRET (si applicable)
-- [ ] **BLOQUANT** — email de contact réel (actuellement un placeholder sur `/contact` et `/mentions-legales`)
-- [ ] Directeur de publication
-- [ ] `lib/legal.ts` mis à jour avec les vraies valeurs
+Régime retenu : **éditeur non professionnel** (personne physique, aucune activité
+économique) — art. 1-1 de la LCEN (loi n°2004-575 du 21 juin 2004, rédaction issue
+de la loi n°2024-449 du 21 mai 2024). Adresse postale, téléphone et numéro
+d'immatriculation ne sont donc pas requis publiquement.
+
+- [x] Nom de l'éditeur : Guillaume Bouvarel
+- [x] Statut : édité à titre personnel, éditeur non professionnel (mention affichée)
+- [x] Email de contact réel et fonctionnel : `blokprint.fr@gmail.com`
+- [x] Directeur de la publication : Guillaume Bouvarel
+- [x] Hébergeur publié (Netlify, Inc. + adresse) — condition du régime d'anonymat
+- [x] `lib/legal.ts` mis à jour, plus aucun placeholder en production
+- [ ] ⚠️ **À refaire le jour où le site génère un revenu** (AdSense, affiliation, dons,
+      partenariats) : l'activité économique même accessoire fait basculer en régime
+      **professionnel**, qui impose de publier nom, prénoms, domicile, téléphone et
+      numéro d'immatriculation le cas échéant
 
 ## Consentement / GA4
 

@@ -32,11 +32,11 @@ export default function ConfidentialitePage() {
         <section>
           <h2 className="text-lg font-semibold text-fg">Responsable du traitement</h2>
           <p className="mt-2">
-            {publisher.name} (voir les{" "}
+            {publisher.name} — {publisher.email} (voir les{" "}
             <a href="/mentions-legales" className="text-fg underline underline-offset-2 hover:text-accent">
               mentions légales
-            </a>{" "}
-            pour l&apos;identité complète).
+            </a>
+            ).
           </p>
         </section>
 
